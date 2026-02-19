@@ -1,0 +1,6230 @@
+{
+  "Washington Huskies": [
+    {
+      "jersey": 1,
+      "firstName": "Jadon",
+      "lastName": "Bowton",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 2,
+      "firstName": "Philip",
+      "lastName": "Kleemann",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 3,
+      "firstName": "Harrison",
+      "lastName": "Bertos",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 4,
+      "firstName": "Egor",
+      "lastName": "Akulov",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 5,
+      "firstName": "Asher",
+      "lastName": "Hestad",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 6,
+      "firstName": "Zach",
+      "lastName": "Ramsey",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 7,
+      "firstName": "Alex",
+      "lastName": "Hall",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 8,
+      "firstName": "Clarens",
+      "lastName": "Dollin",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 9,
+      "firstName": "Charlie",
+      "lastName": "Kosakoff",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 10,
+      "firstName": "Richie",
+      "lastName": "Aman",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 11,
+      "firstName": "Nick",
+      "lastName": "O'Brien",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 12,
+      "firstName": "Carter",
+      "lastName": "Gay",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 13,
+      "firstName": "Kevin",
+      "lastName": "Hernandez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 14,
+      "firstName": "Joe",
+      "lastName": "Dale",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 15,
+      "firstName": "Mani",
+      "lastName": "Diop",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 16,
+      "firstName": "Zack",
+      "lastName": "Meier",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 17,
+      "firstName": "Cameron",
+      "lastName": "Cruz",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 18,
+      "firstName": "Nani",
+      "lastName": "Deperro",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 19,
+      "firstName": "Mikey",
+      "lastName": "Sherlock",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 21,
+      "firstName": "Osato",
+      "lastName": "Enabulele",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 22,
+      "firstName": "Conner",
+      "lastName": "Leber",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 23,
+      "firstName": "Sheehan",
+      "lastName": "Ganguly",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 26,
+      "firstName": "Connor",
+      "lastName": "Lofy",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 30,
+      "firstName": "Jaeger",
+      "lastName": "Felton",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 31,
+      "firstName": "Brecken",
+      "lastName": "Bowers",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 33,
+      "firstName": "Chad",
+      "lastName": "Sovde",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 44,
+      "firstName": "Gabe",
+      "lastName": "Fernandez",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    }
+  ],
+  "Princeton Tigers": [
+    {
+      "jersey": 1,
+      "firstName": "Andrew",
+      "lastName": "Samuels",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 2,
+      "firstName": "Roka",
+      "lastName": "Tsunehara",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 3,
+      "firstName": "Tyler",
+      "lastName": "Austin",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 4,
+      "firstName": "Jack",
+      "lastName": "Hunt",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 5,
+      "firstName": "Liam",
+      "lastName": "Beckwith",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 6,
+      "firstName": "Kristian",
+      "lastName": "Kelley",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 7,
+      "firstName": "Kevin",
+      "lastName": "Kelley",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 8,
+      "firstName": "Gabriel",
+      "lastName": "Duchovny",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 9,
+      "firstName": "Ian",
+      "lastName": "Nuñez",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 10,
+      "firstName": "Jack",
+      "lastName": "Jasinski",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 11,
+      "firstName": "Daniel",
+      "lastName": "Ittycheria",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 12,
+      "firstName": "Cyrus",
+      "lastName": "Klinenberg",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 13,
+      "firstName": "Will",
+      "lastName": "Francis",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 14,
+      "firstName": "Bardia",
+      "lastName": "Hormozi",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 15,
+      "firstName": "Ryker",
+      "lastName": "Joutz",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 16,
+      "firstName": "Jackson",
+      "lastName": "Martin",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 18,
+      "firstName": "Sam",
+      "lastName": "Vigilante",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 19,
+      "firstName": "Will",
+      "lastName": "Travis",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 21,
+      "firstName": "Benjamin",
+      "lastName": "Manfroy",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 22,
+      "firstName": "Ian",
+      "lastName": "MacIver",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 23,
+      "firstName": "Dash",
+      "lastName": "Papez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 24,
+      "firstName": "Sebastian",
+      "lastName": "Swary",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 25,
+      "firstName": "Stephen",
+      "lastName": "Duncan",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 26,
+      "firstName": "Frederik",
+      "lastName": "Sadjak",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 28,
+      "firstName": "Sully",
+      "lastName": "Atkin",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 29,
+      "firstName": "Edric",
+      "lastName": "Zhang",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 30,
+      "firstName": "Garry",
+      "lastName": "Zhang",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 31,
+      "firstName": "Giacomo",
+      "lastName": "Gabrielli",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 33,
+      "firstName": "Tyler",
+      "lastName": "Vilet",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 34,
+      "firstName": "Giuliano",
+      "lastName": "Fravolini Whitchurch",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 35,
+      "firstName": "Nathan",
+      "lastName": "Salerno",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    }
+  ],
+  "NC State Wolfpack": [
+    {
+      "jersey": 0,
+      "firstName": "Mattheus",
+      "lastName": "Rhormens",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": "null"
+    },
+    {
+      "jersey": 2,
+      "firstName": "Ervin",
+      "lastName": "Cruz",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "5'",
+      "hometown": "160"
+    },
+    {
+      "jersey": 3,
+      "firstName": "Riley",
+      "lastName": "Moloney",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": "5'",
+      "hometown": "160"
+    },
+    {
+      "jersey": 4,
+      "firstName": "Josh",
+      "lastName": "Gordon",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": "null"
+    },
+    {
+      "jersey": 11,
+      "firstName": "Frankie",
+      "lastName": "DeFrancesco",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": "6'",
+      "hometown": "175"
+    },
+    {
+      "jersey": 12,
+      "firstName": "Tyler",
+      "lastName": "Caton",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "5'",
+      "hometown": "165"
+    },
+    {
+      "jersey": 13,
+      "firstName": "Calem",
+      "lastName": "Tommy",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": "null"
+    },
+    {
+      "jersey": 14,
+      "firstName": "Moritz",
+      "lastName": "Weber",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": "5'",
+      "hometown": "155"
+    },
+    {
+      "jersey": 15,
+      "firstName": "Aidan",
+      "lastName": "Payne",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": "6'",
+      "hometown": "160"
+    },
+    {
+      "jersey": 16,
+      "firstName": "Mohamed",
+      "lastName": "Kallon",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": "6'",
+      "hometown": "175"
+    },
+    {
+      "jersey": 17,
+      "firstName": "Caden",
+      "lastName": "Tolentino",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "5'",
+      "hometown": "160"
+    },
+    {
+      "jersey": 20,
+      "firstName": "Hayato",
+      "lastName": "Takayama",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": "null"
+    },
+    {
+      "jersey": 22,
+      "firstName": "Drew",
+      "lastName": "Lovelace",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "6'",
+      "hometown": "175"
+    },
+    {
+      "jersey": 23,
+      "firstName": "Austin",
+      "lastName": "Bush",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": "6'",
+      "hometown": "185"
+    },
+    {
+      "jersey": 24,
+      "firstName": "Isaac",
+      "lastName": "Busenze",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "5'",
+      "hometown": "155"
+    },
+    {
+      "jersey": 25,
+      "firstName": "Adam",
+      "lastName": "Abdouh",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": "5'",
+      "hometown": "160"
+    },
+    {
+      "jersey": 26,
+      "firstName": "Samuel",
+      "lastName": "Terranova",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": "6'",
+      "hometown": "192"
+    },
+    {
+      "jersey": 27,
+      "firstName": "Nakai",
+      "lastName": "Antoine",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": "6'",
+      "hometown": "180"
+    },
+    {
+      "jersey": 28,
+      "firstName": "Brendan",
+      "lastName": "Peeples",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "5'",
+      "hometown": "150"
+    },
+    {
+      "jersey": 30,
+      "firstName": "Jackson",
+      "lastName": "Smith",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": "null"
+    },
+    {
+      "jersey": 31,
+      "firstName": "John",
+      "lastName": "Pottle",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "5'",
+      "hometown": "165"
+    },
+    {
+      "jersey": 32,
+      "firstName": "Gianni",
+      "lastName": "Rosario",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": "6'",
+      "hometown": "185"
+    },
+    {
+      "jersey": null,
+      "firstName": "Mikell",
+      "lastName": "Barnes",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": "null"
+    },
+    {
+      "jersey": null,
+      "firstName": "Marc",
+      "lastName": "Hubbard",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Augusto",
+      "lastName": "Lima",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Jon",
+      "lastName": "Shaad",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Jordan",
+      "lastName": "Valentine",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Kaneile",
+      "lastName": "Thomas",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Kevin",
+      "lastName": "Hansen",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "(2",
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Adam",
+      "lastName": "Wesche",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "(9",
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Adrian",
+      "lastName": "Gunning",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Allison",
+      "lastName": "Wade",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Dr.",
+      "lastName": "Ariane Smith Machin",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "(9",
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Rachel",
+      "lastName": "Miller",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "(9",
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Dylan",
+      "lastName": "Sykes",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Paige",
+      "lastName": "Timberlake",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Patrick",
+      "lastName": "Peterson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "91",
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Kendall",
+      "lastName": "Edwards",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Kyle",
+      "lastName": "Collins",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    }
+  ],
+  "Vermont Catamounts": [
+    {
+      "jersey": 0,
+      "firstName": "Jake",
+      "lastName": "Jacobi",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-3",
+      "year": "Fr",
+      "hometown": "R-Fr. Weston, Vt. Stratton Mountain High School Virginia Tech"
+    },
+    {
+      "jersey": 1,
+      "firstName": "Niklas",
+      "lastName": "Herceg",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-6",
+      "year": "So",
+      "hometown": "So. Alsdorf, Germany Gymnasium Alsdorf VfL Vichttal"
+    },
+    {
+      "jersey": 2,
+      "firstName": "Gabriel",
+      "lastName": "Chavez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-7",
+      "year": "So",
+      "hometown": "So. Wethersfield, CT Xavier High School Providence College"
+    },
+    {
+      "jersey": 3,
+      "firstName": "Omar",
+      "lastName": "Robbana",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "Fr. Fort Lauderdale, FL Orlando City SC"
+    },
+    {
+      "jersey": 5,
+      "firstName": "Gianluca",
+      "lastName": "Armellino",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-9",
+      "year": "So",
+      "hometown": "R-So. Milford, Conn. Connections Academy New England Revolution Academy"
+    },
+    {
+      "jersey": 6,
+      "firstName": "Connor",
+      "lastName": "Thompson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "GR",
+      "hometown": "Gr. Kennenbunk, Maine Kennebunk Seacoast United"
+    },
+    {
+      "jersey": 7,
+      "firstName": "Andrew",
+      "lastName": "Millar",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Jr",
+      "hometown": "R-Jr. Cambridge, Mass. Cambridge Rindge & Latin New England Revolution Academy"
+    },
+    {
+      "jersey": 8,
+      "firstName": "Niels",
+      "lastName": "Hartman",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "GR",
+      "hometown": "Gr. Gibraltar, Gibraltar Bayside Comprehensive Loughborough"
+    },
+    {
+      "jersey": 9,
+      "firstName": "Maximilian",
+      "lastName": "Kissel",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-0",
+      "year": "Sr",
+      "hometown": "Sr. New York, N.Y. Schultz Delitzsch Schule University of Bridgeport"
+    },
+    {
+      "jersey": 10,
+      "firstName": "Nick",
+      "lastName": "Lockermann",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "5-11",
+      "year": "Jr",
+      "hometown": "Jr. Nuremberg, Germany Nuremberg"
+    },
+    {
+      "jersey": 11,
+      "firstName": "TJ",
+      "lastName": "Liquori",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-0",
+      "year": "So",
+      "hometown": "R-So. Westfield, Mass. Worcester Academy"
+    },
+    {
+      "jersey": 12,
+      "firstName": "Nash",
+      "lastName": "Barlow",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "So",
+      "hometown": "R-So. Burlington, Vt. Burlington / Worcester Academy"
+    },
+    {
+      "jersey": 13,
+      "firstName": "David",
+      "lastName": "Ismail",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-4",
+      "year": "Sr",
+      "hometown": "Sr. Bayreuth, Germany Bertolt-Brecht-Schule SpVgg Bayreuth"
+    },
+    {
+      "jersey": 14,
+      "firstName": "Marcos",
+      "lastName": "Blasco",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "So",
+      "hometown": "Gr. Teulada - Moraira, Spain CD Soneja"
+    },
+    {
+      "jersey": 15,
+      "firstName": "Brady",
+      "lastName": "Costin",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "R-Fr. Wayne, Pa. Conestoga High School University of Delaware"
+    },
+    {
+      "jersey": 16,
+      "firstName": "Nico",
+      "lastName": "Loebus",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "Fr. Bad Homburg, Germany Oberursel, Germany FSV Frankfurt"
+    },
+    {
+      "jersey": 17,
+      "firstName": "Ioannis",
+      "lastName": "Vassiliou",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "5-11",
+      "year": "Fr",
+      "hometown": "Gr. Frankfurt, Germany Heinrich-von-Kleist School FC Eddersheim"
+    },
+    {
+      "jersey": 18,
+      "firstName": "Marcell",
+      "lastName": "Papp",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-8",
+      "year": "GR",
+      "hometown": "Gr. Budapest, Hungary Budapest Diósgyor"
+    },
+    {
+      "jersey": 19,
+      "firstName": "Toby",
+      "lastName": "Grant",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "R-Fr. Kaysville, Utah Farmington Utah Red Wolves"
+    },
+    {
+      "jersey": 20,
+      "firstName": "Shalom",
+      "lastName": "Adja",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Fr",
+      "hometown": "Fr. Ellicott City, MD Mount Hebron High School Columbus Crew 2"
+    },
+    {
+      "jersey": 21,
+      "firstName": "Karl",
+      "lastName": "Daly",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-3",
+      "year": "Sr",
+      "hometown": "R-Sr. Burlington, Vt. Burlington"
+    },
+    {
+      "jersey": 22,
+      "firstName": "Gavin",
+      "lastName": "Stevenson",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-1",
+      "year": "Fr",
+      "hometown": "Fr. Coon Rapids, MN Coon Rapids High School Minnesota United FC Academy"
+    },
+    {
+      "jersey": 24,
+      "firstName": "Pieter",
+      "lastName": "Bultman",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-3",
+      "year": "Jr",
+      "hometown": "R-Jr. Lexington, Mass. Lexington"
+    },
+    {
+      "jersey": 25,
+      "firstName": "Ludvig",
+      "lastName": "af Ugglas",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-3",
+      "year": "Fr",
+      "hometown": "Fr. Stockholm, Sweden IFK Stocksund"
+    },
+    {
+      "jersey": 26,
+      "firstName": "Bruno",
+      "lastName": "Imarenakhue",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "Fr. Boom, Belgium SK Bevern U21"
+    },
+    {
+      "jersey": 27,
+      "firstName": "Ryan",
+      "lastName": "Zellefrow",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "So",
+      "hometown": "So. Berywn, Pa. Conestoga Philadelphia Union Academy"
+    },
+    {
+      "jersey": 28,
+      "firstName": "Philipp",
+      "lastName": "Kühn",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-3",
+      "year": "So",
+      "hometown": "So. Berlin, Germany Werder Bremen II"
+    },
+    {
+      "jersey": 31,
+      "firstName": "Jeremy",
+      "lastName": "Tsang",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "Jr",
+      "hometown": "Jr. Sai Kung, Hong Kong Northwood Black Rock FC"
+    },
+    {
+      "jersey": 35,
+      "firstName": "Rui",
+      "lastName": "Aoki",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-1",
+      "year": "GR",
+      "hometown": "Gr. Hyogo, Japan Ashiya Gakuen UMass Lowell"
+    },
+    {
+      "jersey": 99,
+      "firstName": "Shane",
+      "lastName": "Williams",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "R-Fr. Boulder, CO Fairview High School Colgate University"
+    }
+  ],
+  "Virginia Cavaliers": [
+    {
+      "jersey": 0,
+      "firstName": "Melvin",
+      "lastName": "Hellmann",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    }
+  ],
+  "Bryant Bulldogs": [
+    {
+      "jersey": 1,
+      "firstName": "Ramon",
+      "lastName": "Camejo",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "So",
+      "hometown": "So. Monroe, NJ ASU Prep"
+    },
+    {
+      "jersey": 2,
+      "firstName": "Abdel",
+      "lastName": "Talabi",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "GR",
+      "hometown": "Gr. Brewster, Mass Nauset Regional High School"
+    },
+    {
+      "jersey": 3,
+      "firstName": "Sean",
+      "lastName": "Breuer",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "So",
+      "hometown": "Sr. Jacksonville, Fla. Bolles School"
+    },
+    {
+      "jersey": 4,
+      "firstName": "Tiago",
+      "lastName": "Dias",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "5T",
+      "hometown": "5th Portimão, Portugal Poeta Antonio Aleixo Secondary School (Indiana Tech/UAlbany)"
+    },
+    {
+      "jersey": 5,
+      "firstName": "Fernando",
+      "lastName": "Delgado",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "GR",
+      "hometown": "Gr. Madrid, Spain Logos School"
+    },
+    {
+      "jersey": 6,
+      "firstName": "Santiago",
+      "lastName": "Blasco Gomez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "GR",
+      "hometown": "Gr. Alborache, Spain Universidad de Valencia"
+    },
+    {
+      "jersey": 7,
+      "firstName": "Muslim",
+      "lastName": "Umar",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "Sr",
+      "hometown": "Sr. Edmonton, Alberta Archbishop O'Leary (University of Portland)"
+    },
+    {
+      "jersey": 8,
+      "firstName": "Jorge",
+      "lastName": "Veintimilla",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-6",
+      "year": "Sr",
+      "hometown": "Sr. Valencia, Spain Universidad Catolica de Valencia"
+    },
+    {
+      "jersey": 10,
+      "firstName": "Mamadi",
+      "lastName": "Jiana",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Sr",
+      "hometown": "Sr. Westfield, Mass. Chicopee (UAlbany)"
+    },
+    {
+      "jersey": 11,
+      "firstName": "Augustine",
+      "lastName": "Boadi",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-8",
+      "year": "Sr",
+      "hometown": "Sr. Kumasi, Ghana Northfield Mount Hermon (St. John's)"
+    },
+    {
+      "jersey": 13,
+      "firstName": "Tibo",
+      "lastName": "Jacobs",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Fr",
+      "hometown": "Gr. Kampenhout, Belgium Free University Brussels"
+    },
+    {
+      "jersey": 14,
+      "firstName": "Jose",
+      "lastName": "Alves Faria",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "GR",
+      "hometown": "Gr. Torres Novas, Portugal Escola Superior Desporto de Rio Maior"
+    },
+    {
+      "jersey": 15,
+      "firstName": "Ilay",
+      "lastName": "Krespi",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Fr",
+      "hometown": "Fr. Modiin, Israel Iron Gimel Mota Gur High School"
+    },
+    {
+      "jersey": 16,
+      "firstName": "Paco",
+      "lastName": "Fernandez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-6",
+      "year": "Jr",
+      "hometown": "Jr. Sevilla, Spain Universidad Isabel"
+    },
+    {
+      "jersey": 17,
+      "firstName": "Filipe",
+      "lastName": "Bastos",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-7",
+      "year": "GR",
+      "hometown": "Gr. Santa Maria de Faria, Portugal Faculdade de desporto do Porto"
+    },
+    {
+      "jersey": 18,
+      "firstName": "Jorge",
+      "lastName": "Rodriguez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "Jr",
+      "hometown": "Jr. Guaynabo, Puerto Rico Colegio San Jose"
+    },
+    {
+      "jersey": 19,
+      "firstName": "Fermin",
+      "lastName": "Rodriguez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Jr",
+      "hometown": "Jr. Valencia, Spain Universidad Internacional De La Rioja"
+    },
+    {
+      "jersey": 20,
+      "firstName": "Tomas",
+      "lastName": "Sentieiro",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-8",
+      "year": "GR",
+      "hometown": "Gr. Torress, Novas Faculdade de Motricidade Hiumana"
+    },
+    {
+      "jersey": 21,
+      "firstName": "Nicolas",
+      "lastName": "Juliano",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Fr",
+      "hometown": "Fr. Wilmington, Mass. Austin Prep"
+    },
+    {
+      "jersey": 22,
+      "firstName": "Marc",
+      "lastName": "Pitarch Bayot",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-3",
+      "year": "GR",
+      "hometown": "Gr. Ares del Maestrat, Spain Jaune I University"
+    },
+    {
+      "jersey": 23,
+      "firstName": "Pablo",
+      "lastName": "Guerrero",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "GR",
+      "hometown": "Gr. Lierena, Spain Universidad de Extremadura"
+    },
+    {
+      "jersey": 25,
+      "firstName": "Mydas",
+      "lastName": "Smalls",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Sr",
+      "hometown": "Sr. London, England County Upper (Loyola Marymount)"
+    },
+    {
+      "jersey": 26,
+      "firstName": "Caoimhin",
+      "lastName": "McConnell",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-8",
+      "year": "GR",
+      "hometown": "Gr. Crumlin, Northern Ireland St. Louises Comprehensive College (William Carey)"
+    },
+    {
+      "jersey": 27,
+      "firstName": "Jaime",
+      "lastName": "Amaro",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-7",
+      "year": "So",
+      "hometown": "So. Madrid, Spain Universidad Villanueva"
+    },
+    {
+      "jersey": 28,
+      "firstName": "Christien",
+      "lastName": "Merritt",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Sr",
+      "hometown": "Sr. Montclair, N.J. Philips Academy Andover"
+    },
+    {
+      "jersey": 29,
+      "firstName": "Joseph",
+      "lastName": "Perrotta",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-6",
+      "year": "So",
+      "hometown": "So. Oakville, ON Lincoln-Sudbury Regional High School"
+    },
+    {
+      "jersey": 30,
+      "firstName": "Will",
+      "lastName": "Levine",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Sr",
+      "hometown": "Sr. Brooklyn, N.Y. Boerum Hill School For International Studies"
+    },
+    {
+      "jersey": 32,
+      "firstName": "Henry",
+      "lastName": "Kang",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-8",
+      "year": "Fr",
+      "hometown": "Fr. Boise, Idaho Shattuck St. Mary's"
+    },
+    {
+      "jersey": 33,
+      "firstName": "Deji",
+      "lastName": "Akinboboye",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Fr",
+      "hometown": "Fr. West Hempstead, N.Y. St. Anthony's"
+    },
+    {
+      "jersey": 34,
+      "firstName": "David",
+      "lastName": "Nuricumbo",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-8",
+      "year": "Sr",
+      "hometown": "Sr. San Diego, Calif. Point Loma High School"
+    },
+    {
+      "jersey": 35,
+      "firstName": "Eric",
+      "lastName": "Causey",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Fr",
+      "hometown": "Fr. South Easton, Mass. K12 Private Academy"
+    },
+    {
+      "jersey": 40,
+      "firstName": "Colby",
+      "lastName": "Webber",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Sr",
+      "hometown": "Sr. Marshfield, Mass. Marshfield"
+    },
+    {
+      "jersey": 99,
+      "firstName": "Enzo",
+      "lastName": "Carvalho",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-5",
+      "year": "6T",
+      "hometown": "6th Overland Park, Kansas Bethel Christian Schools (N.C. State)"
+    }
+  ],
+  "SMU Mustangs": [
+    {
+      "jersey": 1,
+      "firstName": "Jonathan",
+      "lastName": "Evans",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "5-6",
+      "year": "Fr",
+      "hometown": "FR Collegeville, Pa. Penn State"
+    },
+    {
+      "jersey": 2,
+      "firstName": "Ryan",
+      "lastName": "Clanton-Pimentel",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-6",
+      "year": "So",
+      "hometown": "SO Leander, Texas"
+    },
+    {
+      "jersey": 3,
+      "firstName": "Villads",
+      "lastName": "Landsperg",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Jr",
+      "hometown": "JR Copenhagen, Denmark Wofford"
+    },
+    {
+      "jersey": 4,
+      "firstName": "Mason",
+      "lastName": "Grimm",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "RS FR Southlake, Texas"
+    },
+    {
+      "jersey": 5,
+      "firstName": "Noah",
+      "lastName": "Holmstrøm",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": "So",
+      "hometown": "SO Aalborg, Denmark Georgia Southern"
+    },
+    {
+      "jersey": 6,
+      "firstName": "Alex",
+      "lastName": "Salvo",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Jr",
+      "hometown": "RS JR Madrid, Spain"
+    },
+    {
+      "jersey": 7,
+      "firstName": "Jaylinn",
+      "lastName": "Mitchell",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-8",
+      "year": "Jr",
+      "hometown": "JR La Mirada, Calif"
+    },
+    {
+      "jersey": 10,
+      "firstName": "Milton",
+      "lastName": "Lopez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "Jr",
+      "hometown": "JR Irving, Texas"
+    },
+    {
+      "jersey": 11,
+      "firstName": "Franco",
+      "lastName": "Ocana",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "Fr",
+      "hometown": "FR Las Varillas, Cordoba, Argentina Gardner-Webb"
+    },
+    {
+      "jersey": 12,
+      "firstName": "TJ",
+      "lastName": "Dilley",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": "Fr",
+      "hometown": "RS FR Dana Point, Calif. Saint Mary's College"
+    },
+    {
+      "jersey": 14,
+      "firstName": "Enzo",
+      "lastName": "Panozzo",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "SR Sarasota, Fla."
+    },
+    {
+      "jersey": 15,
+      "firstName": "Nick",
+      "lastName": "Harshaw",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "So",
+      "hometown": "SO Louisville, Ky. Bellarmine"
+    },
+    {
+      "jersey": 16,
+      "firstName": "Landon",
+      "lastName": "Hickam",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "Fr",
+      "hometown": "FR Frisco, Texas"
+    },
+    {
+      "jersey": 20,
+      "firstName": "Mukisa",
+      "lastName": "Emmanuel",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "JR Mbale, Uganda Eastern Florida State College"
+    },
+    {
+      "jersey": 21,
+      "firstName": "Andre",
+      "lastName": "Philibbosian",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "So",
+      "hometown": "RS SO San Diego, Calif. Seattle U"
+    },
+    {
+      "jersey": 23,
+      "firstName": "Oliver",
+      "lastName": "Knotek",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "So",
+      "hometown": "SO Palos Verdes, Calif."
+    },
+    {
+      "jersey": 24,
+      "firstName": "Chris",
+      "lastName": "Deamon",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "JR Dallas, Texas"
+    },
+    {
+      "jersey": 26,
+      "firstName": "Caleb",
+      "lastName": "Bronold",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Fr",
+      "hometown": "FR Frisco, Texas"
+    },
+    {
+      "jersey": 28,
+      "firstName": "Anden",
+      "lastName": "Ellis",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Fr",
+      "hometown": "FR St. Louis, Mo."
+    },
+    {
+      "jersey": 29,
+      "firstName": "Nathan",
+      "lastName": "Kinser",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "FR Lucas, Texas"
+    },
+    {
+      "jersey": 30,
+      "firstName": "Stephan",
+      "lastName": "Soghomonian",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "So",
+      "hometown": "SO Santa Clarita, Calif."
+    },
+    {
+      "jersey": 33,
+      "firstName": "Spencer",
+      "lastName": "Zachgo",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-4",
+      "year": "Fr",
+      "hometown": "FR Wichita, Kansas"
+    },
+    {
+      "jersey": 34,
+      "firstName": "Trey",
+      "lastName": "Clements",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "JR Fairhope, Ala. Cape Fear Community College"
+    },
+    {
+      "jersey": 37,
+      "firstName": "Daniel",
+      "lastName": "Wozniak",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": "Fr",
+      "hometown": "FR Lee's Summit, Mo. Johnson County CC"
+    }
+  ],
+  "Maryland Terrapins": [
+    {
+      "jersey": 0,
+      "firstName": "Saxon",
+      "lastName": "Wolcott",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-3",
+      "year": "Jr",
+      "hometown": "Jr. Computer Science Bethesda, MD D.C. United Academy"
+    },
+    {
+      "jersey": 2,
+      "firstName": "Luke",
+      "lastName": "Burdett",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "Fr. Business and Management Woodstock, MD DC United Academy"
+    },
+    {
+      "jersey": 3,
+      "firstName": "Luca",
+      "lastName": "Costabile",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "5-11",
+      "year": "Sr",
+      "hometown": "Sr. Finance Copenhagen, Denmark AC Crema"
+    },
+    {
+      "jersey": 4,
+      "firstName": "Mack",
+      "lastName": "DeVries",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-1",
+      "year": "Sr",
+      "hometown": "Sr. Finance Mechanicsburg, PA PA Classics"
+    },
+    {
+      "jersey": 5,
+      "firstName": "Lasse",
+      "lastName": "Kelp",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-3",
+      "year": "Sr",
+      "hometown": "Sr. Economics Bonn, Germany SC Fortuna Köln UMBC"
+    },
+    {
+      "jersey": 6,
+      "firstName": "Leon",
+      "lastName": "Koehl",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Jr",
+      "hometown": "Jr. Finance Cologne, Germany Bayer Leverkusen"
+    },
+    {
+      "jersey": 7,
+      "firstName": "Sadam",
+      "lastName": "Masereka",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-9",
+      "year": "So",
+      "hometown": "Sr. Economics Kampala, Uganda Buddo Secondary School / Lindsey Wilson College"
+    },
+    {
+      "jersey": 8,
+      "firstName": "Albi",
+      "lastName": "Ndrenika",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Sr",
+      "hometown": "Sr. Business Analytics Olney, MD Baltimore Armour"
+    },
+    {
+      "jersey": 9,
+      "firstName": "Colin",
+      "lastName": "Griffith",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-10",
+      "year": "Sr",
+      "hometown": "Sr. Information Science Stroudsburg, PA PDA"
+    },
+    {
+      "jersey": 10,
+      "firstName": "Joseph",
+      "lastName": "Umberto Picotto",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Sr",
+      "hometown": "Sr. Economics Pinerolo, Italy Torino FC / FC Pinerolo UMBC"
+    },
+    {
+      "jersey": 11,
+      "firstName": "Mateo",
+      "lastName": "Caride",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "Fr. Letters & Sciences Buenos Aires, Argentina Vaughan SC"
+    },
+    {
+      "jersey": 12,
+      "firstName": "Max",
+      "lastName": "Riley",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-0",
+      "year": "Sr",
+      "hometown": "Sr. Communication Macclesfield, England Urbana / Bethesda SC"
+    },
+    {
+      "jersey": 13,
+      "firstName": "Joel",
+      "lastName": "Brown",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "5-10",
+      "year": "Sr",
+      "hometown": "Sr. Psychology Baltimore, MD McDonogh / USF / Saint Leo / Baltimore Armour"
+    },
+    {
+      "jersey": 15,
+      "firstName": "Jameson",
+      "lastName": "Michel",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-10",
+      "year": "So",
+      "hometown": "So. Letters & Sciences Columbia, MD Baltimore Armour"
+    },
+    {
+      "jersey": 17,
+      "firstName": "Kenny",
+      "lastName": "Quist-Therson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Jr",
+      "hometown": "Jr. Finance Ellicott City, MD Baltimore Armour"
+    },
+    {
+      "jersey": 18,
+      "firstName": "Jace",
+      "lastName": "Clark",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-2",
+      "year": "So",
+      "hometown": "So. Sociology Baltimore, MD Loudoun United"
+    },
+    {
+      "jersey": 20,
+      "firstName": "Casey",
+      "lastName": "Price",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "Fr. Mechanical Engineering Forest Hill, MD Pipeline SC / Archbishop Curley"
+    },
+    {
+      "jersey": 22,
+      "firstName": "Chris",
+      "lastName": "Steinleitner",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Sr",
+      "hometown": "Sr. Economics Munich, Germany Herzog-Ludwig-Realschule Altötting / Eastern Florida / TSV Buchbach"
+    },
+    {
+      "jersey": 23,
+      "firstName": "Rocket",
+      "lastName": "Ritarita",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-9",
+      "year": "Fr",
+      "hometown": "Fr. Letters & Sciences Canton, GA Charlotte FC Academy"
+    },
+    {
+      "jersey": 27,
+      "firstName": "Henry",
+      "lastName": "Bernstein",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "Fr. Letters & Sciences Gladwyne, PA Philadelphia Union Academy"
+    },
+    {
+      "jersey": 28,
+      "firstName": "Brian",
+      "lastName": "St. Martin",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-0",
+      "year": "Sr",
+      "hometown": "Sr. Information Science Mount Airy, MD Mount Saint Joseph's / Baltimore Celtic"
+    },
+    {
+      "jersey": 30,
+      "firstName": "Matias",
+      "lastName": "De Jesus",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "So",
+      "hometown": "Sr. Operations Management & Business Analytics Towson, MD Loyola Blakefield / Baltimore Celtic"
+    },
+    {
+      "jersey": 31,
+      "firstName": "Tristen",
+      "lastName": "Rose",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-2",
+      "year": "Sr",
+      "hometown": "Sr. Economics Cortland, OH University of Charleston"
+    },
+    {
+      "jersey": 38,
+      "firstName": "Laurin",
+      "lastName": "Mack",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-1",
+      "year": "Fr",
+      "hometown": "So. Communication Emmendingen, Germany SC Freiburg"
+    },
+    {
+      "jersey": 44,
+      "firstName": "Luke",
+      "lastName": "van Heukelum",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "Jr. Economics Elmhurst, IL Sockers FC Chicago"
+    },
+    {
+      "jersey": 49,
+      "firstName": "Aidan",
+      "lastName": "Sheppela",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-11",
+      "year": "So",
+      "hometown": "So. Finance Brentwood, NH VLACS / Seacoast United"
+    },
+    {
+      "jersey": 50,
+      "firstName": "Alexander",
+      "lastName": "Milosevic",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-4",
+      "year": "Fr",
+      "hometown": "Fr. Letters & Sciences Vancouver, British Columbia Vancouver Whitecaps FC"
+    },
+    {
+      "jersey": 55,
+      "firstName": "Emil",
+      "lastName": "Nymann Anderson",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "5-11",
+      "year": "Fr",
+      "hometown": "Fr. Economics Thisted, Denmark Aalborg BK"
+    },
+    {
+      "jersey": 77,
+      "firstName": "Stephane",
+      "lastName": "Njike",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-11",
+      "year": "Fr",
+      "hometown": "So. Economics Paris, France FR Haguenau LIU"
+    },
+    {
+      "jersey": 90,
+      "firstName": "Farouk",
+      "lastName": "Cisse",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-1",
+      "year": "Fr",
+      "hometown": "Fr. Letters & Sciences Bonn, Germany Borussia Dortmund"
+    }
+  ],
+  "San Diego Toreros": [
+    {
+      "jersey": 0,
+      "firstName": "Kayden",
+      "lastName": "Kropf",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-2",
+      "year": "Sr",
+      "hometown": "Sr. Finance San Diego, CA Mission Bay"
+    },
+    {
+      "jersey": 0,
+      "firstName": "Nick",
+      "lastName": "Webster",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-2",
+      "year": "Sr",
+      "hometown": "Sr. Finance Las Vegas, NV West Career and Technical Academy"
+    },
+    {
+      "jersey": 1,
+      "firstName": "Adam",
+      "lastName": "Salama",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-1",
+      "year": "Sr",
+      "hometown": "Sr. Anthropology Ramla, Israel Orthodox Ottawa University (AZ) / Rider"
+    },
+    {
+      "jersey": 2,
+      "firstName": "Michael",
+      "lastName": "Roman",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-2",
+      "year": "So",
+      "hometown": "So. Undeclared Menlo Park, CA Menlo Atherton"
+    },
+    {
+      "jersey": 3,
+      "firstName": "Simon",
+      "lastName": "Duus Muller",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-5",
+      "year": "Sr",
+      "hometown": "Sr. International Business Copenhagen, Denmark Gefion Gymnasium"
+    },
+    {
+      "jersey": 4,
+      "firstName": "Owen",
+      "lastName": "Walz",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-1",
+      "year": "Sr",
+      "hometown": "Sr. Communication Arlington, VA K12 Academy Virginia"
+    },
+    {
+      "jersey": 5,
+      "firstName": "Sami",
+      "lastName": "Tsipena",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Sr",
+      "hometown": "Sr. Finance Encino, CA Crespi Carmelite"
+    },
+    {
+      "jersey": 6,
+      "firstName": "Ethan",
+      "lastName": "Warne",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-2",
+      "year": "GR",
+      "hometown": "Gr. Communication Norwich, England Dereham Sixth Form Arizona Western College"
+    },
+    {
+      "jersey": 7,
+      "firstName": "Oliver",
+      "lastName": "Rhoades",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "Jr. Finance Huntington Beach, CA California Connections Academy"
+    },
+    {
+      "jersey": 8,
+      "firstName": "Josh",
+      "lastName": "Martinez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-3",
+      "year": "Sr",
+      "hometown": "Sr. Integrated Engineering Chandler, AZ Hamilton"
+    },
+    {
+      "jersey": 9,
+      "firstName": "Steven",
+      "lastName": "Ramirez",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-11",
+      "year": "Jr",
+      "hometown": "Jr. Finance Garden Grove, CA Virtual Learning Academy"
+    },
+    {
+      "jersey": 10,
+      "firstName": "Samy",
+      "lastName": "Kanaan",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-11",
+      "year": "Sr",
+      "hometown": "Sr. Real Estate San Diego, CA Rancho Bernardo"
+    },
+    {
+      "jersey": 11,
+      "firstName": "Cesar",
+      "lastName": "Bahena",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Sr",
+      "hometown": "Sr. Communication Escondido, CA Escondido"
+    },
+    {
+      "jersey": 12,
+      "firstName": "Elijah",
+      "lastName": "Zelkind",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "5-7",
+      "year": "So",
+      "hometown": "Sr. Finance San Diego, CA Torrey Pines Missouri State"
+    },
+    {
+      "jersey": 13,
+      "firstName": "Iain",
+      "lastName": "Wagner",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "So",
+      "hometown": "So. Finance San Diego, CA Saint Augustine"
+    },
+    {
+      "jersey": 14,
+      "firstName": "Volodymyr",
+      "lastName": "Kubrakov",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "Jr. Finance Luhansk, Ukraine Mountainside (OR)"
+    },
+    {
+      "jersey": 15,
+      "firstName": "Owen",
+      "lastName": "Riecke",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Jr",
+      "hometown": "Jr. Marketing Wailuku, HI King Kekaulike"
+    },
+    {
+      "jersey": 16,
+      "firstName": "Jaxson",
+      "lastName": "Findlay",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "Jr. Marketing Henderson, NV Coronado"
+    },
+    {
+      "jersey": 17,
+      "firstName": "Vicente",
+      "lastName": "Ayala",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Sr",
+      "hometown": "Sr. Finance Las Vegas, NV Coronado"
+    },
+    {
+      "jersey": 18,
+      "firstName": "Ethan",
+      "lastName": "McNaughton",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Jr",
+      "hometown": "Jr. Finance Cardiff-by-the-Sea, CA San Dieguito Academy"
+    },
+    {
+      "jersey": 19,
+      "firstName": "Ricky",
+      "lastName": "Moreno",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Fr",
+      "hometown": "Fr. Undeclared San Diego, CA California Connections Academy"
+    },
+    {
+      "jersey": 20,
+      "firstName": "Diego",
+      "lastName": "Valles",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Fr",
+      "hometown": "Fr. Undeclared Chula Vista, CA Olympian"
+    },
+    {
+      "jersey": 21,
+      "firstName": "Kevin",
+      "lastName": "Pena",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-5",
+      "year": "Sr",
+      "hometown": "Sr. Business Administration San Marcos, CA San Marcos"
+    },
+    {
+      "jersey": 22,
+      "firstName": "Christian",
+      "lastName": "Vigil",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Sr",
+      "hometown": "Sr. Finance Carlsbad, CA Carlsbad"
+    },
+    {
+      "jersey": 23,
+      "firstName": "Noah",
+      "lastName": "James",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-4",
+      "year": "Jr",
+      "hometown": "Jr. Mechanical Engineering Poway, CA Poway Western Michigan"
+    },
+    {
+      "jersey": 24,
+      "firstName": "Luca",
+      "lastName": "Fava",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "So",
+      "hometown": "So. International Business Yorba Linda, CA Pearson Academy"
+    },
+    {
+      "jersey": 25,
+      "firstName": "Finley",
+      "lastName": "O'Mahony",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "Fr. Undeclared Poway, CA Westview"
+    },
+    {
+      "jersey": 26,
+      "firstName": "Conner",
+      "lastName": "Gardenhour",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "So. Undeclared North Ogden, UT Weber"
+    },
+    {
+      "jersey": 27,
+      "firstName": "Taj",
+      "lastName": "Eagleston",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "So",
+      "hometown": "So. Marketing Hermosa Beach, CA California Connections Academy"
+    },
+    {
+      "jersey": 28,
+      "firstName": "Tyler",
+      "lastName": "Severs",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "So. Finance Bothell, WA Bishop Blanchet"
+    },
+    {
+      "jersey": 29,
+      "firstName": "Devin",
+      "lastName": "Dillon",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-2",
+      "year": "So",
+      "hometown": "So. Politcal Science Draper, UT Corner Canyon"
+    },
+    {
+      "jersey": 30,
+      "firstName": "Godwin",
+      "lastName": "Antwi",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-8",
+      "year": "So",
+      "hometown": "So. Communication Accra, Ghana Del Norte (CA)"
+    },
+    {
+      "jersey": 32,
+      "firstName": "Gus",
+      "lastName": "Velez",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-5",
+      "year": "So",
+      "hometown": "So. Real Estate San Diego, CA Saint Augustine"
+    },
+    {
+      "jersey": 33,
+      "firstName": "Devin",
+      "lastName": "Zachry",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "So. Business Administration Mission Viejo, CA Capistrano Valley Fairfield"
+    },
+    {
+      "jersey": 34,
+      "firstName": "Nick",
+      "lastName": "Axelson",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "Fr. Undeclared Encinitas, CA Pacific Ridge"
+    },
+    {
+      "jersey": 35,
+      "firstName": "Mathias",
+      "lastName": "Bauer",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "So. International Business Oberstdorf, Germany Gertrud von-Le-Fort-Gymnasium Oberstdorf"
+    },
+    {
+      "jersey": 36,
+      "firstName": "Lucca",
+      "lastName": "Adams",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-1",
+      "year": "Fr",
+      "hometown": "R-Fr. Mechanical Engineering São Paulo, Brazil California Connections Academy UCLA"
+    }
+  ],
+  "Portland Pilots": [
+    {
+      "jersey": 0,
+      "firstName": "Mark",
+      "lastName": "Hyan",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-3",
+      "year": "Fr",
+      "hometown": "R-Fr. Los Angeles, Calif. Loyola HS Virginia Tech"
+    },
+    {
+      "jersey": 1,
+      "firstName": "Keenan",
+      "lastName": "VanPelt",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "Fr. Portland, Ore. Baker Web Academy Portland Timbers Academy"
+    },
+    {
+      "jersey": 2,
+      "firstName": "Wylie",
+      "lastName": "Trujillo",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "GR",
+      "hometown": "Gr. Albuquerque, NM Shattuck-St. Mary's Gonzaga"
+    },
+    {
+      "jersey": 3,
+      "firstName": "Nikos",
+      "lastName": "Clarke-Tosczak",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "Jr. Edmonton, Alb. University Hill Secondary Rhode Island"
+    },
+    {
+      "jersey": 4,
+      "firstName": "Michael",
+      "lastName": "Dunne",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "So",
+      "hometown": "So. Pleasant Hill, Ore. Baker Web Academy North Carolina"
+    },
+    {
+      "jersey": 5,
+      "firstName": "Ethan",
+      "lastName": "Zamora",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "Jr. Chula Vista, Calif. Carlsbad HS San Diego State"
+    },
+    {
+      "jersey": 6,
+      "firstName": "Christian",
+      "lastName": "Mendoza",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-8",
+      "year": "Fr",
+      "hometown": "Fr. Portland, Ore. Baker Web Academy Portland Timbers Academy"
+    },
+    {
+      "jersey": 7,
+      "firstName": "Joe",
+      "lastName": "Highfield",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-4",
+      "year": "So",
+      "hometown": "R-So. Plymouth, Minn. Wayzata HS Minnesota Thunder ECNL"
+    },
+    {
+      "jersey": 8,
+      "firstName": "Efetobo",
+      "lastName": "Aror",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-8",
+      "year": "Jr",
+      "hometown": "Jr. Atlanta, Ga. Barca Academy Phoenix Rising FC"
+    },
+    {
+      "jersey": 9,
+      "firstName": "Alex",
+      "lastName": "Waggoner",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Jr",
+      "hometown": "Jr. Santa Fe, N.M. Santa Fe HS Michigan"
+    },
+    {
+      "jersey": 10,
+      "firstName": "Diego",
+      "lastName": "Rosas",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-6",
+      "year": "Jr",
+      "hometown": "Jr. Benito, Texas Idea Toros College Prep Houston Dynamo 2"
+    },
+    {
+      "jersey": 11,
+      "firstName": "Anton",
+      "lastName": "Hjalmarsson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Jr",
+      "hometown": "Jr. Smålandsstenar, Sweden Gärdeskolan Fort Lewis College"
+    },
+    {
+      "jersey": 12,
+      "firstName": "Oliver",
+      "lastName": "Jeppe",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Sr",
+      "hometown": "Sr. Copenhagen, Denmark Bronby Gymnasium Bronby IF"
+    },
+    {
+      "jersey": 13,
+      "firstName": "Nicholas",
+      "lastName": "Dunbar",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "Jr. Long Beach, Calif. LA Galaxy Academy LA Galaxy Academy"
+    },
+    {
+      "jersey": 14,
+      "firstName": "Micaah",
+      "lastName": "Garnette",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Sr",
+      "hometown": "Sr. Parlin, N.J. Gill St. Bernard's St. John's"
+    },
+    {
+      "jersey": 15,
+      "firstName": "Dominic",
+      "lastName": "Edwards",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-6",
+      "year": "Fr",
+      "hometown": "Fr. Ewa Beach, Hawaii San Marcos HS Our City SC"
+    },
+    {
+      "jersey": 16,
+      "firstName": "Sebastian",
+      "lastName": "Hernandez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Sr",
+      "hometown": "R-Sr. Lompoc, Calif. California Connections Academy LA Galaxy 2"
+    },
+    {
+      "jersey": 17,
+      "firstName": "Maddox",
+      "lastName": "Findlay",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "Fr. Henderson, Nev. Houston Dynamo FC Academy"
+    },
+    {
+      "jersey": 18,
+      "firstName": "Parker",
+      "lastName": "Jackson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-5",
+      "year": "So",
+      "hometown": "So. Houston, Texas Enlightium Academy Houston Dynamo"
+    },
+    {
+      "jersey": 19,
+      "firstName": "David",
+      "lastName": "Ajagbe",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "So. Surrey, B.C. University Hill Secondary Ohio State"
+    },
+    {
+      "jersey": 20,
+      "firstName": "Isaac",
+      "lastName": "Homer",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "So",
+      "hometown": "R-So. Portland, Ore. Baker Web Academy Portland Timbers"
+    },
+    {
+      "jersey": 21,
+      "firstName": "Angel",
+      "lastName": "Martinez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "So",
+      "hometown": "R-So. Everett, Wash. Mariner High School Sounders FC Academy"
+    },
+    {
+      "jersey": 22,
+      "firstName": "Ayo",
+      "lastName": "Akintobi",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "Fr. Atlanta, Ga. Woodward HS Atlanta United FC"
+    },
+    {
+      "jersey": 23,
+      "firstName": "23/23",
+      "lastName": "Massimo Oedekoven Pomponi",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "Gr. Eugene, Ore. South Eugene HS LMU"
+    },
+    {
+      "jersey": 24,
+      "firstName": "Andrew",
+      "lastName": "Portis",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-4",
+      "year": "GR",
+      "hometown": "Gr. Temecula, Calif. Chaparral HS Cal State Los Angeles"
+    },
+    {
+      "jersey": 25,
+      "firstName": "Tristan",
+      "lastName": "Flores",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-7",
+      "year": "RF",
+      "hometown": "Rf. Chula Vista, Calif. Otay Ranch High School SD Loyal"
+    },
+    {
+      "jersey": 26,
+      "firstName": "Jordan",
+      "lastName": "Barclay",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "So",
+      "hometown": "So. Toronto, Canada York Mills Collegiate Inst. Toronto FC"
+    },
+    {
+      "jersey": 27,
+      "firstName": "Ritvik",
+      "lastName": "Karra",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-7",
+      "year": "Fr",
+      "hometown": "Fr. Irvine, Calif. Northwood HS Strikers FC"
+    },
+    {
+      "jersey": 28,
+      "firstName": "Andrew",
+      "lastName": "Bromert",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Fr",
+      "hometown": "Fr. Portland, Ore. Jesuit HS Portland Timbers Academy"
+    },
+    {
+      "jersey": 29,
+      "firstName": "Mason",
+      "lastName": "Bradley",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "Fr. West Linn, Ore. West Linn HS Oregon Premier FC"
+    },
+    {
+      "jersey": 30,
+      "firstName": "Julian",
+      "lastName": "Bretous",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Fr",
+      "hometown": "Fr. Atlanta, Ga. Gwinnett Online Atlanta United FC"
+    },
+    {
+      "jersey": 34,
+      "firstName": "Miguel-Angel",
+      "lastName": "Hernandez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Jr",
+      "hometown": "R-Jr. Perris, Calif. Connections Academy LA Galaxy Academy"
+    }
+  ],
+  "Georgetown Hoyas": [
+    {
+      "jersey": 1,
+      "firstName": "Tenzing",
+      "lastName": "Manske",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Sr",
+      "hometown": "Sr. Santa Fe, N.M. Shattuck St. Mary's School"
+    },
+    {
+      "jersey": 2,
+      "firstName": "Jack",
+      "lastName": "Lindimore",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "So. New Albany, Ohio New Albany"
+    },
+    {
+      "jersey": 3,
+      "firstName": "Eric",
+      "lastName": "Howard",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "Jr. Redmond, Wash. Eastside Catholic"
+    },
+    {
+      "jersey": 4,
+      "firstName": "Oliver",
+      "lastName": "Stafford",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Jr",
+      "hometown": "Jr. Katonah, N.Y. Fordham Prep"
+    },
+    {
+      "jersey": 5,
+      "firstName": "Miles",
+      "lastName": "Avery",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "So",
+      "hometown": "Sr. Washington, D.C. Woodrow Wilson"
+    },
+    {
+      "jersey": 6,
+      "firstName": "Diego",
+      "lastName": "Letayf",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "So",
+      "hometown": "Sr. Southlake, Texas Carroll"
+    },
+    {
+      "jersey": 7,
+      "firstName": "Max",
+      "lastName": "Viera",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Sr",
+      "hometown": "Sr. Burbank, Ill. St. Laurence"
+    },
+    {
+      "jersey": 8,
+      "firstName": "Matthew",
+      "lastName": "Van Horn",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Jr",
+      "hometown": "Jr. North Pole, Alaska Shattuck Saint Mary’s"
+    },
+    {
+      "jersey": 9,
+      "firstName": "Mitchell",
+      "lastName": "Baker",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-5",
+      "year": "So",
+      "hometown": "So. Melbourne, Australia Northwood School"
+    },
+    {
+      "jersey": 10,
+      "firstName": "Mateo",
+      "lastName": "Ponce Ocampo",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "So",
+      "hometown": "Jr. Harrison, N.Y. Harrison"
+    },
+    {
+      "jersey": 11,
+      "firstName": "David",
+      "lastName": "Urrutia",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "So",
+      "hometown": "So. New Rochelle, N.Y. New Rochelle"
+    },
+    {
+      "jersey": 12,
+      "firstName": "Casey",
+      "lastName": "Milliken",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-6",
+      "year": "Fr",
+      "hometown": "Fr. Easton, Mass. Oliver Ames"
+    },
+    {
+      "jersey": 13,
+      "firstName": "Aidan",
+      "lastName": "Godinho",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "So",
+      "hometown": "So. Longwood, Fla. Lake Mary"
+    },
+    {
+      "jersey": 14,
+      "firstName": "Noah",
+      "lastName": "Satriano",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Fr",
+      "hometown": "Fr. Bethesda, Md. Walt Whitman"
+    },
+    {
+      "jersey": 15,
+      "firstName": "Loukas",
+      "lastName": "Maroutsis",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "Fr",
+      "hometown": "Fr. Athens, Greece Athens College"
+    },
+    {
+      "jersey": 16,
+      "firstName": "Jack",
+      "lastName": "Brown",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "So",
+      "hometown": "So. Lititz, Pa. Manheim Township"
+    },
+    {
+      "jersey": 17,
+      "firstName": "Julian",
+      "lastName": "Barrios Cristales",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-7",
+      "year": "Sr",
+      "hometown": "Sr. Chesapeake, Va. University of Texas at Austin High School"
+    },
+    {
+      "jersey": 18,
+      "firstName": "Tim",
+      "lastName": "Logan",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Fr",
+      "hometown": "Fr. Florham Park, N.J. Don Bosco Prep"
+    },
+    {
+      "jersey": 19,
+      "firstName": "Zach",
+      "lastName": "Zengue",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Sr",
+      "hometown": "Sr. North Oaks, Minn. Shattuck St. Mary's"
+    },
+    {
+      "jersey": 20,
+      "firstName": "Matthew",
+      "lastName": "Helfrich",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Jr",
+      "hometown": "Jr. McLean, Va. McLean"
+    },
+    {
+      "jersey": 21,
+      "firstName": "Zayan",
+      "lastName": "Ahmed",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-7",
+      "year": "So",
+      "hometown": "So. Allen, Texas. Allen"
+    },
+    {
+      "jersey": 22,
+      "firstName": "Jack",
+      "lastName": "Heaps",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "Jr. Birmingham, Ala. Mountain Brook"
+    },
+    {
+      "jersey": 23,
+      "firstName": "Charlie",
+      "lastName": "Rosenthal",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-8",
+      "year": "Fr",
+      "hometown": "Fr. Hermosa Beach, Calif. Mira Costa"
+    },
+    {
+      "jersey": 24,
+      "firstName": "Charlie",
+      "lastName": "DeMarco",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-4",
+      "year": "So",
+      "hometown": "So. New York, N.Y. Fordham Prep"
+    },
+    {
+      "jersey": 25,
+      "firstName": "Tate",
+      "lastName": "Lampman",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "So",
+      "hometown": "So. Ann Arbor, Mich. Pioneer"
+    },
+    {
+      "jersey": 26,
+      "firstName": "Will",
+      "lastName": "Caldwell",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "Fr",
+      "hometown": "Fr. Newcastle, England St. Michael’s College School"
+    },
+    {
+      "jersey": 27,
+      "firstName": "Jordi",
+      "lastName": "Sada-Paz",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "So. London, England The Harrodian School"
+    },
+    {
+      "jersey": 30,
+      "firstName": "Dmytro",
+      "lastName": "Torubara",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "Fr. Kyiv, Ukraine IMG Academy"
+    }
+  ],
+  "Saint Louis Billikens": [
+    {
+      "jersey": 0,
+      "firstName": "Connor",
+      "lastName": "Dillman",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "R-Fr. Springfield, Ill. Sacred Heart Griffin"
+    },
+    {
+      "jersey": 2,
+      "firstName": "Carlos",
+      "lastName": "Leatherman",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-5",
+      "year": "Jr",
+      "hometown": "Jr. Saint Paul, Minn. Central"
+    },
+    {
+      "jersey": 3,
+      "firstName": "Gershon",
+      "lastName": "Henry",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "5-10",
+      "year": "So",
+      "hometown": "So. Portage, Mich. Salt Lake Academy / Real Salt Lake"
+    },
+    {
+      "jersey": 4,
+      "firstName": "Quinten",
+      "lastName": "Blair",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-0",
+      "year": "GR",
+      "hometown": "Gr. Shawnee, Kan. Mill Valley Loyola Chicago"
+    },
+    {
+      "jersey": 5,
+      "firstName": "JC",
+      "lastName": "Cortez",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-0",
+      "year": "Jr",
+      "hometown": "Jr. Ridgewood, N.J. Ridgewood UCLA"
+    },
+    {
+      "jersey": 6,
+      "firstName": "Sam",
+      "lastName": "Coughlan",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Fr",
+      "hometown": "Fr. Liverpool, England Carmel College"
+    },
+    {
+      "jersey": 7,
+      "firstName": "Abdoul",
+      "lastName": "Karim Pare",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-7",
+      "year": "GR",
+      "hometown": "Gr. Abidjan, Ivory Coast Marquette"
+    },
+    {
+      "jersey": 8,
+      "firstName": "Draven",
+      "lastName": "Barnett",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Sr",
+      "hometown": "Sr. Springfield, Mo. Lee's Summit Temple"
+    },
+    {
+      "jersey": 9,
+      "firstName": "Tanner",
+      "lastName": "Anderson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Jr",
+      "hometown": "Jr. Quincy, Ill. Quincy Notre Dame"
+    },
+    {
+      "jersey": 10,
+      "firstName": "Braydon",
+      "lastName": "Sellers",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "Fr",
+      "hometown": "R-Fr. St. Louis, Mo. Whitfield"
+    },
+    {
+      "jersey": 11,
+      "firstName": "Xavi",
+      "lastName": "O'Neil",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "Jr",
+      "hometown": "Jr. Herndon, Va. Stonebridge Boston College"
+    },
+    {
+      "jersey": 12,
+      "firstName": "Jack",
+      "lastName": "DiMaria",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "Fr",
+      "hometown": "Fr. St. Louis, Mo. SLUH"
+    },
+    {
+      "jersey": 13,
+      "firstName": "Kai",
+      "lastName": "Jaeger",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "Fr. Springfield, Mo. Kickapoo / Kirkwood"
+    },
+    {
+      "jersey": 14,
+      "firstName": "Grady",
+      "lastName": "Easton",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-3",
+      "year": "GR",
+      "hometown": "Gr. The Woodlands, Texas Laurel Springs School SMU"
+    },
+    {
+      "jersey": 15,
+      "firstName": "Carter",
+      "lastName": "Knodle",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "Fr. St. Louis, Mo. Marquette"
+    },
+    {
+      "jersey": 16,
+      "firstName": "Braden",
+      "lastName": "Benyr",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "Fr. Swansea, Ill. Belleville East"
+    },
+    {
+      "jersey": 17,
+      "firstName": "Andrew",
+      "lastName": "Heckenlaible",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "So. Ankeny, Iowa Ankeny Centennial"
+    },
+    {
+      "jersey": 18,
+      "firstName": "Theo",
+      "lastName": "Franca",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "Fr. Nova Lima, Brazil SAI Academy"
+    },
+    {
+      "jersey": 19,
+      "firstName": "Drake",
+      "lastName": "Fournier",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "So",
+      "hometown": "So. Leander, Texas UT High School"
+    },
+    {
+      "jersey": 21,
+      "firstName": "Jacksen",
+      "lastName": "McNeal",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-4",
+      "year": "Fr",
+      "hometown": "Fr. St. Louis, Mo. Parkway West"
+    },
+    {
+      "jersey": 22,
+      "firstName": "Jackson",
+      "lastName": "Delkus",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-0",
+      "year": "So",
+      "hometown": "So. St. Louis, Mo. Chaminade & Laurel Springs School"
+    },
+    {
+      "jersey": 23,
+      "firstName": "Nick",
+      "lastName": "Schramm",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Fr",
+      "hometown": "Fr. St. Louis, Mo. CBC"
+    },
+    {
+      "jersey": 24,
+      "firstName": "Kavi",
+      "lastName": "Badh",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "Fr",
+      "hometown": "Fr. Sammamish, Wash. Eastlake"
+    },
+    {
+      "jersey": 25,
+      "firstName": "Cole",
+      "lastName": "Ross",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "R-Jr. St. Louis, Mo. Chaminade Dayton"
+    },
+    {
+      "jersey": 26,
+      "firstName": "Axel",
+      "lastName": "Torres",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-9",
+      "year": "Jr",
+      "hometown": "Jr. Katy, Texas Cypress Park"
+    },
+    {
+      "jersey": 27,
+      "firstName": "Sam",
+      "lastName": "Kalish",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "Fr. St. Louis, Mo. Lafayette"
+    },
+    {
+      "jersey": 28,
+      "firstName": "Jeremi",
+      "lastName": "Abonnel",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "Gr. Aix-en-Provence, France AS Monaco Academy Mid-America Christian University"
+    },
+    {
+      "jersey": 29,
+      "firstName": "Kyle",
+      "lastName": "Deming",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-1",
+      "year": "Fr",
+      "hometown": "Fr. Rockford, Mich. Rockford"
+    },
+    {
+      "jersey": 30,
+      "firstName": "Marcus",
+      "lastName": "Steinhaeuser",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-4",
+      "year": "Fr",
+      "hometown": "Fr. Miami, Fla. Bishop McCarthy"
+    },
+    {
+      "jersey": 33,
+      "firstName": "Luke",
+      "lastName": "Ponciroli",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Fr",
+      "hometown": "Fr. St. Louis, Mo. Chaminade"
+    }
+  ],
+  "Hofstra Pride": [
+    {
+      "jersey": 3,
+      "firstName": "Harry",
+      "lastName": "Birtwistle",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "Fr. Singapore, Singapore Wolverhampton Wanderers Academy"
+    },
+    {
+      "jersey": 4,
+      "firstName": "Joel",
+      "lastName": "Bona",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "GR",
+      "hometown": "Gr. Barcelona, Spain IES Bahia de Almeria/Rhode Island"
+    },
+    {
+      "jersey": 7,
+      "firstName": "Bastian",
+      "lastName": "Carlman",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-4",
+      "year": "So",
+      "hometown": "So. Staffanstorp, Sweden Polhemskolan/Fort Hays State"
+    },
+    {
+      "jersey": 11,
+      "firstName": "Lewis",
+      "lastName": "Johnson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "Jr",
+      "hometown": "Jr. Milton Keynes, United Kingdom The Webber Independent School/Gardner Webb"
+    },
+    {
+      "jersey": 12,
+      "firstName": "Aaron",
+      "lastName": "Basenach",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-4",
+      "year": "Sr",
+      "hometown": "Sr. Kaiserslautern, Germany Heinrich-Heine Gymnasium"
+    },
+    {
+      "jersey": 14,
+      "firstName": "James",
+      "lastName": "York",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "Fr. Melbourne, Australia Maribyrnong Secondary College"
+    },
+    {
+      "jersey": 16,
+      "firstName": "Pietro",
+      "lastName": "Santi",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Fr",
+      "hometown": "Gr. Civitavecchia, Italy Istituto di Istruzione Superiore \"Luigi Angeloni\" Frosinone"
+    },
+    {
+      "jersey": 17,
+      "firstName": "Luke",
+      "lastName": "Kirilenko",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "GR",
+      "hometown": "Gr. Cambridge, United Kingdom Impington International College/Rider"
+    },
+    {
+      "jersey": 20,
+      "firstName": "Henri",
+      "lastName": "Poll",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Jr",
+      "hometown": "Jr. Cologne, Germany Apostelgymnasium Koln/McKendree"
+    },
+    {
+      "jersey": 23,
+      "firstName": "Carter",
+      "lastName": "Schmitz",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Jr",
+      "hometown": "Jr. Chandler, AZ Barcelona Residency Academy"
+    },
+    {
+      "jersey": 25,
+      "firstName": "Charlie",
+      "lastName": "Blair",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Jr",
+      "hometown": "Jr. Bayside, NY Chaminade/MLS Next"
+    },
+    {
+      "jersey": 28,
+      "firstName": "Hayes",
+      "lastName": "Laibe",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "Fr. New Orleans, LA Jesuit"
+    },
+    {
+      "jersey": 29,
+      "firstName": "Anthony",
+      "lastName": "Grodzki",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "R-Fr. Old Bethpage, NY Plainview Old Bethpage JFK"
+    },
+    {
+      "jersey": 32,
+      "firstName": "Hamad",
+      "lastName": "Farooq",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Jr",
+      "hometown": "Jr. Holtsville, NY Sachem East/Suffolk CC"
+    },
+    {
+      "jersey": 33,
+      "firstName": "Owen",
+      "lastName": "Haviland",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-3",
+      "year": "So",
+      "hometown": "So. Stony Brook, NY Ward Melville/Stevenson"
+    },
+    {
+      "jersey": 34,
+      "firstName": "Lucas",
+      "lastName": "Menchaca Ruiz-Cuevas",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "So",
+      "hometown": "So. Madrid, Spain Vermont Academy/Husson"
+    },
+    {
+      "jersey": 35,
+      "firstName": "Konstantinos",
+      "lastName": "Karageorgis",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "R-Fr. Astoria, NY IMG Academy"
+    },
+    {
+      "jersey": 36,
+      "firstName": "Dylan",
+      "lastName": "Wauchope",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-7",
+      "year": "Fr",
+      "hometown": "R-Fr. East Meadow, NY East Meadow"
+    },
+    {
+      "jersey": 37,
+      "firstName": "Tommy",
+      "lastName": "Poz",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "So",
+      "hometown": "So. Garden City, NY Garden City"
+    },
+    {
+      "jersey": 38,
+      "firstName": "Cole",
+      "lastName": "Dickson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "R-Fr. Naples, FL IMG Academy"
+    },
+    {
+      "jersey": 39,
+      "firstName": "Aidan",
+      "lastName": "GaNun",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-5",
+      "year": "Fr",
+      "hometown": "R-Fr. Garden City South, NY Chaminade"
+    }
+  ],
+  "Furman Paladins": [
+    {
+      "jersey": 0,
+      "firstName": "Max",
+      "lastName": "Miller",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Jr",
+      "hometown": "Jr. Cincinnati, Ohio Cincinnati United Premiere"
+    },
+    {
+      "jersey": 1,
+      "firstName": "Aaron",
+      "lastName": "Salinas",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Sr",
+      "hometown": "Sr. Grand Prairie, Texas FC Dallas/USYNT"
+    },
+    {
+      "jersey": 3,
+      "firstName": "Trip",
+      "lastName": "Campbell",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "Jr. Louisville, Ky. Louisville City FC"
+    },
+    {
+      "jersey": 4,
+      "firstName": "Connor",
+      "lastName": "Dunnigan",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "Sr. Jackson, Miss. Mississippi Rush SC"
+    },
+    {
+      "jersey": 5,
+      "firstName": "Ryan",
+      "lastName": "Wagner",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-4",
+      "year": "Jr",
+      "hometown": "Jr. Leawood, Kan. Sporting Kansas City"
+    },
+    {
+      "jersey": 6,
+      "firstName": "Luke",
+      "lastName": "Hutzell",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "Jr. Dacula, Ga. Atlanta United FC"
+    },
+    {
+      "jersey": 7,
+      "firstName": "Ben",
+      "lastName": "Boxall",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-6",
+      "year": "Sr",
+      "hometown": "Sr. Cobham, England Crystal Palace FC"
+    },
+    {
+      "jersey": 8,
+      "firstName": "Wesley",
+      "lastName": "Siegel",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Jr",
+      "hometown": "Jr. Winter Garden, Fla. Montverde Academy"
+    },
+    {
+      "jersey": 10,
+      "firstName": "Diego",
+      "lastName": "Hernandez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Sr",
+      "hometown": "Sr. Mesquite, Texas FC Dallas/USYNT"
+    },
+    {
+      "jersey": 11,
+      "firstName": "Caleb",
+      "lastName": "Johnson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "So",
+      "hometown": "Sr. Atlanta, Ga. Southern Soccer Academy"
+    },
+    {
+      "jersey": 13,
+      "firstName": "Wesley",
+      "lastName": "Goodwin",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "Jr",
+      "hometown": "Jr. Charleston, W.Va. West Virginia FC"
+    },
+    {
+      "jersey": 14,
+      "firstName": "Miguel",
+      "lastName": "Sosa",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Jr",
+      "hometown": "Jr. Miami, Fla. Supreme FC"
+    },
+    {
+      "jersey": 15,
+      "firstName": "Jack",
+      "lastName": "Travis",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Sr",
+      "hometown": "Sr. Louisville, Ky. Louisville City FC"
+    },
+    {
+      "jersey": 16,
+      "firstName": "Grayson",
+      "lastName": "Travis",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-7",
+      "year": "So",
+      "hometown": "So. Louisville, Ky. Louisville City FC"
+    },
+    {
+      "jersey": 17,
+      "firstName": "Wilfer",
+      "lastName": "Bustamante",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-8",
+      "year": "So",
+      "hometown": "Jr. Greenville, S.C. Carolina Elite Soccer Academy"
+    },
+    {
+      "jersey": 19,
+      "firstName": "Landon",
+      "lastName": "Hill",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-8",
+      "year": "GR",
+      "hometown": "Gr. Lewis Center, Ohio Columbus Crew"
+    },
+    {
+      "jersey": 20,
+      "firstName": "Ryan",
+      "lastName": "Reid",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-7",
+      "year": "So",
+      "hometown": "R-So. Overland Park, Kan. Sporting Kansas City"
+    },
+    {
+      "jersey": 22,
+      "firstName": "Gianluca",
+      "lastName": "Rizzo",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-8",
+      "year": "So",
+      "hometown": "So. Eastchester, N.Y. New York City FC"
+    },
+    {
+      "jersey": 24,
+      "firstName": "Connor",
+      "lastName": "Stout",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-7",
+      "year": "So",
+      "hometown": "So. Fairfax, Va. FC Cincinnati"
+    },
+    {
+      "jersey": 25,
+      "firstName": "Braden",
+      "lastName": "Dunham",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "So",
+      "hometown": "So. Peachtree City, Ga. Atlanta United FC"
+    },
+    {
+      "jersey": 26,
+      "firstName": "Beck",
+      "lastName": "Dean",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-3",
+      "year": "So",
+      "hometown": "Sr. Charleston, S.C. South Carolina Surf"
+    },
+    {
+      "jersey": 27,
+      "firstName": "Luke",
+      "lastName": "Munson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "So",
+      "hometown": "So. Little Elm, Texas Charlotte FC"
+    },
+    {
+      "jersey": 29,
+      "firstName": "Malachi",
+      "lastName": "Grant",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-6",
+      "year": "Jr",
+      "hometown": "Jr. Atlanta, Ga. Barcelona Residency Academy/Jamaica YNT"
+    },
+    {
+      "jersey": 30,
+      "firstName": "Ivan",
+      "lastName": "Horvat",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-3",
+      "year": "So",
+      "hometown": "R-So. Bratislava, Slovakia Darlington School Soccer Academy/Slovakia YNT"
+    },
+    {
+      "jersey": 31,
+      "firstName": "Andrew",
+      "lastName": "Laplaca",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Jr",
+      "hometown": "Jr. San Antonio, Texas San Antonio City SC"
+    },
+    {
+      "jersey": 33,
+      "firstName": "Gabe",
+      "lastName": "Cox",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "Jr. Richmond, Va. Richmond Kickers"
+    }
+  ],
+  "High Point Panthers": [
+    {
+      "jersey": 0,
+      "firstName": "Peter",
+      "lastName": "Morano",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-1",
+      "year": "Fr",
+      "hometown": "R-Fr. Chapel Hill, N.C. North Carolina FC (ECNL)"
+    },
+    {
+      "jersey": 1,
+      "firstName": "Josh",
+      "lastName": "Caron",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-0",
+      "year": "Sr",
+      "hometown": "R-Sr. Palm Harbor, Fla. Chargers SC (MLS)"
+    },
+    {
+      "jersey": 3,
+      "firstName": "Desmond",
+      "lastName": "Mensah",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-3",
+      "year": "So",
+      "hometown": "So. Accra, Ghana SIMA / Montverde Academy"
+    },
+    {
+      "jersey": 5,
+      "firstName": "Ashton",
+      "lastName": "Miles",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-4",
+      "year": "Fr",
+      "hometown": "Fr. Fullerton, Calif. Orange County SC"
+    },
+    {
+      "jersey": 6,
+      "firstName": "Koven",
+      "lastName": "Johnson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Jr",
+      "hometown": "Jr. Pittsburgh, Pa. Barca Academy AZ (MLS)"
+    },
+    {
+      "jersey": 7,
+      "firstName": "Nick",
+      "lastName": "Sarantakos",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "Fr. Williamsburg, Va. Richmond United ECNL/Richmond Kickers USL1"
+    },
+    {
+      "jersey": 8,
+      "firstName": "Bernardo",
+      "lastName": "Raposo",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "So. Rio de Janeiro, Brazil Se Palmeiras Butler"
+    },
+    {
+      "jersey": 9,
+      "firstName": "Daniel",
+      "lastName": "Lugo",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-2",
+      "year": "Jr",
+      "hometown": "R-Jr. Saint Petersburg, Fla. Tampa Bay Utd MLS North Carolina"
+    },
+    {
+      "jersey": 10,
+      "firstName": "Anthony",
+      "lastName": "Ramirez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Sr",
+      "hometown": "Sr. Thomasville, N.C. Philadelphia Union II (MLS NEXT Pro)"
+    },
+    {
+      "jersey": 11,
+      "firstName": "Enzo",
+      "lastName": "Rekka",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "So. Tuzla, Bosnia and Herzegovina FK Tuzla City Gannon University"
+    },
+    {
+      "jersey": 12,
+      "firstName": "Lucas",
+      "lastName": "Kelly",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-0",
+      "year": "GR",
+      "hometown": "Gr. Wake Forest, N.C. Charlotte FC Liberty University"
+    },
+    {
+      "jersey": 14,
+      "firstName": "Prosper",
+      "lastName": "Adagani",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-11",
+      "year": "So",
+      "hometown": "So. Techiman, Ghana CF BENIDORM"
+    },
+    {
+      "jersey": 15,
+      "firstName": "Roman",
+      "lastName": "Holt",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-3",
+      "year": "So",
+      "hometown": "R-So. Tampa, Fla. San Antonio FC San Diego State"
+    },
+    {
+      "jersey": 16,
+      "firstName": "Noah",
+      "lastName": "Behrmann",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "So",
+      "hometown": "R-Jr. Charlotte, N.C. Charlotte Independence Clemson University"
+    },
+    {
+      "jersey": 17,
+      "firstName": "Ryan",
+      "lastName": "Behrmann",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "Jr",
+      "hometown": "Jr. Charlotte, N.C. Charlotte Independence Army West Point"
+    },
+    {
+      "jersey": 18,
+      "firstName": "Alfred",
+      "lastName": "Baafi",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-8",
+      "year": "Sr",
+      "hometown": "Sr. Techiman, Ghana Monteverde University of Kentucky"
+    },
+    {
+      "jersey": 21,
+      "firstName": "James",
+      "lastName": "VandeHei",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-2",
+      "year": "Jr",
+      "hometown": "R-Jr. Alexandria, Va. Alexandria SA (MLS NEXT)"
+    },
+    {
+      "jersey": 23,
+      "firstName": "John",
+      "lastName": "Killgore Jr.",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "5-10",
+      "year": "So",
+      "hometown": "R-Jr. Hobe Sound, Fla. Tampa Bay United (MLS NEXT)"
+    },
+    {
+      "jersey": 24,
+      "firstName": "Aidan",
+      "lastName": "Morrison",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-1",
+      "year": "Sr",
+      "hometown": "Sr. Denver, N.C. Charlotte Independence William & Mary"
+    },
+    {
+      "jersey": 25,
+      "firstName": "Kingston",
+      "lastName": "Genot",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-10",
+      "year": "Fr",
+      "hometown": "Fr. Lakewood Ranch, Fla. Tampa Bay United (MLS NEXT)"
+    },
+    {
+      "jersey": 26,
+      "firstName": "Jack",
+      "lastName": "Slade",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-2",
+      "year": "So",
+      "hometown": "R-So. Bolton, Mass. NEFC (MLS Next)"
+    },
+    {
+      "jersey": 27,
+      "firstName": "Aiden",
+      "lastName": "Bazzell",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-2",
+      "year": "So",
+      "hometown": "R-So. Prosper, Texas FC Dallas (MLS)"
+    },
+    {
+      "jersey": 28,
+      "firstName": "Jacob",
+      "lastName": "McDowell",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-2",
+      "year": "So",
+      "hometown": "R-So. Chapel Hill, N.C. North Carolina FC (ECNL)"
+    },
+    {
+      "jersey": 29,
+      "firstName": "Josh",
+      "lastName": "Nwokeji",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-7",
+      "year": "So",
+      "hometown": "R-So. Jonesboro, Ark. Nashville SC (MLS)"
+    },
+    {
+      "jersey": 37,
+      "firstName": "Caleb",
+      "lastName": "Trogdon",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-1",
+      "year": "So",
+      "hometown": "R-So. Oak Ridge, N.C. NC Fusion (ECNL)"
+    }
+  ],
+  "Akron Zips": [
+    {
+      "jersey": 0,
+      "firstName": "Lincoln",
+      "lastName": "McCarty",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": "6'",
+      "hometown": "Cave Creek, Ariz. / Cactus Shadows"
+    },
+    {
+      "jersey": 2,
+      "firstName": "Nolan",
+      "lastName": "McGuire",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": "5'",
+      "hometown": "St. Louis, Mo. / St. Louis City | DePaul"
+    },
+    {
+      "jersey": 3,
+      "firstName": "Kam",
+      "lastName": "Warnke",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": "5'",
+      "hometown": "Aurora, Ohio / Aurora"
+    },
+    {
+      "jersey": 4,
+      "firstName": "Freddy",
+      "lastName": "Kossehasse",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": "6'",
+      "hometown": "McKinney, Texas / Independence/Iowa Western CC"
+    },
+    {
+      "jersey": 6,
+      "firstName": "Matthew",
+      "lastName": "Paiva",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": "6'",
+      "hometown": "Toronto, Ontario / Christ the King"
+    },
+    {
+      "jersey": 7,
+      "firstName": "Leo",
+      "lastName": "Morana",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "6'",
+      "hometown": "Strongsville, Ohio / Strongsville"
+    },
+    {
+      "jersey": 9,
+      "firstName": "Angel",
+      "lastName": "Lopez Martin",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": "6'",
+      "hometown": "Seville, Spain / IES Maria Galiana | Coastal Carolina"
+    },
+    {
+      "jersey": 11,
+      "firstName": "Noa",
+      "lastName": "Testa",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "5'",
+      "hometown": "La Sarraz, Switzerland / Lausanne Sport"
+    },
+    {
+      "jersey": 12,
+      "firstName": "Aiden",
+      "lastName": "Benitez",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": "5'",
+      "hometown": "Westfield, Ind. / Blue Valley West (Kan.) | Butler"
+    },
+    {
+      "jersey": 13,
+      "firstName": "Remi",
+      "lastName": "Agunbiade",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": "6'",
+      "hometown": "Toronto, Ontario / St. Joan of Arc"
+    },
+    {
+      "jersey": 14,
+      "firstName": "Braxton",
+      "lastName": "Hayes",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "5'",
+      "hometown": "Bowie, Md. / EdOptions Academy"
+    },
+    {
+      "jersey": 15,
+      "firstName": "Joshua",
+      "lastName": "Bartels",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "5'",
+      "hometown": "Stafford, Va. / New Albany (Ohio)"
+    },
+    {
+      "jersey": 16,
+      "firstName": "Tyler",
+      "lastName": "Morck",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "5'",
+      "hometown": "Bethpage, N.Y. / Bethpage | St. John’s"
+    },
+    {
+      "jersey": 17,
+      "firstName": "Ignacio",
+      "lastName": "Alem",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": "5'",
+      "hometown": "Potomoc, Md. /"
+    },
+    {
+      "jersey": 18,
+      "firstName": "Idahir",
+      "lastName": "Deanda",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": "5'",
+      "hometown": "Columbus, Ohio / Ohio Connections Academy"
+    },
+    {
+      "jersey": 19,
+      "firstName": "Jack",
+      "lastName": "Sullivan",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "5'",
+      "hometown": "Potomac, Md. / Laurel Springs | Saint Louis"
+    },
+    {
+      "jersey": 20,
+      "firstName": "Londen",
+      "lastName": "Sears",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "6'",
+      "hometown": "New Albany, Ohio / New Albany"
+    },
+    {
+      "jersey": 21,
+      "firstName": "Farrel",
+      "lastName": "Ngongang",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": "6'",
+      "hometown": "Montreal, Quebec / Antoine de-Saint Exupery"
+    },
+    {
+      "jersey": 22,
+      "firstName": "Matt",
+      "lastName": "Dreas",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "5'",
+      "hometown": "Covington, Ky. / Holy Cross"
+    },
+    {
+      "jersey": 23,
+      "firstName": "Jack",
+      "lastName": "Roman",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "5'",
+      "hometown": "Canfield, Ohio / Canfield"
+    },
+    {
+      "jersey": 24,
+      "firstName": "Thomas",
+      "lastName": "O’Rourke",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "5'",
+      "hometown": "East Patchogue, N.Y. / Bellport"
+    },
+    {
+      "jersey": 25,
+      "firstName": "Jamai",
+      "lastName": "Royer",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": "6'",
+      "hometown": "Markham, Ontario / St. Mary’s Secondary"
+    },
+    {
+      "jersey": 27,
+      "firstName": "Johan",
+      "lastName": "N'Ganzadi Ndumbi",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": "5'",
+      "hometown": "Brussels, Belgium / College Notre-Dame De La Paix"
+    },
+    {
+      "jersey": 28,
+      "firstName": "Logan",
+      "lastName": "LaMaina",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": "6'",
+      "hometown": "Sellersville, Pa. / Pennridge"
+    },
+    {
+      "jersey": 30,
+      "firstName": "Brett",
+      "lastName": "Kaminski",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": "6'",
+      "hometown": "Cooper City, Fla. / Broward Virtual School"
+    },
+    {
+      "jersey": 35,
+      "firstName": "Gavin",
+      "lastName": "Crane",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": "6'",
+      "hometown": "Hinckley, Ohio / St. Ignatius"
+    },
+    {
+      "jersey": null,
+      "firstName": "Jared",
+      "lastName": "Embick",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "(3",
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Ger",
+      "lastName": "Coppinger",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "(3",
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Michael",
+      "lastName": "Nanchoff",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "(3",
+      "hometown": null
+    }
+  ],
+  "Stanford Cardinal": [],
+  "Indiana Hoosiers": [
+    {
+      "jersey": 0,
+      "firstName": "AJ",
+      "lastName": "Piela",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "17-5",
+      "year": "GO",
+      "hometown": "So."
+    },
+    {
+      "jersey": 1,
+      "firstName": "Judewellin",
+      "lastName": "Michel",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "21-6",
+      "year": "GO",
+      "hometown": "Fr."
+    },
+    {
+      "jersey": 2,
+      "firstName": "Nolan",
+      "lastName": "Kinsella",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "16-0",
+      "year": "FO",
+      "hometown": "R-Fr."
+    },
+    {
+      "jersey": 4,
+      "firstName": "Josh",
+      "lastName": "Maher",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "18-0",
+      "year": "DE",
+      "hometown": "So."
+    },
+    {
+      "jersey": 5,
+      "firstName": "Nick",
+      "lastName": "McHenry",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "16-0",
+      "year": "DE",
+      "hometown": "So."
+    },
+    {
+      "jersey": 6,
+      "firstName": "Alex",
+      "lastName": "Matthews",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "13-2",
+      "year": "MI",
+      "hometown": "R-Jr."
+    },
+    {
+      "jersey": 7,
+      "firstName": "Jacopo",
+      "lastName": "Fedrizzi",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "17-5",
+      "year": "MI",
+      "hometown": "Jr."
+    },
+    {
+      "jersey": 8,
+      "firstName": "Seth",
+      "lastName": "Stewart",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "15-1",
+      "year": "MI",
+      "hometown": "R-Jr."
+    },
+    {
+      "jersey": 10,
+      "firstName": "Bennett",
+      "lastName": "Painter",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "16-0",
+      "year": "FO",
+      "hometown": "Jr."
+    },
+    {
+      "jersey": 11,
+      "firstName": "Collins",
+      "lastName": "Oduro",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "15-8",
+      "year": "FO",
+      "hometown": "Jr."
+    },
+    {
+      "jersey": 12,
+      "firstName": "Grant",
+      "lastName": "Paskus",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "16-0",
+      "year": "MI",
+      "hometown": "Fr."
+    },
+    {
+      "jersey": 13,
+      "firstName": "Alex",
+      "lastName": "Barger",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "15-5",
+      "year": "DE",
+      "hometown": "Jr."
+    },
+    {
+      "jersey": 14,
+      "firstName": "Easton",
+      "lastName": "Bogard",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "15-5",
+      "year": "FO",
+      "hometown": "So."
+    },
+    {
+      "jersey": 15,
+      "firstName": "Luka",
+      "lastName": "Bezerra",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "17-0",
+      "year": "FO",
+      "hometown": "R-Jr."
+    },
+    {
+      "jersey": 16,
+      "firstName": "Charlie",
+      "lastName": "Heuer",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "15-5",
+      "year": "MI",
+      "hometown": "So."
+    },
+    {
+      "jersey": 17,
+      "firstName": "Justin",
+      "lastName": "Shreffler",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "15-5",
+      "year": "MI",
+      "hometown": "R-So."
+    },
+    {
+      "jersey": 19,
+      "firstName": "Breckin",
+      "lastName": "Minzey",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "16-0",
+      "year": "DE",
+      "hometown": "R-Jr."
+    },
+    {
+      "jersey": 20,
+      "firstName": "Clay",
+      "lastName": "Murador",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "16-5",
+      "year": "FO",
+      "hometown": "Jr."
+    },
+    {
+      "jersey": 22,
+      "firstName": "EJ",
+      "lastName": "Dreher",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "15-0",
+      "year": "MI",
+      "hometown": "R-So."
+    },
+    {
+      "jersey": 23,
+      "firstName": "Noah",
+      "lastName": "Joseph",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "14-0",
+      "year": "MI",
+      "hometown": "R-Jr."
+    },
+    {
+      "jersey": 24,
+      "firstName": "Owen",
+      "lastName": "Sloan",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "15-2",
+      "year": "FO",
+      "hometown": "Fr."
+    },
+    {
+      "jersey": 25,
+      "firstName": "Luke",
+      "lastName": "Reidell",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "14-5",
+      "year": "DE",
+      "hometown": "R-So."
+    },
+    {
+      "jersey": 26,
+      "firstName": "Drew",
+      "lastName": "Gaydosh",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "18-0",
+      "year": "DE",
+      "hometown": "R-Fr."
+    },
+    {
+      "jersey": 30,
+      "firstName": "Cooper",
+      "lastName": "Johnsen",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "16-0",
+      "year": "GO",
+      "hometown": "R-Jr."
+    },
+    {
+      "jersey": 31,
+      "firstName": "Michal",
+      "lastName": "Mroz",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "GO",
+      "hometown": "So."
+    },
+    {
+      "jersey": 99,
+      "firstName": "Holden",
+      "lastName": "Brown",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "19-0",
+      "year": "GO",
+      "hometown": "Gr."
+    },
+    {
+      "jersey": null,
+      "firstName": "Todd",
+      "lastName": "Yeagley",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "(8",
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Christian",
+      "lastName": "Lomeli",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "(8",
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Tanner",
+      "lastName": "Thompson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "(8",
+      "hometown": null
+    },
+    {
+      "jersey": null,
+      "firstName": "Jacob",
+      "lastName": "Bushue",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": "(8",
+      "hometown": null
+    }
+  ],
+  "Connecticut Huskies": [
+    {
+      "jersey": 1,
+      "firstName": "Adam",
+      "lastName": "Carter",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 3,
+      "firstName": "Maxim",
+      "lastName": "Emmerling",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 4,
+      "firstName": "Max",
+      "lastName": "Gummesson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 5,
+      "firstName": "Alex",
+      "lastName": "Tupay",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 6,
+      "firstName": "Khaya",
+      "lastName": "Roudette-Gregory",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 7,
+      "firstName": "Nicolas",
+      "lastName": "Tomerius",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 8,
+      "firstName": "Marco",
+      "lastName": "Valentic",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 9,
+      "firstName": "Austin",
+      "lastName": "Brummett",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 10,
+      "firstName": "Sabri",
+      "lastName": "Hanni",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 11,
+      "firstName": "Balthazar",
+      "lastName": "Saunders",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 12,
+      "firstName": "Evan",
+      "lastName": "Pickering",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 13,
+      "firstName": "Kyle",
+      "lastName": "Durham",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 15,
+      "firstName": "Xavier",
+      "lastName": "Pérez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 17,
+      "firstName": "Edward",
+      "lastName": "Wester",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 18,
+      "firstName": "Charlie",
+      "lastName": "Holmes",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 19,
+      "firstName": "Ayoub",
+      "lastName": "Lajhar",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 20,
+      "firstName": "Elijah",
+      "lastName": "Hope",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 21,
+      "firstName": "Maquan",
+      "lastName": "Aldridge",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 22,
+      "firstName": "Johan",
+      "lastName": "Hamel",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 23,
+      "firstName": "Preston",
+      "lastName": "Alessio",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 24,
+      "firstName": "Matias",
+      "lastName": "Paredes",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 25,
+      "firstName": "Mateo",
+      "lastName": "DePinho",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 26,
+      "firstName": "Sebastian",
+      "lastName": "Francis",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 27,
+      "firstName": "Jack",
+      "lastName": "Ryan",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 29,
+      "firstName": "Giovanni",
+      "lastName": "Dennis",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 30,
+      "firstName": "Alfonso",
+      "lastName": "Arredondo",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    }
+  ],
+  "Denver Pioneers": [
+    {
+      "jersey": 0,
+      "firstName": "Wyatt",
+      "lastName": "Gray",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "R-Fr. Los Angeles, California River Oaks Academy"
+    },
+    {
+      "jersey": 1,
+      "firstName": "Alex",
+      "lastName": "Hohl",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-3",
+      "year": "Fr",
+      "hometown": "Fr. Castle Pines, Colorado Rock Canyon H.S."
+    },
+    {
+      "jersey": 3,
+      "firstName": "Will",
+      "lastName": "King",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-0",
+      "year": "So",
+      "hometown": "R-So. Columbus, Ohio Upper Arlington H.S."
+    },
+    {
+      "jersey": 4,
+      "firstName": "Grant",
+      "lastName": "Lund",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-3",
+      "year": "So",
+      "hometown": "R-So. Erie, Colorado Erie H.S."
+    },
+    {
+      "jersey": 5,
+      "firstName": "Dominic",
+      "lastName": "Kallay",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-1",
+      "year": "Jr",
+      "hometown": "R-Jr. Chandler, Arizona Hamilton H.S."
+    },
+    {
+      "jersey": 6,
+      "firstName": "Ethan",
+      "lastName": "Orchard",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "Fr. Arvada, Colorado Ralston Valley H.S."
+    },
+    {
+      "jersey": 7,
+      "firstName": "David",
+      "lastName": "Biggers",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Sr",
+      "hometown": "R-Sr. Fort Collins, Colorado Fossil Ridge H.S."
+    },
+    {
+      "jersey": 8,
+      "firstName": "Andrew",
+      "lastName": "Mann",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "R-Fr. Westminster, Colorado Holy Family H.S."
+    },
+    {
+      "jersey": 9,
+      "firstName": "Tyler",
+      "lastName": "Schommer",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-11",
+      "year": "So",
+      "hometown": "Sr. Prior Lake, Minnesota Shattuck-St. Mary's"
+    },
+    {
+      "jersey": 10,
+      "firstName": "Holger",
+      "lastName": "Olsson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "6-0",
+      "year": "Sr",
+      "hometown": "R-Sr. Stockholm, Sweden Nacka Gymnasium"
+    },
+    {
+      "jersey": 11,
+      "firstName": "Ian",
+      "lastName": "Welch",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-2",
+      "year": "Jr",
+      "hometown": "R-Jr. Austin, Texas Austin H.S."
+    },
+    {
+      "jersey": 12,
+      "firstName": "Kieran",
+      "lastName": "Hanna",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "5-11",
+      "year": "Fr",
+      "hometown": "R-Fr. Denver, Colorado Arapahoe H.S."
+    },
+    {
+      "jersey": 13,
+      "firstName": "Chris",
+      "lastName": "Carroll",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-0",
+      "year": "So",
+      "hometown": "R-So. Denver, Colorado Arapahoe H.S."
+    },
+    {
+      "jersey": 14,
+      "firstName": "Luke",
+      "lastName": "Schultz",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "R-Jr. Arvada, Colorado Arvada West H.S."
+    },
+    {
+      "jersey": 16,
+      "firstName": "Hudson",
+      "lastName": "Tate",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-11",
+      "year": "Fr",
+      "hometown": "R-Fr. Portland, Oregon Baker Web Academy"
+    },
+    {
+      "jersey": 17,
+      "firstName": "Kyle",
+      "lastName": "McGowan",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-3",
+      "year": "Sr",
+      "hometown": "R-Sr. Portland, Oregon Baker Web Academy"
+    },
+    {
+      "jersey": 18,
+      "firstName": "Keegan",
+      "lastName": "Kelly",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-1",
+      "year": "Jr",
+      "hometown": "Jr. Auckland, New Zealand Rosmini College"
+    },
+    {
+      "jersey": 19,
+      "firstName": "Logan",
+      "lastName": "Isaacson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-10",
+      "year": "Fr",
+      "hometown": "Fr. Colorado Springs, Colorado Rampart H.S."
+    },
+    {
+      "jersey": 20,
+      "firstName": "Erik",
+      "lastName": "Collins",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "5-11",
+      "year": "So",
+      "hometown": "So. Spokane, Washington Internet Academy"
+    },
+    {
+      "jersey": 22,
+      "firstName": "Kai",
+      "lastName": "Carlson",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "5-10",
+      "year": "So",
+      "hometown": "So. Eugene, Oregon Sheldon Irish H.S."
+    },
+    {
+      "jersey": 23,
+      "firstName": "Blake",
+      "lastName": "Wheeler",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": "6-0",
+      "year": "Fr",
+      "hometown": "R-Fr. Prosper, Texas Lone Star H.S."
+    },
+    {
+      "jersey": 25,
+      "firstName": "Aidan",
+      "lastName": "Semelsberger",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-5",
+      "year": "GR",
+      "hometown": "Gr. Los Alamos, New Mexico Los Alamos H.S."
+    },
+    {
+      "jersey": 26,
+      "firstName": "Andreas",
+      "lastName": "Stroemme",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-2",
+      "year": "Fr",
+      "hometown": "R-Fr. Oslo, Norway Ullern Videregaende Skole"
+    },
+    {
+      "jersey": 28,
+      "firstName": "Collin",
+      "lastName": "Keller",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": "6-0",
+      "year": "Sr",
+      "hometown": "R-Sr. Denver, Colorado DSST Conservatory"
+    },
+    {
+      "jersey": 31,
+      "firstName": "Tate",
+      "lastName": "Sheally",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "5-10",
+      "year": "Jr",
+      "hometown": "R-Jr. Wilmington, North Carolina Cape Fear Academy"
+    },
+    {
+      "jersey": 34,
+      "firstName": "Bryce",
+      "lastName": "Willoughby",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": "6-2",
+      "year": "So",
+      "hometown": "R-Sr. Houston, Texas James Madison H.S."
+    },
+    {
+      "jersey": 38,
+      "firstName": "Anthony",
+      "lastName": "Masino",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": "5-9",
+      "year": "Fr",
+      "hometown": "R-Fr. Oak Forest, Illinois Oak Forest H.S."
+    }
+  ],
+  "Duke Blue Devils": [
+    {
+      "jersey": 1,
+      "firstName": "Eryk",
+      "lastName": "Dymora",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 2,
+      "firstName": "Jamie",
+      "lastName": "Kabuusu",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 3,
+      "firstName": "Kamran",
+      "lastName": "Acito",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 4,
+      "firstName": "Trevor",
+      "lastName": "Burns",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 5,
+      "firstName": "Alex",
+      "lastName": "Hauschild",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 6,
+      "firstName": "Aleksandar",
+      "lastName": "Vukovic",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 7,
+      "firstName": "Alessandro",
+      "lastName": "Arlotti",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 8,
+      "firstName": "Nikolai",
+      "lastName": "Ronaldo Bull Jorgensen",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 9,
+      "firstName": "Ulfur",
+      "lastName": "Bjornsson",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 10,
+      "firstName": "Drew",
+      "lastName": "Kerr",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 12,
+      "firstName": "Thomas",
+      "lastName": "Vold",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 13,
+      "firstName": "Jose",
+      "lastName": "Ortega",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 15,
+      "firstName": "Aridon",
+      "lastName": "Racaj",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 16,
+      "firstName": "Max",
+      "lastName": "Simpson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 17,
+      "firstName": "Adrian",
+      "lastName": "Byasiima",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 18,
+      "firstName": "Julius",
+      "lastName": "Suber",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 19,
+      "firstName": "Ian",
+      "lastName": "Hecker",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 20,
+      "firstName": "Preston",
+      "lastName": "Zabinko",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 21,
+      "firstName": "Hugo",
+      "lastName": "Hill",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 22,
+      "firstName": "Caleb",
+      "lastName": "Donaldson",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 23,
+      "firstName": "Kenan",
+      "lastName": "Hot",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 24,
+      "firstName": "Axel",
+      "lastName": "Gudbjornsson",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 25,
+      "firstName": "Casey",
+      "lastName": "Bag",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 28,
+      "firstName": "Jackson",
+      "lastName": "Blakeney",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 29,
+      "firstName": "Tucker",
+      "lastName": "Smith",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 30,
+      "firstName": "Nathan",
+      "lastName": "Gaviser",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 31,
+      "firstName": "Sol",
+      "lastName": "Arbib",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 32,
+      "firstName": "Jackson",
+      "lastName": "Lagos",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    }
+  ],
+  "Marshall Thundering Herd": [
+    {
+      "jersey": 3,
+      "firstName": "Joao",
+      "lastName": "Alves",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 4,
+      "firstName": "Thiago",
+      "lastName": "Apolinario",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 6,
+      "firstName": "Nikita",
+      "lastName": "Pakhomov",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 8,
+      "firstName": "Kirill",
+      "lastName": "Pakhomov",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 9,
+      "firstName": "Gabriel",
+      "lastName": "Stevanato",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 10,
+      "firstName": "Haruhi",
+      "lastName": "Taneda",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 11,
+      "firstName": "David",
+      "lastName": "de la Vibora",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 12,
+      "firstName": "Joao",
+      "lastName": "Roberto",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 20,
+      "firstName": "Keaviano",
+      "lastName": "Francis",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 22,
+      "firstName": "Emre",
+      "lastName": "Aydin",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 23,
+      "firstName": "Carl",
+      "lastName": "Romberg",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 24,
+      "firstName": "Louie",
+      "lastName": "Salkeld",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 30,
+      "firstName": "Alvaro",
+      "lastName": "Alvarez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 43,
+      "firstName": "Braian",
+      "lastName": "Amaro",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    }
+  ],
+  "Kansas City Roos": [],
+  "West Virginia Mountaineers": [
+    {
+      "jersey": 1,
+      "firstName": "Marc",
+      "lastName": "Bonnaire",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 4,
+      "firstName": "Tristan",
+      "lastName": "Pusztahegyi",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 5,
+      "firstName": "Nicolas",
+      "lastName": "Scargle",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 6,
+      "firstName": "Thijs",
+      "lastName": "Veldhorst",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 7,
+      "firstName": "Marcus",
+      "lastName": "Caldeira",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 8,
+      "firstName": "Constantinos",
+      "lastName": "Christou",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 9,
+      "firstName": "Pablo",
+      "lastName": "Pozos",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 10,
+      "firstName": "Felix",
+      "lastName": "Ewald",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 11,
+      "firstName": "Antonio",
+      "lastName": "Lima",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 12,
+      "firstName": "Bryce",
+      "lastName": "Swinehart",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 13,
+      "firstName": "Steel",
+      "lastName": "Bayer",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 14,
+      "firstName": "Tyler",
+      "lastName": "Londono Zapata",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 15,
+      "firstName": "Brayden",
+      "lastName": "Macomber",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 16,
+      "firstName": "Tyler",
+      "lastName": "Bush",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 17,
+      "firstName": "Ethan",
+      "lastName": "Dekel Daks",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 18,
+      "firstName": "Toby",
+      "lastName": "Mawer",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 19,
+      "firstName": "Braedon",
+      "lastName": "Smith",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 20,
+      "firstName": "Thomas",
+      "lastName": "Bowe",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 21,
+      "firstName": "Isaac",
+      "lastName": "Scheer",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 22,
+      "firstName": "Nacho",
+      "lastName": "Martinez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 25,
+      "firstName": "Dante",
+      "lastName": "Huckaby",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 27,
+      "firstName": "Sammie",
+      "lastName": "Walker",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 29,
+      "firstName": "Sebastian",
+      "lastName": "Burke",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 31,
+      "firstName": "Carlos",
+      "lastName": "Hernando",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 37,
+      "firstName": "Juan",
+      "lastName": "Alvarez",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 40,
+      "firstName": "Chase",
+      "lastName": "Collins",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    }
+  ],
+  "North Carolina Tar Heels": [
+    {
+      "jersey": 1,
+      "firstName": "Alan",
+      "lastName": "Rutkowski",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 2,
+      "firstName": "Myles",
+      "lastName": "Carson",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 5,
+      "firstName": "Nick",
+      "lastName": "Lockermann",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 6,
+      "firstName": "Charlie",
+      "lastName": "Antonelius",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 7,
+      "firstName": "Jace",
+      "lastName": "Donawa",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 8,
+      "firstName": "Nico",
+      "lastName": "Loebus",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 9,
+      "firstName": "Dan",
+      "lastName": "Klink",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 10,
+      "firstName": "Joschi",
+      "lastName": "Schelb",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 11,
+      "firstName": "Ryan",
+      "lastName": "Dugan",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 13,
+      "firstName": "Luca",
+      "lastName": "Nikolai",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 14,
+      "firstName": "John",
+      "lastName": "McDowell",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 15,
+      "firstName": "Max",
+      "lastName": "Fisher",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 16,
+      "firstName": "Maclovio",
+      "lastName": "Swett",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 17,
+      "firstName": "Drew",
+      "lastName": "Waller",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 18,
+      "firstName": "Jonathan",
+      "lastName": "Luna",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 19,
+      "firstName": "Bertil",
+      "lastName": "Rygaard Hansen",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 20,
+      "firstName": "Milton",
+      "lastName": "Jones",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 22,
+      "firstName": "Etienne",
+      "lastName": "Veillard",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 24,
+      "firstName": "Alejandro",
+      "lastName": "Saborio-Perez",
+      "position": "GK",
+      "subPosition": "GK",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 26,
+      "firstName": "Martin",
+      "lastName": "Mai",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 27,
+      "firstName": "Ryan",
+      "lastName": "Zellefrow",
+      "position": "MID",
+      "subPosition": "CM",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 29,
+      "firstName": "Abubaker",
+      "lastName": "Mayanja",
+      "position": "FWD",
+      "subPosition": "ST",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 31,
+      "firstName": "Cristian",
+      "lastName": "Milazzo",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    },
+    {
+      "jersey": 33,
+      "firstName": "Riley",
+      "lastName": "Berge",
+      "position": "DEF",
+      "subPosition": "CB",
+      "height": null,
+      "year": null,
+      "hometown": null
+    }
+  ]
+}

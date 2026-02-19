@@ -1,0 +1,2018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Scout//Vision — NCAA D1 Soccer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+<style>
+  :root {
+    --bg: #0a0d0f;
+    --surface: #111418;
+    --surface2: #181d22;
+    --border: #222830;
+    --accent: #c8f050;
+    --accent2: #4af0a0;
+    --text: #e8edf2;
+    --muted: #5a6472;
+    --red: #f05050;
+    --gold: #f0c840;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ─── NOISE OVERLAY ─────────────────── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 9999;
+    opacity: .6;
+  }
+
+  /* ─── PAGE SWITCHING — handled below with transitions ─── */
+
+  /* ══════════════════════════════════════
+     HOME PAGE
+  ═══════════════════════════════════════ */
+  #home {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    position: relative;
+    width: 100%;
+  }
+
+  .home-grid-bg {
+    position: fixed;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(200,240,80,.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(200,240,80,.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+    pointer-events: none;
+  }
+
+  .home-glow {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 400px;
+    background: radial-gradient(ellipse, rgba(200,240,80,.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .home-inner {
+    position: relative;
+    max-width: 680px;
+    width: 100%;
+    text-align: center;
+    animation: fadeUp .8s ease both;
+    margin: 0 auto;
+  }
+
+  .logo-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+    border: 1px solid var(--border);
+    background: var(--surface);
+    border-radius: 99px;
+    padding: .35rem 1rem;
+    font-size: .75rem;
+    font-family: 'DM Mono', monospace;
+    color: var(--accent);
+    letter-spacing: .08em;
+    margin-bottom: 2.5rem;
+  }
+
+  .logo-dot {
+    width: 6px; height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+    animation: pulse 2s ease infinite;
+  }
+
+  .home-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(5rem, 14vw, 10rem);
+    line-height: .9;
+    letter-spacing: -.02em;
+    color: var(--text);
+    margin-bottom: .5rem;
+  }
+
+  .home-title span {
+    color: var(--accent);
+    display: block;
+  }
+
+  .home-sub {
+    font-size: 1rem;
+    color: var(--muted);
+    font-weight: 300;
+    letter-spacing: .04em;
+    margin-bottom: 3.5rem;
+    text-transform: uppercase;
+    font-size: .85rem;
+  }
+
+  .search-wrap {
+    position: relative;
+    width: 100%;
+    margin-bottom: 1.2rem;
+  }
+
+  .search-input {
+    width: 100%;
+    background: var(--surface);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: 1.1rem 1.4rem;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--text);
+    outline: none;
+    transition: border-color .2s, box-shadow .2s;
+  }
+
+  .search-input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(200,240,80,.1);
+  }
+
+  .search-input::placeholder { color: var(--muted); }
+
+  .dropdown {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0; right: 0;
+    background: var(--surface2);
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    max-height: 280px;
+    overflow-y: auto;
+    z-index: 100;
+    display: none;
+    box-shadow: 0 20px 60px rgba(0,0,0,.5);
+  }
+
+  .dropdown.open { display: block; }
+
+  .dropdown::-webkit-scrollbar { width: 4px; }
+  .dropdown::-webkit-scrollbar-track { background: transparent; }
+  .dropdown::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
+
+  .dropdown-item {
+    padding: .75rem 1.4rem;
+    cursor: pointer;
+    font-size: .9rem;
+    color: var(--text);
+    transition: background .15s;
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+  }
+
+  .dropdown-item:hover { background: rgba(200,240,80,.07); color: var(--accent); }
+
+  .scout-btn {
+    width: 100%;
+    background: var(--accent);
+    color: #0a0d0f;
+    border: none;
+    border-radius: 12px;
+    padding: 1.1rem;
+    font-size: 1rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: transform .15s, box-shadow .2s, background .2s;
+  }
+
+  .scout-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 40px rgba(200,240,80,.25);
+  }
+
+  .scout-btn:active { transform: translateY(0); }
+
+  .error-msg {
+    color: var(--red);
+    font-size: .82rem;
+    margin-top: .6rem;
+    display: none;
+  }
+
+  .home-footer {
+    position: fixed;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'DM Mono', monospace;
+    font-size: .7rem;
+    color: var(--muted);
+    letter-spacing: .08em;
+    white-space: nowrap;
+  }
+
+  /* ══════════════════════════════════════
+     SCOUT PAGE
+  ═══════════════════════════════════════ */
+  #scout { min-height: 100vh; }
+
+  /* ── Top Bar ── */
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.4rem 2.5rem;
+    border-bottom: 1px solid var(--border);
+    background: rgba(10,13,15,.8);
+    backdrop-filter: blur(12px);
+    position: sticky;
+    top: 0;
+    z-index: 200;
+  }
+
+  .topbar-logo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: .05em;
+    color: var(--accent);
+    cursor: pointer;
+  }
+
+  .topbar-team {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .team-badge {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: var(--surface2);
+    border: 2px solid var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1rem;
+    color: var(--accent);
+    letter-spacing: .04em;
+  }
+
+  .team-name-bar {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: .04em;
+  }
+
+  .team-conf {
+    font-family: 'DM Mono', monospace;
+    font-size: .7rem;
+    color: var(--muted);
+    letter-spacing: .08em;
+  }
+
+  .back-btn {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: .5rem 1rem;
+    font-size: .82rem;
+    color: var(--muted);
+    cursor: pointer;
+    transition: color .2s, border-color .2s;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  .back-btn:hover { color: var(--text); border-color: var(--muted); }
+
+  /* ── Hero Banner ── */
+  .hero-banner {
+    padding: 3rem 2.5rem 2rem;
+    border-bottom: 1px solid var(--border);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-banner::before {
+    content: attr(data-team);
+    position: absolute;
+    top: 50%;
+    right: -1rem;
+    transform: translateY(-50%);
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14rem;
+    color: rgba(200,240,80,.03);
+    line-height: 1;
+    pointer-events: none;
+    white-space: nowrap;
+    letter-spacing: .02em;
+  }
+
+  .hero-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: .72rem;
+    color: var(--accent);
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    margin-bottom: .8rem;
+  }
+
+  .hero-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(3rem, 7vw, 5.5rem);
+    line-height: 1;
+    letter-spacing: .02em;
+    margin-bottom: .5rem;
+  }
+
+  .hero-meta {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+
+  .hero-pill {
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 99px;
+    padding: .3rem .9rem;
+    font-size: .78rem;
+    color: var(--muted);
+    font-family: 'DM Mono', monospace;
+    letter-spacing: .05em;
+  }
+
+  .hero-pill.good { border-color: rgba(74,240,160,.3); color: var(--accent2); }
+  .hero-pill.warn { border-color: rgba(240,200,64,.3); color: var(--gold); }
+
+  /* ── Tabs ── */
+  .tab-bar {
+    display: flex;
+    gap: 0;
+    padding: 0 2.5rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg);
+    position: sticky;
+    top: 69px;
+    z-index: 100;
+    align-items: center;
+  }
+
+  .tab-new-search {
+    margin-left: auto !important;
+    color: var(--muted) !important;
+    border-bottom-color: transparent !important;
+    border-left: 1px solid var(--border);
+    padding-left: 1.4rem !important;
+  }
+
+  .tab-new-search:hover {
+    color: var(--accent) !important;
+    background: rgba(200,240,80,.04);
+  }
+
+  .tab-btn {
+    padding: 1rem 1.8rem;
+    font-size: .88rem;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    color: var(--muted);
+    background: none;
+    border: none;
+    border-bottom: 2.5px solid transparent;
+    cursor: pointer;
+    transition: color .2s, border-color .2s;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    font-size: .78rem;
+    letter-spacing: .08em;
+  }
+
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+  .tab-content { display: none; padding: 2.5rem 2.5rem 4rem; }
+  .tab-content.active { display: block; animation: fadeUp .4s ease both; }
+
+  /* ── Stat Circles ── */
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: .72rem;
+    color: var(--accent);
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+  }
+
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Bottom row: 2 cards centred under the 3-col grid */
+  .stat-grid-row2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    max-width: calc((100% - 1.5rem) * 2 / 3 + 1.5rem / 3);
+    margin: 0 auto 3.5rem;
+  }
+
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.8rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+    transition: border-color .2s, transform .2s;
+    animation: fadeUp .5s ease both;
+  }
+
+  .stat-card:hover {
+    border-color: rgba(200,240,80,.3);
+    transform: translateY(-3px);
+  }
+
+  .stat-card:nth-child(1) { animation-delay: .05s; }
+  .stat-card:nth-child(2) { animation-delay: .10s; }
+  .stat-card:nth-child(3) { animation-delay: .15s; }
+  /* row-2 cards also animate */
+  .stat-grid-row2 .stat-card:nth-child(1) { animation-delay: .20s; }
+  .stat-grid-row2 .stat-card:nth-child(2) { animation-delay: .25s; }
+
+  .chart-wrap {
+    position: relative;
+    width: 110px;
+    height: 110px;
+  }
+
+  .donut-svg {
+    width: 110px;
+    height: 110px;
+    transform: rotate(-90deg);
+  }
+
+  .donut-bg {
+    fill: none;
+    stroke: var(--border);
+    stroke-width: 8;
+  }
+
+  .donut-fg {
+    fill: none;
+    stroke-width: 8;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 1.5s cubic-bezier(.4,0,.2,1);
+  }
+
+  .donut-center {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .donut-value {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+
+  .donut-unit {
+    font-family: 'DM Mono', monospace;
+    font-size: .6rem;
+    color: var(--muted);
+    letter-spacing: .05em;
+  }
+
+  .stat-name {
+    font-size: .8rem;
+    font-weight: 500;
+    color: var(--text);
+    text-align: center;
+    letter-spacing: .02em;
+  }
+
+  .stat-sub {
+    font-family: 'DM Mono', monospace;
+    font-size: .65rem;
+    color: var(--muted);
+    text-align: center;
+  }
+
+  /* ── Analysis Section ── */
+  .analysis-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  @media (max-width: 700px) {
+    .analysis-grid { grid-template-columns: 1fr; }
+  }
+
+  .analysis-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 1.8rem;
+    animation: fadeUp .5s ease both;
+  }
+
+  .analysis-card.full {
+    grid-column: 1 / -1;
+  }
+
+  .analysis-card:nth-child(1) { animation-delay: .1s; }
+  .analysis-card:nth-child(2) { animation-delay: .2s; }
+  .analysis-card:nth-child(3) { animation-delay: .3s; }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .card-icon {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+  }
+
+  .card-icon.green { background: rgba(74,240,160,.1); }
+  .card-icon.red { background: rgba(240,80,80,.1); }
+  .card-icon.gold { background: rgba(240,200,64,.1); }
+  .card-icon.blue { background: rgba(80,160,240,.1); }
+
+  .card-title {
+    font-weight: 600;
+    font-size: .9rem;
+    color: var(--text);
+  }
+
+  .card-body {
+    font-size: .88rem;
+    color: #8a9bb0;
+    line-height: 1.75;
+  }
+
+  .strength-list, .weakness-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+  }
+
+  .strength-list li, .weakness-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: .7rem;
+    font-size: .875rem;
+    color: #8a9bb0;
+    line-height: 1.6;
+  }
+
+  .strength-list li::before {
+    content: '↑';
+    color: var(--accent2);
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: .1rem;
+  }
+
+  .weakness-list li::before {
+    content: '↓';
+    color: var(--red);
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: .1rem;
+  }
+
+  .rating-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .7rem 0;
+    border-bottom: 1px solid var(--border);
+    font-size: .85rem;
+  }
+
+  .rating-row:last-child { border-bottom: none; }
+
+  .rating-label { color: var(--muted); }
+
+  .rating-bar-wrap {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    flex: 1;
+    max-width: 180px;
+    margin: 0 1rem;
+  }
+
+  .rating-bar {
+    flex: 1;
+    height: 4px;
+    background: var(--border);
+    border-radius: 99px;
+    overflow: hidden;
+  }
+
+  .rating-fill {
+    height: 100%;
+    border-radius: 99px;
+    transition: width 1.5s cubic-bezier(.4,0,.2,1);
+  }
+
+  .rating-val {
+    font-family: 'DM Mono', monospace;
+    font-size: .72rem;
+    color: var(--text);
+    min-width: 28px;
+    text-align: right;
+  }
+
+  /* ── Player Tab ── */
+  .pos-group {
+    margin-bottom: 2.8rem;
+  }
+
+  .pos-group-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .pos-badge {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: .75rem;
+    letter-spacing: .12em;
+    padding: .3rem .85rem;
+    border-radius: 6px;
+    border: 1px solid;
+  }
+  .pos-badge.fwd  { color: #f07840; border-color: rgba(240,120,64,.4);  background: rgba(240,120,64,.08); }
+  .pos-badge.mid  { color: #50c8f0; border-color: rgba(80,200,240,.4);  background: rgba(80,200,240,.08); }
+  .pos-badge.def  { color: #4af0a0; border-color: rgba(74,240,160,.4);  background: rgba(74,240,160,.08); }
+  .pos-badge.gk   { color: #c8f050; border-color: rgba(200,240,80,.4);  background: rgba(200,240,80,.08); }
+
+  .pos-group-line {
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  .pos-count {
+    font-family: 'DM Mono', monospace;
+    font-size: .7rem;
+    color: var(--muted);
+    letter-spacing: .06em;
+  }
+
+  /* Player table */
+  .player-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .83rem;
+  }
+
+  .player-table thead tr {
+    border-bottom: 1px solid var(--border);
+  }
+
+  .player-table thead th {
+    font-family: 'DM Mono', monospace;
+    font-size: .65rem;
+    color: var(--muted);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding: .5rem .9rem;
+    text-align: left;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+
+  .player-table thead th.right,
+  .player-table tbody td.right { text-align: right; }
+
+  .player-table thead th.center,
+  .player-table tbody td.center { text-align: center; }
+
+  .player-table tbody tr {
+    border-bottom: 1px solid rgba(34,40,48,.6);
+    transition: background .15s;
+  }
+
+  .player-table tbody tr:last-child { border-bottom: none; }
+
+  .player-table tbody tr:hover { background: rgba(255,255,255,.025); }
+
+  .player-table tbody td {
+    padding: .75rem .9rem;
+    vertical-align: middle;
+    color: var(--text);
+  }
+
+  .player-num {
+    font-family: 'DM Mono', monospace;
+    font-size: .72rem;
+    color: var(--muted);
+    min-width: 28px;
+  }
+
+  .player-name-cell {
+    display: flex;
+    flex-direction: column;
+    gap: .15rem;
+  }
+
+  .player-name {
+    font-weight: 500;
+    font-size: .88rem;
+  }
+
+  .player-pos-tag {
+    font-family: 'DM Mono', monospace;
+    font-size: .62rem;
+    color: var(--muted);
+    letter-spacing: .05em;
+  }
+
+  .games-bar-wrap {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    min-width: 100px;
+  }
+
+  .games-bar {
+    flex: 1;
+    height: 3px;
+    background: var(--border);
+    border-radius: 99px;
+    overflow: hidden;
+  }
+
+  .games-bar-fill {
+    height: 100%;
+    background: var(--muted);
+    border-radius: 99px;
+  }
+
+  .games-val {
+    font-family: 'DM Mono', monospace;
+    font-size: .72rem;
+    color: var(--text);
+    min-width: 18px;
+    text-align: right;
+  }
+
+  /* Stat pill with color coding */
+  .stat-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    padding: .18rem .55rem;
+    border-radius: 6px;
+    font-family: 'DM Mono', monospace;
+    font-size: .75rem;
+    font-weight: 500;
+    letter-spacing: .03em;
+    border: 1px solid transparent;
+  }
+
+  .stat-pill.green {
+    background: rgba(74,240,160,.12);
+    border-color: rgba(74,240,160,.3);
+    color: #4af0a0;
+  }
+
+  .stat-pill.yellow {
+    background: rgba(240,200,64,.10);
+    border-color: rgba(240,200,64,.3);
+    color: #f0c840;
+  }
+
+  .stat-pill.red {
+    background: rgba(240,80,80,.10);
+    border-color: rgba(240,80,80,.3);
+    color: #f05050;
+  }
+
+  .stat-pill.grey {
+    background: rgba(90,100,114,.10);
+    border-color: rgba(90,100,114,.25);
+    color: var(--muted);
+  }
+
+  .stat-pill-label {
+    font-family: 'DM Mono', monospace;
+    font-size: .6rem;
+    color: var(--muted);
+    letter-spacing: .08em;
+    display: block;
+    margin-bottom: .15rem;
+  }
+
+  .stat-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .15rem;
+  }
+
+  /* Legend */
+  .player-legend {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: .85rem 1.2rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    flex-wrap: wrap;
+  }
+
+  .legend-label {
+    font-family: 'DM Mono', monospace;
+    font-size: .65rem;
+    color: var(--muted);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-right: .3rem;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: .45rem;
+    font-size: .78rem;
+    color: var(--muted);
+  }
+
+  .legend-dot {
+    width: 8px; height: 8px;
+    border-radius: 3px;
+  }
+
+  .legend-dot.green  { background: #4af0a0; }
+  .legend-dot.yellow { background: #f0c840; }
+  .legend-dot.red    { background: #f05050; }
+  .legend-dot.grey   { background: var(--muted); }
+
+  /* ══════════════════════════════════════
+     PAGE TRANSITIONS
+  ═══════════════════════════════════════ */
+  .page {
+    display: none;
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity .35s ease, transform .35s ease;
+  }
+
+  .page.active {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .page.entering {
+    display: block;
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  /* Flash overlay for hard-cut feel */
+  #page-flash {
+    position: fixed;
+    inset: 0;
+    background: var(--bg);
+    pointer-events: none;
+    z-index: 10000;
+    opacity: 0;
+    transition: opacity .18s ease;
+  }
+
+  #page-flash.flash-in  { opacity: 1; }
+  #page-flash.flash-out { opacity: 0; }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50%       { opacity: .5; transform: scale(.7); }
+  }
+
+</style>
+</head>
+<body>
+
+<div id="page-flash"></div>
+
+<!-- ═══════════════════════════
+  HOME PAGE
+════════════════════════════ -->
+<div id="home" class="page active" style="display:block;opacity:1;transform:none">
+  <div class="home-grid-bg"></div>
+  <div class="home-glow"></div>
+
+  <div class="home-inner">
+    <div class="logo-tag">
+      <span class="logo-dot"></span>
+      NCAA D1 Soccer Intelligence Platform
+    </div>
+
+    <h1 class="home-title">
+      Scout
+      <span>Vision</span>
+    </h1>
+    <p class="home-sub">Enter a program to begin your analysis</p>
+
+    <div class="search-wrap">
+      <input
+        id="teamInput"
+        class="search-input"
+        type="text"
+        placeholder="Search team — e.g. Stanford, UCLA, Georgetown…"
+        autocomplete="off"
+      />
+      <div id="dropdown" class="dropdown"></div>
+    </div>
+
+    <button class="scout-btn" onclick="launchScout()">Scout This Team →</button>
+    <p id="errorMsg" class="error-msg">Please select a valid NCAA D1 team to continue.</p>
+  </div>
+
+  <p class="home-footer">SCOUT//VISION · NCAA D1 SOCCER SCOUTING PLATFORM · BETA</p>
+</div>
+
+
+<!-- ═══════════════════════════
+  SCOUT PAGE
+════════════════════════════ -->
+<div id="scout" class="page" style="display:none">
+  <nav class="topbar">
+    <div class="topbar-logo" onclick="goHome()">SCOUT//VISION</div>
+    <div class="topbar-team">
+      <div class="team-badge" id="teamBadge">SU</div>
+      <div>
+        <div class="team-name-bar" id="teamNameBar">Stanford Cardinal</div>
+        <div class="team-conf" id="teamConf">ACC · NCAA D1</div>
+      </div>
+    </div>
+    <div style="width:120px"></div>
+  </nav>
+
+  <div class="hero-banner" id="heroBanner" data-team="STANFORD">
+    <div class="hero-tag">// Team Scouting Report</div>
+    <div class="hero-title" id="heroTitle">Stanford Cardinal</div>
+    <div class="hero-meta">
+      <span class="hero-pill good">🏆 Top 10 Nationally</span>
+      <span class="hero-pill warn">📅 2024 Season</span>
+      <span class="hero-pill">📍 Palo Alto, CA</span>
+    </div>
+  </div>
+
+  <div class="tab-bar">
+    <button class="tab-btn active" onclick="switchTab('team')">Team Analysis</button>
+    <button class="tab-btn" onclick="switchTab('player')">Player Analysis</button>
+    <button class="tab-btn tab-new-search" onclick="goHome()">← Scout New Team</button>
+  </div>
+
+  <!-- ── TAB 1: TEAM ANALYSIS ── -->
+  <div id="tab-team" class="tab-content active">
+
+    <div class="section-label">Statistical Overview</div>
+
+    <div class="stat-grid" id="statGridRow1">
+      <!-- injected by JS: first 3 -->
+    </div>
+    <div class="stat-grid-row2" id="statGridRow2">
+      <!-- injected by JS: last 2 -->
+    </div>
+
+    <div class="section-label">In-Depth Team Analysis</div>
+
+    <div class="analysis-grid">
+
+      <div class="analysis-card">
+        <div class="card-header">
+          <div class="card-icon green">💪</div>
+          <div class="card-title">Team Strengths</div>
+        </div>
+        <ul class="strength-list" id="strengthList"></ul>
+      </div>
+
+      <div class="analysis-card">
+        <div class="card-header">
+          <div class="card-icon red">⚠️</div>
+          <div class="card-title">Areas to Improve</div>
+        </div>
+        <ul class="weakness-list" id="weaknessList"></ul>
+      </div>
+
+      <div class="analysis-card full">
+        <div class="card-header">
+          <div class="card-icon gold">📋</div>
+          <div class="card-title">Scout's Summary</div>
+        </div>
+        <div class="card-body" id="summaryText"></div>
+      </div>
+
+      <div class="analysis-card">
+        <div class="card-header">
+          <div class="card-icon blue">📊</div>
+          <div class="card-title">Performance Ratings</div>
+        </div>
+        <div id="ratingRows"></div>
+      </div>
+
+      <div class="analysis-card">
+        <div class="card-header">
+          <div class="card-icon green">⚽</div>
+          <div class="card-title">Tactical Identity</div>
+        </div>
+        <div class="card-body" id="tacticalText"></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── TAB 2: PLAYER ANALYSIS ── -->
+  <div id="tab-player" class="tab-content">
+    <div id="playerRoster"></div>
+  </div>
+</div>
+
+
+<script>
+// ═══════════════════════════════════════════════════════
+// TEAM DATA — all NCAA D1 Soccer programs
+// ═══════════════════════════════════════════════════════
+const NCAA_TEAMS = [
+  { name: "Air Force Falcons",          short: "AF",   conf: "MWC"         },
+  { name: "Akron Zips",                 short: "AKR",  conf: "MAC"         },
+  { name: "Albany Great Danes",         short: "ALB",  conf: "America East"},
+  { name: "American Eagles",            short: "AU",   conf: "Patriot"     },
+  { name: "Army West Point Black Knights",short:"ARMY",conf: "Patriot"     },
+  { name: "Bellarmine Knights",         short: "BU",   conf: "ASUN"        },
+  { name: "Belmont Bruins",             short: "BEL",  conf: "MVC"         },
+  { name: "Binghamton Bearcats",        short: "BING", conf: "America East"},
+  { name: "Boston College Eagles",      short: "BC",   conf: "ACC"         },
+  { name: "Boston University Terriers", short: "BU",   conf: "Patriot"     },
+  { name: "Bowling Green Falcons",      short: "BGSU", conf: "MAC"         },
+  { name: "Bradley Braves",             short: "BU",   conf: "MVC"         },
+  { name: "Brown Bears",                short: "BRN",  conf: "Ivy League"  },
+  { name: "Bryant Bulldogs",            short: "BRY",  conf: "NEC"         },
+  { name: "Bucknell Bison",             short: "BKN",  conf: "Patriot"     },
+  { name: "Butler Bulldogs",            short: "BUT",  conf: "Big East"    },
+  { name: "Cal Poly Mustangs",          short: "CP",   conf: "Big West"    },
+  { name: "Cal State Bakersfield Roadrunners",short:"CSUB",conf:"Big West" },
+  { name: "Cal State Fullerton Titans", short: "CSUF", conf: "Big West"    },
+  { name: "California Baptist Lancers", short: "CBU",  conf: "WAC"         },
+  { name: "California Golden Bears",    short: "CAL",  conf: "ACC"         },
+  { name: "Campbell Fighting Camels",   short: "CAM",  conf: "CAA"         },
+  { name: "Canisius Golden Griffins",   short: "CAN",  conf: "MAAC"        },
+  { name: "Central Arkansas Bears",     short: "UCA",  conf: "SLC"         },
+  { name: "Central Connecticut Blue Devils",short:"CCSU",conf:"NEC"        },
+  { name: "Charlotte 49ers",            short: "CLT",  conf: "AAC"         },
+  { name: "Chicago State Cougars",      short: "CSU",  conf: "WAC"         },
+  { name: "Clemson Tigers",             short: "CU",   conf: "ACC"         },
+  { name: "Cleveland State Vikings",    short: "CSU",  conf: "Horizon"     },
+  { name: "Coastal Carolina Chanticleers",short:"CCU", conf: "Sun Belt"    },
+  { name: "Col. of Charleston Cougars", short: "CofC", conf: "CAA"         },
+  { name: "Colgate Raiders",            short: "COLG", conf: "Patriot"     },
+  { name: "Columbia Lions",             short: "CLM",  conf: "Ivy League"  },
+  { name: "Connecticut Huskies",        short: "UCONN",conf: "Big East"    },
+  { name: "Cornell Big Red",            short: "COR",  conf: "Ivy League"  },
+  { name: "Creighton Bluejays",         short: "CU",   conf: "Big East"    },
+  { name: "Dartmouth Big Green",        short: "DART", conf: "Ivy League"  },
+  { name: "Davidson Wildcats",          short: "DAV",  conf: "A-10"        },
+  { name: "Dayton Flyers",              short: "DAY",  conf: "A-10"        },
+  { name: "Delaware Fightin Blue Hens", short: "DEL",  conf: "CAA"         },
+  { name: "Denver Pioneers",            short: "DU",   conf: "Summit"      },
+  { name: "DePaul Blue Demons",         short: "DPU",  conf: "Big East"    },
+  { name: "Detroit Mercy Titans",       short: "UDM",  conf: "Horizon"     },
+  { name: "Drake Bulldogs",             short: "DRK",  conf: "MVC"         },
+  { name: "Drexel Dragons",             short: "DRX",  conf: "CAA"         },
+  { name: "Duke Blue Devils",           short: "DU",   conf: "ACC"         },
+  { name: "Duquesne Dukes",             short: "DUQ",  conf: "A-10"        },
+  { name: "Eastern Illinois Panthers",  short: "EIU",  conf: "OVC"         },
+  { name: "Elon Phoenix",               short: "ELN",  conf: "CAA"         },
+  { name: "ETSU Buccaneers",            short: "ETSU", conf: "SoCon"       },
+  { name: "Evansville Purple Aces",     short: "UE",   conf: "MVC"         },
+  { name: "Fairfield Stags",            short: "FAIR", conf: "MAAC"        },
+  { name: "FDU Knights",                short: "FDU",  conf: "NEC"         },
+  { name: "FGCU Eagles",                short: "FGCU", conf: "ASUN"        },
+  { name: "FIU Panthers",               short: "FIU",  conf: "CUSA"        },
+  { name: "Florida Atlantic Owls",      short: "FAU",  conf: "AAC"         },
+  { name: "Fordham Rams",               short: "FOR",  conf: "A-10"        },
+  { name: "Furman Paladins",            short: "FUR",  conf: "SoCon"       },
+  { name: "Gardner-Webb Runnin Bulldogs",short:"GWU",  conf: "Big South"   },
+  { name: "George Mason Patriots",      short: "GMU",  conf: "A-10"        },
+  { name: "George Washington Colonials",short: "GWU",  conf: "A-10"        },
+  { name: "Georgetown Hoyas",           short: "GU",   conf: "Big East"    },
+  { name: "Georgia Southern Eagles",    short: "GASO", conf: "Sun Belt"    },
+  { name: "Georgia State Panthers",     short: "GSU",  conf: "Sun Belt"    },
+  { name: "Gonzaga Bulldogs",           short: "GU",   conf: "WCC"         },
+  { name: "Grand Canyon Antelopes",     short: "GCU",  conf: "WAC"         },
+  { name: "Green Bay Phoenix",          short: "UWGB", conf: "Horizon"     },
+  { name: "Harvard Crimson",            short: "HAR",  conf: "Ivy League"  },
+  { name: "High Point Panthers",        short: "HPU",  conf: "Big South"   },
+  { name: "Hofstra Pride",              short: "HOF",  conf: "CAA"         },
+  { name: "Holy Cross Crusaders",       short: "HC",   conf: "Patriot"     },
+  { name: "Houston Christian Huskies",  short: "HCU",  conf: "SLC"         },
+  { name: "Howard Bison",               short: "HOW",  conf: "MEAC"        },
+  { name: "Indiana Hoosiers",           short: "IU",   conf: "Big Ten"     },
+  { name: "Iona Gaels",                 short: "ION",  conf: "MAAC"        },
+  { name: "IU Indianapolis Jaguars",    short: "IUPUI",conf: "Horizon"     },
+  { name: "Jacksonville Dolphins",      short: "JAX",  conf: "ASUN"        },
+  { name: "James Madison Dukes",        short: "JMU",  conf: "Sun Belt"    },
+  { name: "Kansas City Roos",           short: "UMKC", conf: "WAC"         },
+  { name: "Kentucky Wildcats",          short: "UK",   conf: "SEC"         },
+  { name: "La Salle Explorers",         short: "LAS",  conf: "A-10"        },
+  { name: "Lafayette Leopards",         short: "LAF",  conf: "Patriot"     },
+  { name: "Le Moyne Dolphins",          short: "LEM",  conf: "NEC"         },
+  { name: "Lehigh Mountain Hawks",      short: "LEH",  conf: "Patriot"     },
+  { name: "Liberty Flames",             short: "LIB",  conf: "ASUN"        },
+  { name: "Lindenwood Lions",           short: "LND",  conf: "OVC"         },
+  { name: "Lipscomb Bisons",            short: "LIP",  conf: "ASUN"        },
+  { name: "LIU Sharks",                 short: "LIU",  conf: "NEC"         },
+  { name: "LMU Lions",                  short: "LMU",  conf: "WCC"         },
+  { name: "Longwood Lancers",           short: "LWD",  conf: "Big South"   },
+  { name: "Louisville Cardinals",       short: "UL",   conf: "ACC"         },
+  { name: "Loyola Chicago Ramblers",    short: "LUC",  conf: "A-10"        },
+  { name: "Loyola Maryland Greyhounds", short: "LMD",  conf: "Patriot"     },
+  { name: "Manhattan Jaspers",          short: "MAN",  conf: "MAAC"        },
+  { name: "Marist Red Foxes",           short: "MAR",  conf: "MAAC"        },
+  { name: "Marquette Golden Eagles",    short: "MU",   conf: "Big East"    },
+  { name: "Marshall Thundering Herd",   short: "MU",   conf: "Sun Belt"    },
+  { name: "Maryland Terrapins",         short: "UMD",  conf: "Big Ten"     },
+  { name: "Massachusetts Minutemen",    short: "UMASS",conf: "A-10"        },
+  { name: "Memphis Tigers",             short: "MEM",  conf: "AAC"         },
+  { name: "Mercyhurst Lakers",          short: "MHU",  conf: "ASUN"        },
+  { name: "Mercer Bears",               short: "MER",  conf: "SoCon"       },
+  { name: "Merrimack Warriors",         short: "MER",  conf: "NEC"         },
+  { name: "Michigan Wolverines",        short: "UM",   conf: "Big Ten"     },
+  { name: "Michigan State Spartans",    short: "MSU",  conf: "Big Ten"     },
+  { name: "Milwaukee Panthers",         short: "UWM",  conf: "Horizon"     },
+  { name: "Missouri State Bears",       short: "MSU",  conf: "MVC"         },
+  { name: "Monmouth Hawks",             short: "MON",  conf: "CAA"         },
+  { name: "Mount St. Mary's Mountaineers",short:"MSM", conf: "NEC"         },
+  { name: "Navy Midshipmen",            short: "NAVY", conf: "Patriot"     },
+  { name: "New Hampshire Wildcats",     short: "UNH",  conf: "America East"},
+  { name: "New Haven Chargers",         short: "UNH",  conf: "NEC"         },
+  { name: "Niagara Purple Eagles",      short: "NIA",  conf: "MAAC"        },
+  { name: "NIU Huskies",                short: "NIU",  conf: "MAC"         },
+  { name: "NJIT Highlanders",           short: "NJIT", conf: "America East"},
+  { name: "North Carolina Tar Heels",   short: "UNC",  conf: "ACC"         },
+  { name: "North Florida Ospreys",      short: "UNF",  conf: "ASUN"        },
+  { name: "Northeastern Huskies",       short: "NEU",  conf: "CAA"         },
+  { name: "Northern Kentucky Norse",    short: "NKU",  conf: "Horizon"     },
+  { name: "Northwestern Wildcats",      short: "NU",   conf: "Big Ten"     },
+  { name: "Notre Dame Fighting Irish",  short: "ND",   conf: "ACC"         },
+  { name: "Oakland Golden Grizzlies",   short: "OAK",  conf: "Horizon"     },
+  { name: "Ohio State Buckeyes",        short: "OSU",  conf: "Big Ten"     },
+  { name: "Old Dominion Monarchs",      short: "ODU",  conf: "Sun Belt"    },
+  { name: "Omaha Mavericks",            short: "UNO",  conf: "Summit"      },
+  { name: "Oral Roberts Golden Eagles", short: "ORU",  conf: "Summit"      },
+  { name: "Oregon State Beavers",       short: "OSU",  conf: "Pac-12"      },
+  { name: "Pacific Tigers",             short: "UOP",  conf: "WCC"         },
+  { name: "Penn Quakers",               short: "PENN", conf: "Ivy League"  },
+  { name: "Penn State Nittany Lions",   short: "PSU",  conf: "Big Ten"     },
+  { name: "Pittsburgh Panthers",        short: "PITT", conf: "ACC"         },
+  { name: "Portland Pilots",            short: "UP",   conf: "WCC"         },
+  { name: "Presbyterian Blue Hose",     short: "PC",   conf: "Big South"   },
+  { name: "Princeton Tigers",           short: "PRI",  conf: "Ivy League"  },
+  { name: "Providence Friars",          short: "PC",   conf: "Big East"    },
+  { name: "Purdue Fort Wayne Mastodons",short: "PFW",  conf: "Horizon"     },
+  { name: "Queens Royals",              short: "QU",   conf: "ASUN"        },
+  { name: "Quinnipiac Bobcats",         short: "QU",   conf: "MAAC"        },
+  { name: "Radford Highlanders",        short: "RAD",  conf: "Big South"   },
+  { name: "Rhode Island Rams",          short: "URI",  conf: "A-10"        },
+  { name: "Rider Broncs",               short: "RID",  conf: "MAAC"        },
+  { name: "Robert Morris Colonials",    short: "RMU",  conf: "Horizon"     },
+  { name: "Rutgers Scarlet Knights",    short: "RU",   conf: "Big Ten"     },
+  { name: "Sacramento State Hornets",   short: "CSUS", conf: "Big Sky"     },
+  { name: "Sacred Heart Pioneers",      short: "SHU",  conf: "NEC"         },
+  { name: "Saint Francis Red Flash",    short: "SFU",  conf: "NEC"         },
+  { name: "Saint Joseph's Hawks",       short: "SJU",  conf: "A-10"        },
+  { name: "Saint Louis Billikens",      short: "SLU",  conf: "A-10"        },
+  { name: "Saint Mary's Gaels",         short: "SMC",  conf: "WCC"         },
+  { name: "Saint Peter's Peacocks",     short: "SPU",  conf: "MAAC"        },
+  { name: "Saint Thomas Tommies",       short: "UST",  conf: "Summit"      },
+  { name: "San Diego State Aztecs",     short: "SDSU", conf: "MWC"         },
+  { name: "San Diego Toreros",          short: "USD",  conf: "WCC"         },
+  { name: "San Francisco Dons",         short: "USF",  conf: "WCC"         },
+  { name: "San Jose State Spartans",    short: "SJSU", conf: "MWC"         },
+  { name: "Santa Clara Broncos",        short: "SCU",  conf: "WCC"         },
+  { name: "Seattle U Redhawks",         short: "SU",   conf: "WAC"         },
+  { name: "Seton Hall Pirates",         short: "SHU",  conf: "Big East"    },
+  { name: "Siena Saints",               short: "SIE",  conf: "MAAC"        },
+  { name: "SIUE Cougars",               short: "SIUE", conf: "OVC"         },
+  { name: "SMU Mustangs",               short: "SMU",  conf: "ACC"         },
+  { name: "South Carolina Gamecocks",   short: "USC",  conf: "SEC"         },
+  { name: "South Florida Bulls",        short: "USF",  conf: "AAC"         },
+  { name: "Southern Indiana Screaming Eagles",short:"USI",conf:"OVC"       },
+  { name: "Stanford Cardinal",          short: "STF",  conf: "ACC"         },
+  { name: "Stetson Hatters",            short: "STET", conf: "ASUN"        },
+  { name: "Stonehill Skyhawks",         short: "STH",  conf: "NEC"         },
+  { name: "Stony Brook Seawolves",      short: "SBU",  conf: "America East"},
+  { name: "Syracuse Orange",            short: "SYR",  conf: "ACC"         },
+  { name: "Temple Owls",                short: "TU",   conf: "AAC"         },
+  { name: "Tulsa Golden Hurricane",     short: "TU",   conf: "AAC"         },
+  { name: "UAB Blazers",                short: "UAB",  conf: "AAC"         },
+  { name: "UC Davis Aggies",            short: "UCD",  conf: "Big West"    },
+  { name: "UC Irvine Anteaters",        short: "UCI",  conf: "Big West"    },
+  { name: "UC Riverside Highlanders",   short: "UCR",  conf: "Big West"    },
+  { name: "UC San Diego Tritons",       short: "UCSD", conf: "Big West"    },
+  { name: "UC Santa Barbara Gauchos",   short: "UCSB", conf: "Big West"    },
+  { name: "UCLA Bruins",                short: "UCLA", conf: "Big Ten"     },
+  { name: "UCF Knights",                short: "UCF",  conf: "Big 12"      },
+  { name: "UMBC Retrievers",            short: "UMBC", conf: "America East"},
+  { name: "UMass Lowell River Hawks",   short: "UML",  conf: "America East"},
+  { name: "UNC Asheville Bulldogs",     short: "UNCA", conf: "Big South"   },
+  { name: "UNC Greensboro Spartans",    short: "UNCG", conf: "SoCon"       },
+  { name: "UNCW Seahawks",              short: "UNCW", conf: "CAA"         },
+  { name: "UNLV Rebels",                short: "UNLV", conf: "MWC"         },
+  { name: "USC Upstate Spartans",       short: "USCU", conf: "Big South"   },
+  { name: "Utah Tech Trailblazers",     short: "UT",   conf: "WAC"         },
+  { name: "Utah Valley Wolverines",     short: "UVU",  conf: "WAC"         },
+  { name: "UTRGV Vaqueros",             short: "UTRGV",conf: "WAC"         },
+  { name: "VCU Rams",                   short: "VCU",  conf: "A-10"        },
+  { name: "Vermont Catamounts",         short: "UVM",  conf: "America East"},
+  { name: "Villanova Wildcats",         short: "VU",   conf: "Big East"    },
+  { name: "Virginia Cavaliers",         short: "UVA",  conf: "ACC"         },
+  { name: "Virginia Tech Hokies",       short: "VT",   conf: "ACC"         },
+  { name: "VMI Keydets",                short: "VMI",  conf: "SoCon"       },
+  { name: "Wake Forest Demon Deacons",  short: "WFU",  conf: "ACC"         },
+  { name: "Washington Huskies",         short: "UW",   conf: "Big Ten"     },
+  { name: "West Virginia Mountaineers", short: "WVU",  conf: "Big 12"      },
+  { name: "Western Illinois Leathernecks",short:"WIU", conf: "Summit"      },
+  { name: "Western Michigan Broncos",   short: "WMU",  conf: "MAC"         },
+  { name: "William & Mary Tribe",       short: "WM",   conf: "CAA"         },
+  { name: "Winthrop Eagles",            short: "WIN",  conf: "Big South"   },
+  { name: "Wisconsin Badgers",          short: "UW",   conf: "Big Ten"     },
+  { name: "Wofford Terriers",           short: "WOF",  conf: "SoCon"       },
+  { name: "Wright State Raiders",       short: "WSU",  conf: "Horizon"     },
+  { name: "Xavier Musketeers",          short: "XU",   conf: "Big East"    },
+  { name: "Yale Bulldogs",              short: "YALE", conf: "Ivy League"  },
+].map((t, i) => ({ ...t, rank: i + 1 }));
+
+// Stats per team (dummy data — keyed by team name search string)
+function getTeamStats(teamName) {
+  // Generate seeded pseudo-random stats for any team for demo
+  const seed = teamName.split('').reduce((a,c)=>a+c.charCodeAt(0),0);
+  const r = (min, max, offset=0) => {
+    const s = (seed + offset) % 100;
+    return Math.round(min + (s / 100) * (max - min));
+  };
+
+  // Stanford hardcoded as example
+  if (teamName.toLowerCase().includes('stanford')) {
+    return {
+      winPct:       { value: 78, max: 100, unit: '%',    label: 'Win Rate',       sub: '18W · 4L · 2D' },
+      goalScored:   { value: 52, max: 80,  unit: 'GF',   label: 'Goals Scored',   sub: '2.2 per game' },
+      goalConceded: { value: 14, max: 60,  unit: 'GA',   label: 'Goals Conceded', sub: '0.6 per game', invert: true },
+      possession:   { value: 61, max: 100, unit: '%',    label: 'Possession',     sub: 'Avg per match' },
+      cleanSheets:  { value: 14, max: 24,  unit: 'CS',   label: 'Clean Sheets',   sub: '14 of 24 games' },
+      strengths: [
+        'Elite possession-based build-up play from the back',
+        'Clinical finishing — top 3 nationally in goals per game',
+        'Exceptional goalkeeper commanding the 18-yard box',
+        'High press intensity disrupts opposition build-up',
+        'Set piece delivery is a consistent attacking threat',
+      ],
+      weaknesses: [
+        'Vulnerable to counter-attacks when pressing high',
+        'Depth at right-back thins after key starter injury',
+        'Inconsistency in away performance vs top-10 opponents',
+      ],
+      ratings: [
+        { label: 'Attacking',   val: 88, color: '#c8f050' },
+        { label: 'Defense',     val: 91, color: '#4af0a0' },
+        { label: 'Possession',  val: 85, color: '#c8f050' },
+        { label: 'Pressing',    val: 80, color: '#f0c840' },
+        { label: 'Set Pieces',  val: 78, color: '#f0c840' },
+      ],
+      summary: `Stanford Cardinal stands as one of the most complete programs in NCAA D1 soccer this season. Operating under a 4-3-3 system, the Cardinal excel in sustained possession phases — their ability to circulate the ball through midfield and wide channels creates persistent pressure without sacrificing defensive organization. Their defensive record is among the nation's best, anchored by a goalkeeper who ranks in the top five for saves percentage and commanding aerial presence. Going forward, Stanford's front three combines pace with technical quality, making them dangerous both in open play and through set pieces. The principal vulnerability lies in transition moments — when the press is bypassed, spaces emerge behind the fullbacks. Still, the depth of talent across all positions makes Stanford a genuine national title contender and one of the most challenging programs to play against in the country.`,
+      tactical: `Stanford operates in a fluid 4-3-3 that shifts into a 4-2-3-1 in defensive phases. The emphasis is on high pressing triggers, with the striker leading the press from the front. Wingers tuck inside to create overloads in the central lane, while fullbacks provide the width and overlap. In possession, the deeper pivot acts as a passing hub connecting defense to attack. Out of possession, the team maintains a compact mid-block and looks to win the ball high.`,
+    };
+  }
+
+  // Generic dummy stats for other teams
+  const wp = r(42, 85, 1);
+  const gs = r(18, 65, 2);
+  const gc = r(8, 45, 3);
+  const poss = r(42, 65, 4);
+  const cs = r(4, 18, 5);
+
+  return {
+    winPct:       { value: wp,   max: 100, unit: '%',  label: 'Win Rate',       sub: `${Math.round(wp*0.22)}W · ${Math.round((100-wp)*0.1)}L · 2D` },
+    goalScored:   { value: gs,   max: 80,  unit: 'GF', label: 'Goals Scored',   sub: `${(gs/22).toFixed(1)} per game` },
+    goalConceded: { value: gc,   max: 60,  unit: 'GA', label: 'Goals Conceded', sub: `${(gc/22).toFixed(1)} per game`, invert: true },
+    possession:   { value: poss, max: 100, unit: '%',  label: 'Possession',     sub: 'Avg per match' },
+    cleanSheets:  { value: cs,   max: 24,  unit: 'CS', label: 'Clean Sheets',   sub: `${cs} of 24 games` },
+    strengths: [
+      'Solid defensive organization and discipline',
+      'Effective on the counter-attack with pace in transition',
+      'Strong set piece threat from corner kicks',
+    ],
+    weaknesses: [
+      'Below-average possession retention under pressure',
+      'Struggles to break down low defensive blocks',
+    ],
+    ratings: [
+      { label: 'Attacking',   val: r(55,85,10), color: '#c8f050' },
+      { label: 'Defense',     val: r(55,88,11), color: '#4af0a0' },
+      { label: 'Possession',  val: r(50,80,12), color: '#c8f050' },
+      { label: 'Pressing',    val: r(50,82,13), color: '#f0c840' },
+      { label: 'Set Pieces',  val: r(50,80,14), color: '#f0c840' },
+    ],
+    summary: `This program demonstrates a well-organized structure built around defensive solidity and direct transitions. Their tactical approach prioritizes shape preservation and quick vertical passes to forwards on the break. While they may not dominate possession metrics, their efficiency in the final third and disciplined defensive record make them a competitive threat in their conference. Improvements in their ability to maintain the ball in central areas and break down massed defenses would elevate their ceiling significantly, but as currently constructed they are a difficult team to beat on any given night.`,
+    tactical: `A direct 4-4-2 system with narrow midfield lines. Pressing is selective rather than high-intensity, allowing deeper midfield recovery. Wide midfielders are disciplined defensively, providing cover for overlapping fullbacks. The two strikers operate in tandem, pressing from the front and rotating to create space for each other. Transitions are fast and vertical.`,
+  };
+}
+
+// ═══════════════════════════════════════════════════════
+// STATE
+// ═══════════════════════════════════════════════════════
+let selectedTeam = null;
+
+// ═══════════════════════════════════════════════════════
+// HOME — SEARCH DROPDOWN
+// ═══════════════════════════════════════════════════════
+const input    = document.getElementById('teamInput');
+const dropdown = document.getElementById('dropdown');
+const errorMsg = document.getElementById('errorMsg');
+
+input.addEventListener('input', () => {
+  const q = input.value.toLowerCase().trim();
+  errorMsg.style.display = 'none';
+
+  if (!q) { dropdown.classList.remove('open'); return; }
+
+  const matches = NCAA_TEAMS.filter(t => t.name.toLowerCase().includes(q)).slice(0, 10);
+
+  if (!matches.length) { dropdown.classList.remove('open'); return; }
+
+  dropdown.innerHTML = matches.map(t => `
+    <div class="dropdown-item" onclick="selectTeam(${t.rank})">
+      <span>${t.name}</span>
+      <span style="margin-left:auto;font-family:'DM Mono',monospace;font-size:.65rem;color:var(--muted)">${t.conf}</span>
+    </div>
+  `).join('');
+
+  dropdown.classList.add('open');
+});
+
+document.addEventListener('click', e => {
+  if (!e.target.closest('.search-wrap')) dropdown.classList.remove('open');
+});
+
+function selectTeam(rank) {
+  const t = NCAA_TEAMS.find(x => x.rank === rank);
+  if (!t) return;
+  selectedTeam = t;
+  input.value = t.name;
+  dropdown.classList.remove('open');
+}
+
+// ═══════════════════════════════════════════════════════
+// LAUNCH
+// ═══════════════════════════════════════════════════════
+function launchScout() {
+  if (!selectedTeam) {
+    const q = input.value.trim().toLowerCase();
+    const match = NCAA_TEAMS.find(t => t.name.toLowerCase().includes(q));
+    if (match) { selectedTeam = match; }
+    else { errorMsg.style.display = 'block'; return; }
+  }
+  buildScoutPage(selectedTeam);
+  navigateTo('scout');
+}
+
+function goHome() {
+  selectedTeam = null;
+  input.value = '';
+  navigateTo('home');
+}
+
+function navigateTo(targetId) {
+  const flash   = document.getElementById('page-flash');
+  const current = document.querySelector('.page.active');
+  const next    = document.getElementById(targetId);
+
+  // Flash in (cover screen)
+  flash.classList.add('flash-in');
+
+  setTimeout(() => {
+    // Swap pages while hidden
+    if (current) {
+      current.classList.remove('active');
+      current.style.display = 'none';
+    }
+    next.style.display = 'block';
+    next.classList.add('entering');
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+
+    // Force reflow then animate in
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        next.classList.remove('entering');
+        next.classList.add('active');
+        flash.classList.remove('flash-in');
+      });
+    });
+  }, 180);
+}
+
+// ═══════════════════════════════════════════════════════
+// BUILD SCOUT PAGE
+// ═══════════════════════════════════════════════════════
+function buildScoutPage(team) {
+  const stats = getTeamStats(team.name);
+
+  // topbar
+  document.getElementById('teamBadge').textContent   = team.short;
+  document.getElementById('teamNameBar').textContent = team.name;
+  document.getElementById('teamConf').textContent    = `${team.conf} · NCAA D1`;
+
+  // hero
+  const first = team.name.split(' ')[0].toUpperCase();
+  document.getElementById('heroTitle').textContent   = team.name;
+  document.getElementById('heroBanner').setAttribute('data-team', first);
+
+  // ── colour helper: 0=red, 0.5=yellow, 1=green ──
+  function scoreColor(score) {
+    // score is 0..1 where 1 = best
+    const r1=240, g1=80,  b1=80;   // red
+    const r2=240, g2=200, b2=64;   // yellow
+    const r3=74,  g3=240, b3=160;  // green
+    let r, g, b;
+    if (score <= 0.5) {
+      const t = score / 0.5;
+      r = Math.round(r1 + t*(r2-r1));
+      g = Math.round(g1 + t*(g2-g1));
+      b = Math.round(b1 + t*(b2-b1));
+    } else {
+      const t = (score - 0.5) / 0.5;
+      r = Math.round(r2 + t*(r3-r2));
+      g = Math.round(g2 + t*(g3-g2));
+      b = Math.round(b2 + t*(b3-b2));
+    }
+    return `rgb(${r},${g},${b})`;
+  }
+
+  function buildStatCard(s) {
+    // fillPct = how full the ring appears (visual)
+    // goodScore = 0..1 for color (inverted for goals conceded)
+    const fillPct   = s.value / s.max;
+    const goodScore = s.invert ? (1 - fillPct) : fillPct;
+    const color     = scoreColor(Math.max(0, Math.min(1, goodScore)));
+
+    const radius = 47;
+    const circ   = 2 * Math.PI * radius;
+    const offset = circ * (1 - fillPct);
+
+    return `
+    <div class="stat-card">
+      <div class="chart-wrap">
+        <svg class="donut-svg" viewBox="0 0 110 110">
+          <circle class="donut-bg" cx="55" cy="55" r="${radius}" />
+          <circle
+            class="donut-fg"
+            cx="55" cy="55" r="${radius}"
+            stroke="${color}"
+            stroke-dasharray="${circ}"
+            stroke-dashoffset="${circ}"
+            data-target="${offset}"
+          />
+        </svg>
+        <div class="donut-center">
+          <div class="donut-value" style="color:${color}">${s.value}</div>
+          <div class="donut-unit">${s.unit}</div>
+        </div>
+      </div>
+      <div class="stat-name">${s.label}</div>
+      <div class="stat-sub">${s.sub}</div>
+    </div>`;
+  }
+
+  // stat circles
+  const statDefs = ['winPct','goalScored','goalConceded','possession','cleanSheets'];
+
+  const row1 = document.getElementById('statGridRow1');
+  const row2 = document.getElementById('statGridRow2');
+  row1.innerHTML = statDefs.slice(0,3).map(key => buildStatCard(stats[key])).join('');
+  row2.innerHTML = statDefs.slice(3,5).map(key => buildStatCard(stats[key])).join('');
+
+  // animate circles after short delay
+  requestAnimationFrame(() => {
+    setTimeout(() => {
+      document.querySelectorAll('.donut-fg').forEach(el => {
+        el.style.strokeDashoffset = el.dataset.target;
+      });
+    }, 300);
+  });
+
+  // strengths / weaknesses
+  document.getElementById('strengthList').innerHTML = stats.strengths.map(s=>`<li>${s}</li>`).join('');
+  document.getElementById('weaknessList').innerHTML = stats.weaknesses.map(w=>`<li>${w}</li>`).join('');
+
+  // summary
+  document.getElementById('summaryText').textContent = stats.summary;
+  document.getElementById('tacticalText').textContent = stats.tactical;
+
+  // ratings
+  document.getElementById('ratingRows').innerHTML = stats.ratings.map(r => `
+    <div class="rating-row">
+      <span class="rating-label">${r.label}</span>
+      <div class="rating-bar-wrap">
+        <div class="rating-bar">
+          <div class="rating-fill" style="width:0%;background:${r.color}" data-target="${r.val}%"></div>
+        </div>
+      </div>
+      <span class="rating-val">${r.val}</span>
+    </div>
+  `).join('');
+
+  // animate bars
+  requestAnimationFrame(() => {
+    setTimeout(() => {
+      document.querySelectorAll('.rating-fill').forEach(el => {
+        el.style.width = el.dataset.target;
+      });
+    }, 400);
+  });
+
+  // build player tab
+  buildPlayerTab(team);
+
+  // reset to first tab
+  switchTab('team');
+}
+
+// ═══════════════════════════════════════════════════════
+// TABS
+// ═══════════════════════════════════════════════════════
+function switchTab(id) {
+  document.querySelectorAll('.tab-btn').forEach((b,i) => {
+    b.classList.toggle('active', (i===0 && id==='team') || (i===1 && id==='player'));
+  });
+  document.getElementById('tab-team').classList.toggle('active', id==='team');
+  document.getElementById('tab-player').classList.toggle('active', id==='player');
+}
+
+// ═══════════════════════════════════════════════════════
+// ROSTER GENERATION
+// ═══════════════════════════════════════════════════════
+
+// Real roster data scraped from team websites
+const REAL_ROSTERS = {}; // Backend will provide roster data via API
+
+// Seeded PRNG so roster is deterministic per team
+function makePRNG(seed) {
+  let s = seed % 2147483647;
+  if (s <= 0) s += 2147483646;
+  return function() {
+    s = s * 16807 % 2147483647;
+    return (s - 1) / 2147483646;
+  };
+}
+
+// First / last name pools
+const FIRST_NAMES = [
+  'Aiden','Ben','Carlos','Daniel','Ethan','Felix','Gabriel','Hugo',
+  'Ivan','Jake','Kyle','Luca','Marcus','Noah','Oscar','Paolo',
+  'Quinn','Ryan','Sam','Tyler','Usman','Victor','Will','Xavier',
+  'Yosef','Zane','Alex','Brett','Chase','Derek','Eli','Finn',
+  'Grant','Henry','Ian','Joel','Kai','Leo','Matt','Nico'
+];
+const LAST_NAMES = [
+  'Adams','Berg','Cruz','Davis','Evans','Foster','Garcia','Harris',
+  'Ibarra','Jensen','Kim','Lopez','Moore','Nash','Ortiz','Patel',
+  'Quinn','Rivera','Santos','Torres','Ueda','Vargas','Walsh','Xiong',
+  'Yates','Zhang','Brown','Carter','Diaz','Ellis','Flores','Green',
+  'Hunt','Ingram','Jones','King','Lewis','Martin','Nelson','Owen'
+];
+
+// 4-3-3 style roster: 3 GK, 8 DEF, 10 MID, 9 FWD = 30
+const ROSTER_TEMPLATE = [
+  ...Array(3).fill('GK'),
+  ...Array(8).fill('DEF'),
+  ...Array(10).fill('MID'),
+  ...Array(9).fill('FWD'),
+];
+
+// Sub-position labels
+const SUB_POS = {
+  GK:  ['GK'],
+  DEF: ['CB','CB','CB','RB','LB','RB','LB','SW'],
+  MID: ['CDM','CM','CM','CAM','RM','LM','CM','CAM','CDM','CM'],
+  FWD: ['ST','ST','ST','RW','LW','RW','LW','CF','SS'],
+};
+
+function generateRoster(teamName) {
+  // Try to get real roster data first
+  const realRoster = REAL_ROSTERS[teamName];
+  
+  if (realRoster && realRoster.length > 0) {
+    // We have real roster data - add simulated stats
+    const seed = teamName.split('').reduce((a,c)=>a+c.charCodeAt(0),0) * 31337;
+    const rng  = makePRNG(seed);
+    
+    return realRoster.map(player => {
+      // Use real position or map from scraped position
+      const pos = player.position || 'MID';
+      const subPos = player.subPosition || getDefaultSubPos(pos);
+      
+      // Games played: weighted by position
+      const gamesBase = pos === 'GK' ? 0.5 : 0.3;
+      const gamesRaw  = gamesBase + rng() * 0.55;
+      const games     = Math.min(30, Math.max(1, Math.round(gamesRaw * 30)));
+      
+      // Minutes per game
+      const mpg = Math.round(45 + rng() * 50);
+      
+      // Generate position-specific stats
+      let stats = {};
+      if (pos === 'FWD') {
+        stats = {
+          goals:   Math.round(rng() * (games * 0.6)),
+          assists: Math.round(rng() * (games * 0.35)),
+          shots:   Math.round(games * (0.8 + rng() * 2.5)),
+          shotAcc: Math.round(30 + rng() * 55),
+          dribbles: parseFloat((rng() * 3.5 + 0.5).toFixed(1)),
+        };
+      } else if (pos === 'MID') {
+        stats = {
+          goals:     Math.round(rng() * (games * 0.25)),
+          assists:   Math.round(rng() * (games * 0.4)),
+          passAcc:   Math.round(72 + rng() * 22),
+          keyPasses: parseFloat((rng() * 2.8 + 0.3).toFixed(1)),
+          tackles:   parseFloat((rng() * 3.5 + 0.5).toFixed(1)),
+        };
+      } else if (pos === 'DEF') {
+        stats = {
+          tackles:     parseFloat((rng() * 4 + 1).toFixed(1)),
+          interceptions: parseFloat((rng() * 3 + 0.5).toFixed(1)),
+          clearances:  parseFloat((rng() * 4.5 + 0.5).toFixed(1)),
+          passAcc:     Math.round(70 + rng() * 22),
+          aerialWon:   Math.round(30 + rng() * 60),
+        };
+      } else { // GK
+        stats = {
+          saves:     Math.round(games * (1.5 + rng() * 3)),
+          savePct:   Math.round(60 + rng() * 35),
+          cleanSheets: Math.round(rng() * (games * 0.55)),
+          goalsConceded: Math.round(games * (0.3 + rng() * 1.5)),
+          passAcc:   Math.round(65 + rng() * 25),
+        };
+      }
+      
+      return {
+        jersey: player.jersey || null,
+        firstName: player.firstName,
+        lastName: player.lastName,
+        pos: pos,
+        subPos: subPos,
+        games: games,
+        mpg: mpg,
+        stats: stats
+      };
+    });
+  }
+  
+  // Fallback: generate fake roster for teams without real data
+  const seed = teamName.split('').reduce((a,c)=>a+c.charCodeAt(0),0) * 31337;
+  const rng  = makePRNG(seed);
+  const usedNames = new Set();
+  const subIdx = { GK:0, DEF:0, MID:0, FWD:0 };
+
+  return ROSTER_TEMPLATE.map((pos, i) => {
+    let firstName, lastName, nameKey;
+    do {
+      firstName = FIRST_NAMES[Math.floor(rng() * FIRST_NAMES.length)];
+      lastName  = LAST_NAMES[Math.floor(rng() * LAST_NAMES.length)];
+      nameKey   = firstName + lastName;
+    } while (usedNames.has(nameKey));
+    usedNames.add(nameKey);
+
+    const subPos = SUB_POS[pos][subIdx[pos] % SUB_POS[pos].length];
+    subIdx[pos]++;
+    const jersey = i + 1;
+    const gamesBase = pos === 'GK' ? 0.5 : 0.3;
+    const gamesRaw  = gamesBase + rng() * 0.55;
+    const games     = Math.min(30, Math.max(1, Math.round(gamesRaw * 30)));
+    const mpg = Math.round(45 + rng() * 50);
+
+    let stats = {};
+    if (pos === 'FWD') {
+      stats = {
+        goals:   Math.round(rng() * (games * 0.6)),
+        assists: Math.round(rng() * (games * 0.35)),
+        shots:   Math.round(games * (0.8 + rng() * 2.5)),
+        shotAcc: Math.round(30 + rng() * 55),
+        dribbles: parseFloat((rng() * 3.5 + 0.5).toFixed(1)),
+      };
+    } else if (pos === 'MID') {
+      stats = {
+        goals:     Math.round(rng() * (games * 0.25)),
+        assists:   Math.round(rng() * (games * 0.4)),
+        passAcc:   Math.round(72 + rng() * 22),
+        keyPasses: parseFloat((rng() * 2.8 + 0.3).toFixed(1)),
+        tackles:   parseFloat((rng() * 3.5 + 0.5).toFixed(1)),
+      };
+    } else if (pos === 'DEF') {
+      stats = {
+        tackles:     parseFloat((rng() * 4 + 1).toFixed(1)),
+        interceptions: parseFloat((rng() * 3 + 0.5).toFixed(1)),
+        clearances:  parseFloat((rng() * 4.5 + 0.5).toFixed(1)),
+        passAcc:     Math.round(70 + rng() * 22),
+        aerialWon:   Math.round(30 + rng() * 60),
+      };
+    } else {
+      stats = {
+        saves:     Math.round(games * (1.5 + rng() * 3)),
+        savePct:   Math.round(60 + rng() * 35),
+        cleanSheets: Math.round(rng() * (games * 0.55)),
+        goalsConceded: Math.round(games * (0.3 + rng() * 1.5)),
+        passAcc:   Math.round(65 + rng() * 25),
+      };
+    }
+
+    return { jersey, firstName, lastName, pos, subPos, games, mpg, stats };
+  });
+}
+
+// Helper to get default sub-position for a position
+function getDefaultSubPos(pos) {
+  const defaults = { GK: 'GK', DEF: 'CB', MID: 'CM', FWD: 'ST' };
+  return defaults[pos] || 'CM';
+}
+
+// ── D1 Benchmark percentiles (simulated league-wide distributions) ──
+// We generate 300 "virtual" D1 players per position and rank our roster against them
+function getD1Benchmarks(pos, rng300) {
+  const bench = [];
+  for (let i = 0; i < 300; i++) {
+    const g = Math.max(10, Math.round(5 + rng300() * 25)); // min 10
+    if (pos === 'FWD') {
+      bench.push({
+        goals:    Math.round(rng300() * g * 0.55),
+        assists:  Math.round(rng300() * g * 0.32),
+        shots:    Math.round(g * (0.8 + rng300() * 2.4)),
+        shotAcc:  Math.round(30 + rng300() * 55),
+        dribbles: parseFloat((rng300() * 3.4 + 0.5).toFixed(1)),
+      });
+    } else if (pos === 'MID') {
+      bench.push({
+        goals:     Math.round(rng300() * g * 0.22),
+        assists:   Math.round(rng300() * g * 0.38),
+        passAcc:   Math.round(72 + rng300() * 22),
+        keyPasses: parseFloat((rng300() * 2.7 + 0.3).toFixed(1)),
+        tackles:   parseFloat((rng300() * 3.4 + 0.5).toFixed(1)),
+      });
+    } else if (pos === 'DEF') {
+      bench.push({
+        tackles:       parseFloat((rng300() * 4 + 1).toFixed(1)),
+        interceptions: parseFloat((rng300() * 3 + 0.5).toFixed(1)),
+        clearances:    parseFloat((rng300() * 4.4 + 0.5).toFixed(1)),
+        passAcc:       Math.round(70 + rng300() * 22),
+        aerialWon:     Math.round(30 + rng300() * 60),
+      });
+    } else {
+      bench.push({
+        saves:         Math.round(g * (1.5 + rng300() * 3)),
+        savePct:       Math.round(60 + rng300() * 35),
+        cleanSheets:   Math.round(rng300() * g * 0.5),
+        goalsConceded: Math.round(g * (0.3 + rng300() * 1.4)),
+        passAcc:       Math.round(65 + rng300() * 25),
+      });
+    }
+  }
+  return bench;
+}
+
+function percentileRank(value, allValues, higherIsBetter = true) {
+  const sorted = [...allValues].sort((a,b) => a - b);
+  const pos    = sorted.filter(v => v < value).length;
+  const pct    = pos / sorted.length;
+  return higherIsBetter ? pct : (1 - pct);
+}
+
+function pillColor(pct) {
+  if   (pct >= 0.667) return 'green';
+  else if (pct >= 0.333) return 'yellow';
+  else                   return 'red';
+}
+
+// Stat display config per position
+const STAT_CONFIG = {
+  FWD: [
+    { key: 'goals',    label: 'G',    higherBetter: true  },
+    { key: 'assists',  label: 'A',    higherBetter: true  },
+    { key: 'shots',    label: 'SH',   higherBetter: true  },
+    { key: 'shotAcc',  label: 'SH%',  higherBetter: true  },
+    { key: 'dribbles', label: 'DRB',  higherBetter: true  },
+  ],
+  MID: [
+    { key: 'goals',     label: 'G',   higherBetter: true  },
+    { key: 'assists',   label: 'A',   higherBetter: true  },
+    { key: 'passAcc',   label: 'PA%', higherBetter: true  },
+    { key: 'keyPasses', label: 'KP',  higherBetter: true  },
+    { key: 'tackles',   label: 'TKL', higherBetter: true  },
+  ],
+  DEF: [
+    { key: 'tackles',       label: 'TKL', higherBetter: true  },
+    { key: 'interceptions', label: 'INT', higherBetter: true  },
+    { key: 'clearances',    label: 'CLR', higherBetter: true  },
+    { key: 'passAcc',       label: 'PA%', higherBetter: true  },
+    { key: 'aerialWon',     label: 'AIR%',higherBetter: true  },
+  ],
+  GK: [
+    { key: 'saves',         label: 'SV',  higherBetter: true  },
+    { key: 'savePct',       label: 'SV%', higherBetter: true  },
+    { key: 'cleanSheets',   label: 'CS',  higherBetter: true  },
+    { key: 'goalsConceded', label: 'GA',  higherBetter: false },
+    { key: 'passAcc',       label: 'PA%', higherBetter: true  },
+  ],
+};
+
+// ═══════════════════════════════════════════════════════
+// BUILD PLAYER TAB
+// ═══════════════════════════════════════════════════════
+function buildPlayerTab(team) {
+  const roster    = generateRoster(team.name);
+  const benchRNG  = makePRNG(99991);  // fixed seed for D1 benchmarks
+  const container = document.getElementById('playerRoster');
+
+  // Group by position
+  const groups = { FWD: [], MID: [], DEF: [], GK: [] };
+  roster.forEach(p => groups[p.pos].push(p));
+
+  // Sort each group by games desc
+  Object.keys(groups).forEach(pos => {
+    groups[pos].sort((a,b) => b.games - a.games);
+  });
+
+  // Precompute benchmarks (same bench for all teams = fair D1 comparison)
+  const benchmarks = {};
+  ['FWD','MID','DEF','GK'].forEach(pos => {
+    benchmarks[pos] = getD1Benchmarks(pos, benchRNG);
+  });
+
+  const ORDER = ['FWD','MID','DEF','GK'];
+  const POS_LABELS = { FWD: 'Forwards', MID: 'Midfielders', DEF: 'Defenders', GK: 'Goalkeepers' };
+  const POS_CLASS  = { FWD: 'fwd', MID: 'mid', DEF: 'def', GK: 'gk' };
+
+  const maxGames = 30;
+
+  let html = `
+    <div class="player-legend">
+      <span class="legend-label">Color Key</span>
+      <span class="legend-item"><span class="legend-dot green"></span>Top 33% in D1</span>
+      <span class="legend-item"><span class="legend-dot yellow"></span>Middle 33%</span>
+      <span class="legend-item"><span class="legend-dot red"></span>Bottom 33%</span>
+      <span class="legend-item"><span class="legend-dot grey"></span>Below 10-game min</span>
+    </div>`;
+
+  ORDER.forEach(pos => {
+    const players = groups[pos];
+    const bench   = benchmarks[pos];
+    const stats   = STAT_CONFIG[pos];
+
+    html += `
+    <div class="pos-group">
+      <div class="pos-group-header">
+        <div class="pos-badge ${POS_CLASS[pos]}">${POS_LABELS[pos].toUpperCase()}</div>
+        <div class="pos-group-line"></div>
+        <div class="pos-count">${players.length} PLAYERS</div>
+      </div>
+
+      <table class="player-table">
+        <thead>
+          <tr>
+            <th style="width:36px">#</th>
+            <th>Player</th>
+            <th>GP</th>
+            ${stats.map(s => `<th class="center">${s.label}</th>`).join('')}
+          </tr>
+        </thead>
+        <tbody>`;
+
+    players.forEach(p => {
+      const meetsMin = p.games >= 10;
+
+      // Compute percentiles for each stat
+      const pills = stats.map(cfg => {
+        const val     = p.stats[cfg.key];
+        const allVals = bench.map(b => b[cfg.key]);
+        const pct     = meetsMin ? percentileRank(val, allVals, cfg.higherBetter) : -1;
+        const cls     = meetsMin ? pillColor(pct) : 'grey';
+        return { val, cls };
+      });
+
+      const barPct = Math.round((p.games / maxGames) * 100);
+
+      html += `
+          <tr>
+            <td class="player-num">${p.jersey}</td>
+            <td>
+              <div class="player-name-cell">
+                <span class="player-name">${p.firstName} ${p.lastName}</span>
+                <span class="player-pos-tag">${p.subPos}</span>
+              </div>
+            </td>
+            <td>
+              <div class="games-bar-wrap">
+                <div class="games-bar">
+                  <div class="games-bar-fill" style="width:${barPct}%"></div>
+                </div>
+                <span class="games-val">${p.games}</span>
+              </div>
+            </td>
+            ${pills.map(pl => `
+            <td class="center">
+              <span class="stat-pill ${pl.cls}">${pl.val}</span>
+            </td>`).join('')}
+          </tr>`;
+    });
+
+    html += `
+        </tbody>
+      </table>
+    </div>`;
+  });
+
+  container.innerHTML = html;
+}
+
+input.addEventListener('keydown', e => {
+  if (e.key === 'Enter') launchScout();
+});
+</script>
+
+</body>
+</html>

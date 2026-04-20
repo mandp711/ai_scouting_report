@@ -1,0 +1,158 @@
+import pandas as pd
+import requests
+from bs4 import BeautifulSoup
+import json
+import time
+import random
+import os
+
+# --- Configuration ---
+CSV_FILE = "AI scouting report urls - Sheet1.csv"
+OUTPUT_JSON = "d1_soccer_batch.json"
+SEASON = "2025"
+BATCH_NUMBER = 2
+
+# Headers to bypass basic rate-limiting / bot blockers
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+}
+
+def fetch_page(url):
+    """Fetches a URL with a polite randomized delay to avoid rate limits."""
+    try:
+        # Sleep for 2 to 5 seconds to act like a human
+        time.sleep(random.uniform(2.0, 5.0))
+        response = requests.get(url, headers=HEADERS, timeout=15)
+        response.raise_for_status()
+        return response.text
+    except Exception as e:
+        print(f"Failed to fetch {url}: {e}")
+        return None
+
+def parse_roster(html):
+    """
+    Parses a standard Sidearm Sports roster page.
+    Note: HTML classes can vary slightly between grid and list views.
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    players = []
+    
+    # Common Sidearm Sports roster row/card identifiers
+    roster_cards = soup.find_all("li", class_="sidearm-roster-player")
+    
+    for card in roster_cards:
+        try:
+            # Extract basic info (These classes are typical for Sidearm templates)
+            name_tag = card.find("div", class_="sidearm-roster-player-name")
+            name = name_tag.get_text(strip=True) if name_tag else "Unknown"
+            
+            number_tag = card.find("span", class_="sidearm-roster-player-jersey-number")
+            number = number_tag.get_text(strip=True) if number_tag else "NA"
+            
+            position_tag = card.find("div", class_="sidearm-roster-player-position")
+            position = position_tag.find("span", class_="text-bold").get_text(strip=True) if position_tag else "Field Player"
+            
+            # Formatting "Goalkeeper" vs "Field Player" mapping
+            clean_position = "Goalkeeper" if "GK" in position or "Goalkeeper" in position else "Field Player"
+            
+            players.append({
+                "name": name,
+                "number": int(number) if number.isdigit() else number,
+                "position": clean_position
+            })
+        except Exception:
+            continue
+            
+    return players
+
+def build_team_data(school, roster_url, stats_url):
+    """Handles the extraction pipeline for a single team."""
+    print(f"\n--- Scraping {school} ---")
+    
+    team_data = {
+        "school": school,
+        "season": SEASON,
+        "record": "0-0-0", # Stats pages often require a separate record parser
+        "players": {
+            "field_players": [],
+            "goalkeepers": []
+        }
+    }
+    
+    # 1. Fetch & Parse Roster
+    print(f"Fetching roster: {roster_url}")
+    roster_html = fetch_page(roster_url)
+    if not roster_html:
+        return None, "Rate limited or blocked on roster fetch"
+        
+    roster = parse_roster(roster_html)
+    
+    # 2. Fetch Stats (Skeleton logic for you to expand)
+    print(f"Fetching stats: {stats_url}")
+    stats_html = fetch_page(stats_url)
+    if not stats_html:
+        return None, "Rate limited or blocked on stats fetch"
+    
+    # NOTE: Sidearm stats pages often embed stats in an iframe or use heavy JS tables.
+    # This matches the player names from the roster to dummy/default stats until the 
+    # exact table IDs are parsed.
+    for p in roster:
+        # Example defaults matching your JSON structure
+        if p["position"] == "Field Player":
+            p.update({"gp": 0, "gs": 0, "goals": 0, "assists": 0, "points": 0, "shots": 0, "shot_pct": 0.0, "yellow_cards": 0, "red_cards": 0})
+            team_data["players"]["field_players"].append(p)
+        else:
+            p.update({"gp": 0, "gs": 0, "saves": 0, "save_pct": 0.0, "shutouts": 0, "goals_against": 0, "gaa": 0.0})
+            team_data["players"]["goalkeepers"].append(p)
+            
+    return team_data, None
+
+def main():
+    # Load your CSV file
+    # utf-8-sig automatically strips hidden Excel/Sheets formatting characters
+    df = pd.read_csv(CSV_FILE, encoding='utf-8-sig', encoding_errors='replace')
+    
+    # This strips any accidental leading or trailing spaces from the headers
+    df.columns = df.columns.str.strip()
+    
+    # Filter down to the 4 teams for this batch testing
+    test_teams = ["Vermont", "Virginia", "Bryant", "SMU"]
+    batch_df = df[df['School'].isin(test_teams)]
+    
+    # Initialize the output JSON structure
+    output = {
+        "season": SEASON,
+        "batch": BATCH_NUMBER,
+        "teams": [],
+        "log": {
+            "fetched": [],
+            "pending": [],
+            "notes": {}
+        }
+    }
+    
+    # Iterate through the rows
+    for index, row in batch_df.iterrows():
+        school = row['School']
+        roster_url = row['Mens Soccer Roster URL']
+        stats_url = row['Mens Soccer Statistics URL']
+        
+        team_data, error_msg = build_team_data(school, roster_url, stats_url)
+        
+        if team_data:
+            output["teams"].append(team_data)
+            output["log"]["fetched"].append(school)
+        else:
+            output["log"]["pending"].append(school)
+            output["log"]["notes"][school] = error_msg
+            print(f"Error for {school}: {error_msg}")
+            
+    # Save the output to a local JSON file
+    with open(OUTPUT_JSON, "w") as f:
+        json.dump(output, f, indent=2)
+    print(f"\nBatch complete! Saved data to {OUTPUT_JSON}")
+
+if __name__ == "__main__":
+    main()

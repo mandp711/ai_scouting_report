@@ -1,0 +1,4722 @@
+{
+  "season": "2025",
+  "teams": [
+    {
+      "school": "Virginia",
+      "season": "2025",
+      "record": "12-2-5",
+      "players": {
+        "forwards": [
+          {
+            "name": "Nicholas Simmonds",
+            "number": 7,
+            "listed_position": "F/M",
+            "gp": 19,
+            "gs": 19,
+            "goals": 10,
+            "assists": 5,
+            "points": 25,
+            "shots": 49
+          },
+          {
+            "name": "AJ Smith",
+            "number": 9,
+            "listed_position": "F",
+            "gp": 19,
+            "gs": 5,
+            "goals": 4,
+            "assists": 1,
+            "points": 9,
+            "shots": 18
+          },
+          {
+            "name": "Sami Oulouheu",
+            "number": 11,
+            "listed_position": "F/M",
+            "gp": 17,
+            "gs": 5,
+            "goals": 2,
+            "assists": 1,
+            "points": 5,
+            "shots": 19
+          },
+          {
+            "name": "Stephen Hurlock",
+            "number": 13,
+            "listed_position": "F",
+            "gp": 6,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 3
+          },
+          {
+            "name": "Triton Beauvois",
+            "number": 15,
+            "listed_position": "F",
+            "gp": 15,
+            "gs": 0,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 8
+          },
+          {
+            "name": "Marco Dos Santos",
+            "number": 21,
+            "listed_position": "F/M",
+            "gp": 19,
+            "gs": 19,
+            "goals": 1,
+            "assists": 10,
+            "points": 12,
+            "shots": 24
+          },
+          {
+            "name": "Drew Serafino",
+            "number": 22,
+            "listed_position": "F/M",
+            "gp": 6,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "David Okorie",
+            "number": 23,
+            "listed_position": "F",
+            "gp": 2,
+            "gs": 0,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 0
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Umberto Pelà",
+            "number": 6,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 17,
+            "goals": 4,
+            "assists": 6,
+            "points": 14,
+            "shots": 14
+          },
+          {
+            "name": "Brendan Lambe",
+            "number": 8,
+            "listed_position": "M",
+            "gp": 9,
+            "gs": 6,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 10
+          },
+          {
+            "name": "Luke Burns",
+            "number": 10,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 0,
+            "goals": 2,
+            "assists": 2,
+            "points": 6,
+            "shots": 12
+          },
+          {
+            "name": "Albin Gashi",
+            "number": 12,
+            "listed_position": "M",
+            "gp": 19,
+            "gs": 19,
+            "goals": 1,
+            "assists": 3,
+            "points": 5,
+            "shots": 36
+          },
+          {
+            "name": "Bacary Tandjigora",
+            "number": 17,
+            "listed_position": "M",
+            "gp": 15,
+            "gs": 5,
+            "goals": 2,
+            "assists": 2,
+            "points": 6,
+            "shots": 7
+          },
+          {
+            "name": "Emmanuel Akinkoye",
+            "number": 26,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Nick Dang",
+            "number": 2,
+            "listed_position": "D",
+            "gp": 12,
+            "gs": 12,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "shots": 16
+          },
+          {
+            "name": "Jesus De Vicente",
+            "number": 3,
+            "listed_position": "D",
+            "gp": 19,
+            "gs": 19,
+            "goals": 1,
+            "assists": 7,
+            "points": 9,
+            "shots": 32
+          },
+          {
+            "name": "Alex Parvu",
+            "number": 4,
+            "listed_position": "D",
+            "gp": 19,
+            "gs": 13,
+            "goals": 0,
+            "assists": 6,
+            "points": 6,
+            "shots": 2
+          },
+          {
+            "name": "Parker Sloan",
+            "number": 5,
+            "listed_position": "D",
+            "gp": 10,
+            "gs": 6,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Sebastian Pop",
+            "number": 16,
+            "listed_position": "D",
+            "gp": 19,
+            "gs": 19,
+            "goals": 2,
+            "assists": 0,
+            "points": 4,
+            "shots": 9
+          },
+          {
+            "name": "Zachary Ehrenpreis",
+            "number": 18,
+            "listed_position": "D",
+            "gp": 18,
+            "gs": 18,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 5
+          },
+          {
+            "name": "Reese Miller",
+            "number": 19,
+            "listed_position": "D",
+            "gp": 14,
+            "gs": 3,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 12
+          },
+          {
+            "name": "Jed Akwaboah",
+            "number": 20,
+            "listed_position": "D",
+            "gp": 10,
+            "gs": 2,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 3
+          },
+          {
+            "name": "Graham Jones",
+            "number": 24,
+            "listed_position": "D",
+            "gp": 2,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Donovan Maryat",
+            "number": 25,
+            "listed_position": "D",
+            "gp": 1,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Noah Hall",
+            "number": 27,
+            "listed_position": "D",
+            "gp": 8,
+            "gs": 3,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Grant Howard",
+            "number": 33,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Melvin Hellmann",
+            "number": 0,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Caleb Tunks",
+            "number": 0,
+            "listed_position": "GK",
+            "gp": 2,
+            "gs": 2,
+            "saves": 5,
+            "shutouts": 1,
+            "goals_against": 2
+          },
+          {
+            "name": "Casper Mols",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 17,
+            "gs": 17,
+            "saves": 43,
+            "shutouts": 7,
+            "goals_against": 17
+          },
+          {
+            "name": "Spencer Sanderson",
+            "number": 99,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "Stanford",
+      "season": "2025",
+      "record": "14-4-2",
+      "players": {
+        "forwards": [
+          {
+            "name": "Shane de Flores",
+            "number": 13,
+            "listed_position": "F",
+            "gp": 19,
+            "gs": 9,
+            "goals": 2,
+            "assists": 3,
+            "points": 7,
+            "shots": 21
+          },
+          {
+            "name": "Liam Doyle",
+            "number": 14,
+            "listed_position": "F",
+            "gp": 17,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 19
+          },
+          {
+            "name": "Tomo Allen",
+            "number": 17,
+            "listed_position": "F",
+            "gp": 18,
+            "gs": 4,
+            "goals": 3,
+            "assists": 0,
+            "points": 6,
+            "shots": 26
+          },
+          {
+            "name": "Duncan Jarvie",
+            "number": 19,
+            "listed_position": "F",
+            "gp": 4,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Dillon Logan",
+            "number": 21,
+            "listed_position": "F",
+            "gp": 5,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Joe Moyer",
+            "number": 25,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Eric Frintu",
+            "number": 28,
+            "listed_position": "F",
+            "gp": 3,
+            "gs": 0,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 4
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Dylan Groeneveld",
+            "number": 6,
+            "listed_position": "M",
+            "gp": 19,
+            "gs": 19,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 20
+          },
+          {
+            "name": "Fletcher Bank",
+            "number": 7,
+            "listed_position": "M",
+            "gp": 20,
+            "gs": 20,
+            "goals": 4,
+            "assists": 5,
+            "points": 13,
+            "shots": 41
+          },
+          {
+            "name": "Zach Bohane",
+            "number": 10,
+            "listed_position": "M",
+            "gp": 19,
+            "gs": 17,
+            "goals": 5,
+            "assists": 3,
+            "points": 13,
+            "shots": 65
+          },
+          {
+            "name": "Will Cleary",
+            "number": 15,
+            "listed_position": "M",
+            "gp": 20,
+            "gs": 20,
+            "goals": 4,
+            "assists": 3,
+            "points": 11,
+            "shots": 28
+          },
+          {
+            "name": "Joshua Partal",
+            "number": 16,
+            "listed_position": "M",
+            "gp": 20,
+            "gs": 20,
+            "goals": 0,
+            "assists": 6,
+            "points": 6,
+            "shots": 11
+          },
+          {
+            "name": "Jack Pymm",
+            "number": 18,
+            "listed_position": "M",
+            "gp": 19,
+            "gs": 19,
+            "goals": 4,
+            "assists": 1,
+            "points": 9,
+            "shots": 37
+          },
+          {
+            "name": "Alex Chow",
+            "number": 20,
+            "listed_position": "M",
+            "gp": 20,
+            "gs": 20,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 25
+          },
+          {
+            "name": "Jude Stone",
+            "number": 22,
+            "listed_position": "M",
+            "gp": 20,
+            "gs": 0,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 11
+          },
+          {
+            "name": "Brad Bennett",
+            "number": 26,
+            "listed_position": "M",
+            "gp": 5,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Trevor Islam",
+            "number": 27,
+            "listed_position": "M",
+            "gp": 18,
+            "gs": 11,
+            "goals": 6,
+            "assists": 3,
+            "points": 15,
+            "shots": 32
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Palmer Bank",
+            "number": 3,
+            "listed_position": "D",
+            "gp": 20,
+            "gs": 20,
+            "goals": 2,
+            "assists": 0,
+            "points": 4,
+            "shots": 12
+          },
+          {
+            "name": "Dylan Hooper",
+            "number": 5,
+            "listed_position": "D",
+            "gp": 8,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Alfonso Tenconi-Gradillas",
+            "number": 11,
+            "listed_position": "D/F",
+            "gp": 20,
+            "gs": 20,
+            "goals": 5,
+            "assists": 1,
+            "points": 11,
+            "shots": 28
+          },
+          {
+            "name": "Victor Fung",
+            "number": 23,
+            "listed_position": "D",
+            "gp": 3,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Aidan Reilly",
+            "number": 24,
+            "listed_position": "D",
+            "gp": 3,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Takashi Sasaki",
+            "number": 29,
+            "listed_position": "D",
+            "gp": 9,
+            "gs": 0,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Rowan Schnebly",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 20,
+            "gs": 20,
+            "saves": 42,
+            "shutouts": 7,
+            "goals_against": 17
+          },
+          {
+            "name": "Jordan Victor",
+            "number": 30,
+            "listed_position": "GK",
+            "gp": 1,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Brayden Montague",
+            "number": 32,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Laszlo Bollyky",
+            "number": 33,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "UCF",
+      "season": "2025",
+      "record": "13-3-5",
+      "players": {
+        "forwards": [
+          {
+            "name": "Malick Thiaw",
+            "number": 7,
+            "listed_position": "F",
+            "gp": 20,
+            "gs": 16,
+            "goals": 4,
+            "assists": 6,
+            "points": 14,
+            "shots": 19
+          },
+          {
+            "name": "Claudel N'goubou",
+            "number": 9,
+            "listed_position": "F",
+            "gp": 19,
+            "gs": 17,
+            "goals": 4,
+            "assists": 6,
+            "points": 14,
+            "shots": 31
+          },
+          {
+            "name": "Clarence Awoudor",
+            "number": 10,
+            "listed_position": "F/M",
+            "gp": 21,
+            "gs": 21,
+            "goals": 7,
+            "assists": 15,
+            "points": 29,
+            "shots": 62
+          },
+          {
+            "name": "Sora Funakoshi",
+            "number": 11,
+            "listed_position": "F/M",
+            "gp": 11,
+            "gs": 6,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 5
+          },
+          {
+            "name": "Frederic Benedix",
+            "number": 17,
+            "listed_position": "F/M",
+            "gp": 20,
+            "gs": 8,
+            "goals": 1,
+            "assists": 3,
+            "points": 5,
+            "shots": 17
+          },
+          {
+            "name": "Drew Hansen",
+            "number": 18,
+            "listed_position": "F",
+            "gp": 19,
+            "gs": 1,
+            "goals": 3,
+            "assists": 0,
+            "points": 6,
+            "shots": 8
+          },
+          {
+            "name": "Seiryu Ono",
+            "number": 19,
+            "listed_position": "F/M",
+            "gp": 13,
+            "gs": 0,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 6
+          },
+          {
+            "name": "Lilian Ricol",
+            "number": 20,
+            "listed_position": "F",
+            "gp": 21,
+            "gs": 16,
+            "goals": 13,
+            "assists": 4,
+            "points": 30,
+            "shots": 51
+          },
+          {
+            "name": "Izán Martínez",
+            "number": 32,
+            "listed_position": "F/M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Younes Boudinar",
+            "number": 5,
+            "listed_position": "M",
+            "gp": 20,
+            "gs": 19,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 17
+          },
+          {
+            "name": "Joey Mueller",
+            "number": 6,
+            "listed_position": "M/D",
+            "gp": 21,
+            "gs": 18,
+            "goals": 2,
+            "assists": 3,
+            "points": 7,
+            "shots": 25
+          },
+          {
+            "name": "Petter Wingsternaes",
+            "number": 8,
+            "listed_position": "M",
+            "gp": 5,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Fabio Guerreiro",
+            "number": 14,
+            "listed_position": "M",
+            "gp": 2,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Abraham Monsee",
+            "number": 15,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Finn Calloway",
+            "number": 21,
+            "listed_position": "M",
+            "gp": 4,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Kenn Muendo",
+            "number": 28,
+            "listed_position": "M",
+            "gp": 19,
+            "gs": 4,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 15
+          },
+          {
+            "name": "Hugo Vion",
+            "number": 0,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Alex Smith",
+            "number": 2,
+            "listed_position": "D",
+            "gp": 18,
+            "gs": 10,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 5
+          },
+          {
+            "name": "Gwendal Degorce",
+            "number": 3,
+            "listed_position": "D",
+            "gp": 21,
+            "gs": 21,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "shots": 1
+          },
+          {
+            "name": "Jem Hewlett",
+            "number": 4,
+            "listed_position": "D",
+            "gp": 20,
+            "gs": 18,
+            "goals": 2,
+            "assists": 1,
+            "points": 5,
+            "shots": 12
+          },
+          {
+            "name": "Gabi Velez",
+            "number": 12,
+            "listed_position": "D",
+            "gp": 1,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Timothy Arias",
+            "number": 16,
+            "listed_position": "D",
+            "gp": 11,
+            "gs": 8,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Arne Michaelis",
+            "number": 23,
+            "listed_position": "D",
+            "gp": 8,
+            "gs": 3,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Yordan Torres",
+            "number": 24,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Mateus Dejesus",
+            "number": 33,
+            "listed_position": "D",
+            "gp": 21,
+            "gs": 18,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 8
+          },
+          {
+            "name": "Mikael Pulkkinen",
+            "number": 34,
+            "listed_position": "D",
+            "gp": 6,
+            "gs": 3,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Timo Haböck",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Juanvi Muñoz",
+            "number": 13,
+            "listed_position": "GK",
+            "gp": 21,
+            "gs": 21,
+            "saves": 60,
+            "shutouts": 5,
+            "goals_against": 27
+          },
+          {
+            "name": "Marcelo Lacayo",
+            "number": 31,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "Clemson",
+      "season": "2025",
+      "record": "8-6-3",
+      "players": {
+        "forwards": [
+          {
+            "name": "Wahabu Musah",
+            "number": 7,
+            "listed_position": "F",
+            "gp": 15,
+            "gs": 13,
+            "goals": 6,
+            "assists": 0,
+            "points": 12,
+            "shots": 36
+          },
+          {
+            "name": "James Kelly",
+            "number": 19,
+            "listed_position": "F",
+            "gp": 11,
+            "gs": 0,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 4
+          },
+          {
+            "name": "Andres Beirute",
+            "number": 20,
+            "listed_position": "F",
+            "gp": 5,
+            "gs": 0,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 1
+          },
+          {
+            "name": "Duncan Wilson",
+            "number": 23,
+            "listed_position": "F",
+            "gp": 10,
+            "gs": 0,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 6
+          },
+          {
+            "name": "Vitor Geromel",
+            "number": 24,
+            "listed_position": "F",
+            "gp": 3,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Marco Garcia",
+            "number": 26,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Xander Sevian",
+            "number": 28,
+            "listed_position": "F",
+            "gp": 13,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 5
+          },
+          {
+            "name": "Remi Okunlola",
+            "number": 30,
+            "listed_position": "F",
+            "gp": 16,
+            "gs": 15,
+            "goals": 0,
+            "assists": 8,
+            "points": 8,
+            "shots": 13
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Daniel Bunk",
+            "number": 6,
+            "listed_position": "M",
+            "gp": 10,
+            "gs": 2,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 5
+          },
+          {
+            "name": "Kwaku Agyabeng",
+            "number": 8,
+            "listed_position": "M",
+            "gp": 16,
+            "gs": 15,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 11
+          },
+          {
+            "name": "Ransford Gyan",
+            "number": 10,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 17,
+            "goals": 8,
+            "assists": 8,
+            "points": 24,
+            "shots": 52
+          },
+          {
+            "name": "Misei Yoshizawa",
+            "number": 11,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 17,
+            "goals": 6,
+            "assists": 4,
+            "points": 16,
+            "shots": 31
+          },
+          {
+            "name": "Cooper Hineline",
+            "number": 14,
+            "listed_position": "M",
+            "gp": 8,
+            "gs": 2,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 3
+          },
+          {
+            "name": "Abdou Mane",
+            "number": 15,
+            "listed_position": "M",
+            "gp": 13,
+            "gs": 1,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 11
+          },
+          {
+            "name": "Mason Jimenez",
+            "number": 16,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 17,
+            "goals": 1,
+            "assists": 2,
+            "points": 4,
+            "shots": 14
+          },
+          {
+            "name": "Caleb George",
+            "number": 17,
+            "listed_position": "M",
+            "gp": 1,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Gabriel Santuari",
+            "number": 21,
+            "listed_position": "M",
+            "gp": 13,
+            "gs": 6,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "shots": 9
+          },
+          {
+            "name": "Kyle Mattis",
+            "number": 22,
+            "listed_position": "M",
+            "gp": 7,
+            "gs": 2,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 2
+          },
+          {
+            "name": "Nathan Richmond",
+            "number": 25,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 13,
+            "goals": 7,
+            "assists": 5,
+            "points": 19,
+            "shots": 39
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Lukas Magnason",
+            "number": 2,
+            "listed_position": "D",
+            "gp": 12,
+            "gs": 12,
+            "goals": 2,
+            "assists": 1,
+            "points": 5,
+            "shots": 8
+          },
+          {
+            "name": "Arthur Duquenne",
+            "number": 3,
+            "listed_position": "D",
+            "gp": 17,
+            "gs": 17,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 10
+          },
+          {
+            "name": "Olafur Floki Stephensen",
+            "number": 4,
+            "listed_position": "D",
+            "gp": 15,
+            "gs": 15,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 11
+          },
+          {
+            "name": "Augustine Asante",
+            "number": 5,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Matthias Leib",
+            "number": 18,
+            "listed_position": "D",
+            "gp": 11,
+            "gs": 6,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 4
+          },
+          {
+            "name": "Seamus Streelman",
+            "number": 27,
+            "listed_position": "D",
+            "gp": 6,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Aiden Hampton",
+            "number": 0,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Joseph Andema",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 17,
+            "gs": 17,
+            "saves": 37,
+            "shutouts": 3,
+            "goals_against": 23
+          },
+          {
+            "name": "Justin Ross",
+            "number": 12,
+            "listed_position": "GK",
+            "gp": 1,
+            "gs": 0,
+            "saves": 1,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Ivan Schmid",
+            "number": 31,
+            "listed_position": "GK",
+            "gp": 1,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "Notre Dame",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "Nate Zimmermann",
+            "number": 7,
+            "listed_position": "F",
+            "gp": 17,
+            "gs": "NA",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 8
+          },
+          {
+            "name": "Wyatt Borso",
+            "number": 9,
+            "listed_position": "F",
+            "gp": 20,
+            "gs": "NA",
+            "goals": 5,
+            "assists": 0,
+            "points": 10,
+            "shots": 39
+          },
+          {
+            "name": "Jack Flanagan",
+            "number": 11,
+            "listed_position": "F",
+            "gp": 18,
+            "gs": "NA",
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 13
+          },
+          {
+            "name": "Ren Sylvester",
+            "number": 19,
+            "listed_position": "F",
+            "gp": 17,
+            "gs": "NA",
+            "goals": 2,
+            "assists": 2,
+            "points": 6,
+            "shots": 9
+          },
+          {
+            "name": "Stevie Dunphy",
+            "number": 23,
+            "listed_position": "F",
+            "gp": 11,
+            "gs": "NA",
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 2
+          },
+          {
+            "name": "Luke Burton",
+            "number": 27,
+            "listed_position": "F",
+            "gp": 17,
+            "gs": "NA",
+            "goals": 3,
+            "assists": 3,
+            "points": 9,
+            "shots": 21
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Wyatt Lewis",
+            "number": 6,
+            "listed_position": "M",
+            "gp": 20,
+            "gs": "NA",
+            "goals": 1,
+            "assists": 2,
+            "points": 4,
+            "shots": 13
+          },
+          {
+            "name": "Nico Bartlett",
+            "number": 8,
+            "listed_position": "M",
+            "gp": 8,
+            "gs": "NA",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 4
+          },
+          {
+            "name": "KK Baffour",
+            "number": 10,
+            "listed_position": "M",
+            "gp": 20,
+            "gs": "NA",
+            "goals": 1,
+            "assists": 3,
+            "points": 5,
+            "shots": 30
+          },
+          {
+            "name": "Daniel Boateng",
+            "number": 12,
+            "listed_position": "M",
+            "gp": 1,
+            "gs": "NA",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Will Schroeder",
+            "number": 14,
+            "listed_position": "M",
+            "gp": 16,
+            "gs": "NA",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 10
+          },
+          {
+            "name": "Ian Shaul",
+            "number": 15,
+            "listed_position": "M",
+            "gp": 20,
+            "gs": "NA",
+            "goals": 0,
+            "assists": 3,
+            "points": 3,
+            "shots": 8
+          },
+          {
+            "name": "Leo Brummell",
+            "number": 16,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": "NA",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Brody Hilden",
+            "number": 20,
+            "listed_position": "M",
+            "gp": 15,
+            "gs": "NA",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 4
+          },
+          {
+            "name": "Karson Baquero",
+            "number": 21,
+            "listed_position": "M",
+            "gp": 10,
+            "gs": "NA",
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 4
+          },
+          {
+            "name": "Nolan Spicer",
+            "number": 22,
+            "listed_position": "M",
+            "gp": 20,
+            "gs": "NA",
+            "goals": 2,
+            "assists": 7,
+            "points": 11,
+            "shots": 17
+          },
+          {
+            "name": "Sebastian Green",
+            "number": 24,
+            "listed_position": "M",
+            "gp": 14,
+            "gs": "NA",
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 4
+          },
+          {
+            "name": "Diego Green",
+            "number": 26,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": "NA",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Mitch Ferguson",
+            "number": 2,
+            "listed_position": "D",
+            "gp": 20,
+            "gs": "NA",
+            "goals": 5,
+            "assists": 1,
+            "points": 11,
+            "shots": 23
+          },
+          {
+            "name": "Sean McDowd",
+            "number": 3,
+            "listed_position": "D",
+            "gp": 18,
+            "gs": "NA",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 6
+          },
+          {
+            "name": "Jack Ross",
+            "number": 4,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": "NA",
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Martin Von Thun",
+            "number": 13,
+            "listed_position": "D",
+            "gp": 13,
+            "gs": "NA",
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 4
+          },
+          {
+            "name": "Alex Rosin",
+            "number": 17,
+            "listed_position": "D",
+            "gp": 17,
+            "gs": "NA",
+            "goals": 2,
+            "assists": 3,
+            "points": 7,
+            "shots": 6
+          },
+          {
+            "name": "Diego Ochoa",
+            "number": 18,
+            "listed_position": "D",
+            "gp": 17,
+            "gs": "NA",
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 6
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Cole Kowalski",
+            "number": 0,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": "NA",
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Blake Kelly",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 20,
+            "gs": "NA",
+            "saves": 71,
+            "shutouts": 6,
+            "goals_against": 25
+          },
+          {
+            "name": "Liam Egan",
+            "number": 30,
+            "listed_position": "GK",
+            "gp": 1,
+            "gs": "NA",
+            "saves": 1,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "Kentucky",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "Isaiah Chisolm",
+            "number": 9,
+            "listed_position": "F",
+            "gp": 17,
+            "gs": 16,
+            "goals": 6,
+            "assists": 1,
+            "points": 13,
+            "shots": 31
+          },
+          {
+            "name": "Gustav Renman",
+            "number": 12,
+            "listed_position": "F",
+            "gp": 10,
+            "gs": 6,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 7
+          },
+          {
+            "name": "Bains Smith",
+            "number": 16,
+            "listed_position": "F",
+            "gp": 14,
+            "gs": 3,
+            "goals": 1,
+            "assists": 2,
+            "points": 4,
+            "shots": 15
+          },
+          {
+            "name": "Danny Isaac",
+            "number": 20,
+            "listed_position": "F",
+            "gp": 6,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Tiago Honorio Jr.",
+            "number": 25,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Joaquin Brizuela",
+            "number": 29,
+            "listed_position": "F",
+            "gp": 19,
+            "gs": 8,
+            "goals": 3,
+            "assists": 3,
+            "points": 9,
+            "shots": 21
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Eric Onos",
+            "number": 7,
+            "listed_position": "M",
+            "gp": 10,
+            "gs": 4,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "shots": 8
+          },
+          {
+            "name": "Oliver Stavdal",
+            "number": 8,
+            "listed_position": "M",
+            "gp": 14,
+            "gs": 5,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 4
+          },
+          {
+            "name": "Agustin Lopez",
+            "number": 10,
+            "listed_position": "M",
+            "gp": 14,
+            "gs": 11,
+            "goals": 4,
+            "assists": 2,
+            "points": 10,
+            "shots": 24
+          },
+          {
+            "name": "Kevin Larsson",
+            "number": 11,
+            "listed_position": "M",
+            "gp": 19,
+            "gs": 13,
+            "goals": 2,
+            "assists": 2,
+            "points": 6,
+            "shots": 28
+          },
+          {
+            "name": "Alex Ruiz",
+            "number": 14,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 14,
+            "goals": 7,
+            "assists": 4,
+            "points": 18,
+            "shots": 28
+          },
+          {
+            "name": "Bertil Alban",
+            "number": 17,
+            "listed_position": "M",
+            "gp": 16,
+            "gs": 14,
+            "goals": 3,
+            "assists": 0,
+            "points": 6,
+            "shots": 9
+          },
+          {
+            "name": "Marcus Andersen",
+            "number": 18,
+            "listed_position": "M",
+            "gp": 18,
+            "gs": 12,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 5
+          },
+          {
+            "name": "Kaden Pollard",
+            "number": 19,
+            "listed_position": "M",
+            "gp": 8,
+            "gs": 4,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 2
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Josh Gordon",
+            "number": 2,
+            "listed_position": "D",
+            "gp": 17,
+            "gs": 15,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "shots": 19
+          },
+          {
+            "name": "Max Miller",
+            "number": 3,
+            "listed_position": "D",
+            "gp": 12,
+            "gs": 8,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 6
+          },
+          {
+            "name": "Marqes Muir",
+            "number": 4,
+            "listed_position": "D",
+            "gp": 18,
+            "gs": 18,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 3
+          },
+          {
+            "name": "Dan McHale",
+            "number": 5,
+            "listed_position": "D",
+            "gp": 3,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Sinan Solmaz",
+            "number": 6,
+            "listed_position": "D",
+            "gp": 16,
+            "gs": 16,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 3
+          },
+          {
+            "name": "Mekhi Haughton-Parris",
+            "number": 21,
+            "listed_position": "D",
+            "gp": 9,
+            "gs": 4,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 4
+          },
+          {
+            "name": "Owen Mikoy",
+            "number": 22,
+            "listed_position": "D",
+            "gp": 16,
+            "gs": 11,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 4
+          },
+          {
+            "name": "Luke Shreiner",
+            "number": 23,
+            "listed_position": "D",
+            "gp": 14,
+            "gs": 8,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 5
+          },
+          {
+            "name": "JJ Vozar",
+            "number": 26,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Hayden Owens",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Sebastian Conlon",
+            "number": 24,
+            "listed_position": "GK",
+            "gp": 19,
+            "gs": 19,
+            "saves": 56,
+            "shutouts": 8,
+            "goals_against": 18
+          },
+          {
+            "name": "Dillon Griner",
+            "number": 30,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "San Jose State",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "Arnold Matshazi",
+            "number": 9,
+            "listed_position": "F",
+            "gp": 20,
+            "gs": 20,
+            "goals": 12,
+            "assists": 1,
+            "points": 25,
+            "shots": 41
+          },
+          {
+            "name": "Jordi Tortell Daly",
+            "number": 11,
+            "listed_position": "F",
+            "gp": 17,
+            "gs": 3,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 18
+          },
+          {
+            "name": "Angel Gutierrez",
+            "number": 14,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Miliano Suarez",
+            "number": 15,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Anthony Guzman",
+            "number": 17,
+            "listed_position": "F",
+            "gp": 14,
+            "gs": 1,
+            "goals": 1,
+            "assists": 2,
+            "points": 4,
+            "shots": 5
+          },
+          {
+            "name": "Jalen Scott",
+            "number": 21,
+            "listed_position": "F",
+            "gp": 1,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Amir Anwary",
+            "number": 23,
+            "listed_position": "F",
+            "gp": 6,
+            "gs": 0,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 2
+          },
+          {
+            "name": "Jason Buezo",
+            "number": 24,
+            "listed_position": "F",
+            "gp": 2,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Eamon Fakhri",
+            "number": 26,
+            "listed_position": "F",
+            "gp": 13,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 4
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Dane Pendleton",
+            "number": 3,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 13,
+            "goals": 2,
+            "assists": 3,
+            "points": 7,
+            "shots": 20
+          },
+          {
+            "name": "Gilberto Rivera",
+            "number": 6,
+            "listed_position": "M",
+            "gp": 19,
+            "gs": 19,
+            "goals": 2,
+            "assists": 8,
+            "points": 12,
+            "shots": 39
+          },
+          {
+            "name": "Angel Fernandez",
+            "number": 7,
+            "listed_position": "M",
+            "gp": 19,
+            "gs": 18,
+            "goals": 1,
+            "assists": 3,
+            "points": 5,
+            "shots": 12
+          },
+          {
+            "name": "Cameron Cook",
+            "number": 8,
+            "listed_position": "M",
+            "gp": 16,
+            "gs": 13,
+            "goals": 2,
+            "assists": 3,
+            "points": 7,
+            "shots": 27
+          },
+          {
+            "name": "Angel Iniguez",
+            "number": 10,
+            "listed_position": "M",
+            "gp": 20,
+            "gs": 20,
+            "goals": 9,
+            "assists": 7,
+            "points": 25,
+            "shots": 47
+          },
+          {
+            "name": "Daniel Fregoso Bautista",
+            "number": 13,
+            "listed_position": "M",
+            "gp": 18,
+            "gs": 12,
+            "goals": 3,
+            "assists": 1,
+            "points": 7,
+            "shots": 18
+          },
+          {
+            "name": "Neo Ruiz",
+            "number": 16,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 8,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 25
+          },
+          {
+            "name": "Jesper Bakli",
+            "number": 19,
+            "listed_position": "M",
+            "gp": 11,
+            "gs": 2,
+            "goals": 1,
+            "assists": 2,
+            "points": 4,
+            "shots": 2
+          },
+          {
+            "name": "Fernando Duarte",
+            "number": 20,
+            "listed_position": "M",
+            "gp": 14,
+            "gs": 4,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 6
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Ruben Flores-Thomas",
+            "number": 2,
+            "listed_position": "D",
+            "gp": 20,
+            "gs": 20,
+            "goals": 1,
+            "assists": 2,
+            "points": 4,
+            "shots": 8
+          },
+          {
+            "name": "Kaylob Walker",
+            "number": 4,
+            "listed_position": "D",
+            "gp": 6,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Niklas Dossmann",
+            "number": 5,
+            "listed_position": "D",
+            "gp": 20,
+            "gs": 20,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 5
+          },
+          {
+            "name": "Diego Nieves",
+            "number": 12,
+            "listed_position": "D",
+            "gp": 7,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Javier Lopez",
+            "number": 18,
+            "listed_position": "D",
+            "gp": 19,
+            "gs": 19,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 4
+          },
+          {
+            "name": "Samuel Navarrete",
+            "number": 22,
+            "listed_position": "D",
+            "gp": 5,
+            "gs": 2,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 2
+          },
+          {
+            "name": "Emmanuel Garcia",
+            "number": 25,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Tomislav Jozinovic",
+            "number": 29,
+            "listed_position": "D",
+            "gp": 2,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Tiko Moodie",
+            "number": 31,
+            "listed_position": "D",
+            "gp": 10,
+            "gs": 3,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Ronin Axelson",
+            "number": 0,
+            "listed_position": "GK",
+            "gp": 3,
+            "gs": 2,
+            "saves": 4,
+            "shutouts": 0,
+            "goals_against": 3
+          },
+          {
+            "name": "Edgar Guerra",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 18,
+            "gs": 18,
+            "saves": 45,
+            "shutouts": 8,
+            "goals_against": 18
+          },
+          {
+            "name": "Jorge Arellano",
+            "number": 27,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Colin Farley",
+            "number": 28,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "Virginia Tech",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "Declan Quill",
+            "number": 7,
+            "listed_position": "F",
+            "gp": 16,
+            "gs": 14,
+            "goals": 5,
+            "assists": 4,
+            "points": 14,
+            "shots": 44
+          },
+          {
+            "name": "Alex Perez",
+            "number": 9,
+            "listed_position": "F",
+            "gp": 16,
+            "gs": 16,
+            "goals": 2,
+            "assists": 5,
+            "points": 9,
+            "shots": 21
+          },
+          {
+            "name": "Colin Beutel",
+            "number": 11,
+            "listed_position": "F",
+            "gp": 16,
+            "gs": 4,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 13
+          },
+          {
+            "name": "Dagur Traustason",
+            "number": 13,
+            "listed_position": "F",
+            "gp": 12,
+            "gs": 8,
+            "goals": 7,
+            "assists": 0,
+            "points": 14,
+            "shots": 17
+          },
+          {
+            "name": "Osi Onwudiwe",
+            "number": 14,
+            "listed_position": "F",
+            "gp": 7,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 6
+          },
+          {
+            "name": "Andy Sullins",
+            "number": 15,
+            "listed_position": "F",
+            "gp": 15,
+            "gs": 3,
+            "goals": 2,
+            "assists": 1,
+            "points": 5,
+            "shots": 21
+          },
+          {
+            "name": "Alvaro Ruiz-Mateos",
+            "number": 18,
+            "listed_position": "F",
+            "gp": 11,
+            "gs": 3,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 9
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Yanis Belatrache",
+            "number": 5,
+            "listed_position": "M",
+            "gp": 16,
+            "gs": 16,
+            "goals": 1,
+            "assists": 2,
+            "points": 4,
+            "shots": 14
+          },
+          {
+            "name": "Mathias Yohannes",
+            "number": 6,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Ugo Bertelli",
+            "number": 8,
+            "listed_position": "M",
+            "gp": 12,
+            "gs": 0,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 14
+          },
+          {
+            "name": "Ian Marcano",
+            "number": 10,
+            "listed_position": "M",
+            "gp": 16,
+            "gs": 16,
+            "goals": 1,
+            "assists": 4,
+            "points": 6,
+            "shots": 19
+          },
+          {
+            "name": "Harrison Krieg",
+            "number": 12,
+            "listed_position": "M",
+            "gp": 11,
+            "gs": 3,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 2
+          },
+          {
+            "name": "Beltran Alvarez",
+            "number": 17,
+            "listed_position": "M",
+            "gp": 15,
+            "gs": 13,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 14
+          },
+          {
+            "name": "Tiago Portela",
+            "number": 23,
+            "listed_position": "M",
+            "gp": 7,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 2
+          },
+          {
+            "name": "Landan Grange",
+            "number": 30,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Amir Ariely",
+            "number": 2,
+            "listed_position": "D",
+            "gp": 15,
+            "gs": 15,
+            "goals": 1,
+            "assists": 2,
+            "points": 4,
+            "shots": 12
+          },
+          {
+            "name": "Ethan Page",
+            "number": 3,
+            "listed_position": "D",
+            "gp": 4,
+            "gs": 0,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 2
+          },
+          {
+            "name": "Evan Schroeder",
+            "number": 4,
+            "listed_position": "D",
+            "gp": 15,
+            "gs": 12,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 4
+          },
+          {
+            "name": "Yassine Rhoumar",
+            "number": 20,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Noe Uwimana",
+            "number": 21,
+            "listed_position": "D",
+            "gp": 16,
+            "gs": 16,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "shots": 7
+          },
+          {
+            "name": "Tito Peralta",
+            "number": 22,
+            "listed_position": "D",
+            "gp": 15,
+            "gs": 7,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 17
+          },
+          {
+            "name": "Joao Felicio",
+            "number": 24,
+            "listed_position": "D",
+            "gp": 15,
+            "gs": 13,
+            "goals": 0,
+            "assists": 3,
+            "points": 3,
+            "shots": 8
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Leo Ledin",
+            "number": 0,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Sam Joseph",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 16,
+            "gs": 16,
+            "saves": 46,
+            "shutouts": 7,
+            "goals_against": 19
+          },
+          {
+            "name": "Zach Glesius",
+            "number": 25,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Cameron Farrell",
+            "number": 27,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "George Mason",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "Jacobo Sanfeliu",
+            "number": 7,
+            "listed_position": "F",
+            "gp": 16,
+            "gs": 12,
+            "goals": 7,
+            "assists": 2,
+            "points": 16,
+            "shots": 38
+          },
+          {
+            "name": "Nacho Diaz Barragan",
+            "number": 10,
+            "listed_position": "F",
+            "gp": 14,
+            "gs": 0,
+            "goals": 2,
+            "assists": 1,
+            "points": 5,
+            "shots": 10
+          },
+          {
+            "name": "Tresz McLeod",
+            "number": 13,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Abdul Kamara",
+            "number": 21,
+            "listed_position": "F",
+            "gp": 9,
+            "gs": 2,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 6
+          },
+          {
+            "name": "Jaime Godinho",
+            "number": 22,
+            "listed_position": "F",
+            "gp": 16,
+            "gs": 16,
+            "goals": 1,
+            "assists": 3,
+            "points": 5,
+            "shots": 20
+          },
+          {
+            "name": "Kelly Janssen",
+            "number": 27,
+            "listed_position": "F",
+            "gp": 16,
+            "gs": 5,
+            "goals": 5,
+            "assists": 1,
+            "points": 11,
+            "shots": 20
+          },
+          {
+            "name": "Martim Sereno",
+            "number": 28,
+            "listed_position": "F",
+            "gp": 16,
+            "gs": 16,
+            "goals": 6,
+            "assists": 5,
+            "points": 17,
+            "shots": 31
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Sergio Gonzalez Fernandez",
+            "number": 6,
+            "listed_position": "M",
+            "gp": 13,
+            "gs": 8,
+            "goals": 0,
+            "assists": 5,
+            "points": 5,
+            "shots": 6
+          },
+          {
+            "name": "James Eliuda",
+            "number": 8,
+            "listed_position": "M",
+            "gp": 15,
+            "gs": 15,
+            "goals": 3,
+            "assists": 4,
+            "points": 10,
+            "shots": 23
+          },
+          {
+            "name": "Kenzo Brito",
+            "number": 11,
+            "listed_position": "M",
+            "gp": 10,
+            "gs": 4,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 7
+          },
+          {
+            "name": "John Balkey",
+            "number": 12,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Brent Fields",
+            "number": 15,
+            "listed_position": "M",
+            "gp": 12,
+            "gs": 0,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 4
+          },
+          {
+            "name": "Alen Kapetanovic",
+            "number": 16,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Quentin Clain",
+            "number": 17,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Javier Montava",
+            "number": 23,
+            "listed_position": "M",
+            "gp": 16,
+            "gs": 16,
+            "goals": 1,
+            "assists": 2,
+            "points": 4,
+            "shots": 14
+          },
+          {
+            "name": "Mouhamed Tucker",
+            "number": 24,
+            "listed_position": "M",
+            "gp": 4,
+            "gs": 4,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "shots": 1
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Elijah Jackson",
+            "number": 2,
+            "listed_position": "D",
+            "gp": 11,
+            "gs": 7,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 7
+          },
+          {
+            "name": "Jordi Navio Sanchez",
+            "number": 3,
+            "listed_position": "D",
+            "gp": 15,
+            "gs": 15,
+            "goals": 0,
+            "assists": 4,
+            "points": 4,
+            "shots": 10
+          },
+          {
+            "name": "Javi Sanchez",
+            "number": 4,
+            "listed_position": "D",
+            "gp": 8,
+            "gs": 7,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "David Garcia",
+            "number": 14,
+            "listed_position": "D",
+            "gp": 15,
+            "gs": 11,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 5
+          },
+          {
+            "name": "Will Carson",
+            "number": 19,
+            "listed_position": "D",
+            "gp": 15,
+            "gs": 14,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 12
+          },
+          {
+            "name": "Cristian Ramos",
+            "number": 20,
+            "listed_position": "D",
+            "gp": 1,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Yannick Mambo",
+            "number": 26,
+            "listed_position": "D",
+            "gp": 8,
+            "gs": 5,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 5
+          },
+          {
+            "name": "Leo Lemoine",
+            "number": 34,
+            "listed_position": "D",
+            "gp": 3,
+            "gs": 2,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 2
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Fernando Carreon Garcia",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Jaume Salvado",
+            "number": 18,
+            "listed_position": "GK",
+            "gp": 15,
+            "gs": 15,
+            "saves": 65,
+            "shutouts": 4,
+            "goals_against": 30
+          },
+          {
+            "name": "Jack Desroches",
+            "number": 33,
+            "listed_position": "GK",
+            "gp": 1,
+            "gs": 1,
+            "saves": 3,
+            "shutouts": 1,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "Old Dominion",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "Alex Kryazhev",
+            "number": 9,
+            "listed_position": "F",
+            "gp": 12,
+            "gs": 9,
+            "goals": 2,
+            "assists": 6,
+            "points": 10,
+            "shots": 20
+          },
+          {
+            "name": "Michael Eberle",
+            "number": 10,
+            "listed_position": "F",
+            "gp": 18,
+            "gs": 9,
+            "goals": 1,
+            "assists": 6,
+            "points": 8,
+            "shots": 14
+          },
+          {
+            "name": "Jamie Wynne",
+            "number": 11,
+            "listed_position": "F",
+            "gp": 16,
+            "gs": 12,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "shots": 9
+          },
+          {
+            "name": "Lewis Rourke",
+            "number": 12,
+            "listed_position": "F",
+            "gp": 18,
+            "gs": 14,
+            "goals": 10,
+            "assists": 3,
+            "points": 23,
+            "shots": 36
+          },
+          {
+            "name": "Micah Wayland",
+            "number": 14,
+            "listed_position": "F",
+            "gp": 16,
+            "gs": 1,
+            "goals": 2,
+            "assists": 3,
+            "points": 7,
+            "shots": 17
+          },
+          {
+            "name": "Otu Bisong",
+            "number": 16,
+            "listed_position": "F",
+            "gp": 12,
+            "gs": 4,
+            "goals": 3,
+            "assists": 0,
+            "points": 6,
+            "shots": 7
+          },
+          {
+            "name": "Kolby Godbolt",
+            "number": 19,
+            "listed_position": "F",
+            "gp": 14,
+            "gs": 4,
+            "goals": 2,
+            "assists": 1,
+            "points": 5,
+            "shots": 12
+          },
+          {
+            "name": "Nicholas Alves",
+            "number": 21,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Jett Aktan",
+            "number": 6,
+            "listed_position": "M",
+            "gp": 18,
+            "gs": 18,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 10
+          },
+          {
+            "name": "Barrett Saul",
+            "number": 8,
+            "listed_position": "M",
+            "gp": 18,
+            "gs": 14,
+            "goals": 3,
+            "assists": 2,
+            "points": 8,
+            "shots": 15
+          },
+          {
+            "name": "Jake Lane",
+            "number": 13,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 11,
+            "goals": 4,
+            "assists": 2,
+            "points": 10,
+            "shots": 14
+          },
+          {
+            "name": "Mathias Krohnstad",
+            "number": 15,
+            "listed_position": "M",
+            "gp": 12,
+            "gs": 4,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "shots": 9
+          },
+          {
+            "name": "Miguel Menendez",
+            "number": 17,
+            "listed_position": "M",
+            "gp": 18,
+            "gs": 10,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 20
+          },
+          {
+            "name": "Alessandro Maldonado",
+            "number": 20,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Michael Dessalegn",
+            "number": 22,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Kosuke Yoshikawa",
+            "number": 27,
+            "listed_position": "M",
+            "gp": 2,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Jago Lott",
+            "number": 30,
+            "listed_position": "M",
+            "gp": 14,
+            "gs": 10,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 6
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Teagan Dunne",
+            "number": 3,
+            "listed_position": "D",
+            "gp": 18,
+            "gs": 17,
+            "goals": 0,
+            "assists": 3,
+            "points": 3,
+            "shots": 6
+          },
+          {
+            "name": "Evan Watt",
+            "number": 4,
+            "listed_position": "D",
+            "gp": 17,
+            "gs": 17,
+            "goals": 2,
+            "assists": 0,
+            "points": 4,
+            "shots": 20
+          },
+          {
+            "name": "Ethan Fisher",
+            "number": 5,
+            "listed_position": "D",
+            "gp": 2,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Conor Thomas",
+            "number": 25,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Michael Statham",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 17,
+            "gs": 17,
+            "saves": 68,
+            "shutouts": 4,
+            "goals_against": 24
+          },
+          {
+            "name": "Alexander Aguilar",
+            "number": 23,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Logan Bellina",
+            "number": 24,
+            "listed_position": "GK",
+            "gp": 1,
+            "gs": 1,
+            "saves": 0,
+            "shutouts": 1,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "San Diego State",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "Juan Zepeda",
+            "number": 9,
+            "listed_position": "F",
+            "gp": 18,
+            "gs": 14,
+            "goals": 4,
+            "assists": 2,
+            "points": 10,
+            "shots": 37
+          },
+          {
+            "name": "Terence Okoeguale",
+            "number": 10,
+            "listed_position": "F",
+            "gp": 11,
+            "gs": 8,
+            "goals": 3,
+            "assists": 2,
+            "points": 8,
+            "shots": 17
+          },
+          {
+            "name": "Rommee Jaridly",
+            "number": 22,
+            "listed_position": "F",
+            "gp": 16,
+            "gs": 13,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 22
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Carson Ballagh",
+            "number": 4,
+            "listed_position": "M",
+            "gp": 13,
+            "gs": 8,
+            "goals": 0,
+            "assists": 4,
+            "points": 4,
+            "shots": 5
+          },
+          {
+            "name": "Jordan Korbus",
+            "number": 6,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Josh Lucas",
+            "number": 7,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 16,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 36
+          },
+          {
+            "name": "Beto Apolinar",
+            "number": 8,
+            "listed_position": "M",
+            "gp": 12,
+            "gs": 12,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 6
+          },
+          {
+            "name": "Lleyton Imparato",
+            "number": 11,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 10,
+            "goals": 0,
+            "assists": 4,
+            "points": 4,
+            "shots": 14
+          },
+          {
+            "name": "Whit Schatz",
+            "number": 13,
+            "listed_position": "M",
+            "gp": 13,
+            "gs": 3,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 3
+          },
+          {
+            "name": "Nik Orth",
+            "number": 17,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 11,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 8
+          },
+          {
+            "name": "Jonah Kawamura",
+            "number": 19,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Stephan Moreira",
+            "number": 21,
+            "listed_position": "M",
+            "gp": 6,
+            "gs": 4,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 5
+          },
+          {
+            "name": "Beckett Miller",
+            "number": 23,
+            "listed_position": "M",
+            "gp": 8,
+            "gs": 4,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 3
+          },
+          {
+            "name": "Lucas Caffo",
+            "number": 30,
+            "listed_position": "M",
+            "gp": 9,
+            "gs": 3,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 2
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Christian Engmann",
+            "number": 2,
+            "listed_position": "D",
+            "gp": 17,
+            "gs": 14,
+            "goals": 4,
+            "assists": 2,
+            "points": 10,
+            "shots": 16
+          },
+          {
+            "name": "Baptiste Boit",
+            "number": 5,
+            "listed_position": "D",
+            "gp": 17,
+            "gs": 15,
+            "goals": 3,
+            "assists": 0,
+            "points": 6,
+            "shots": 9
+          },
+          {
+            "name": "Tristan Viviani",
+            "number": 14,
+            "listed_position": "D",
+            "gp": 15,
+            "gs": 12,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 13
+          },
+          {
+            "name": "Dylan Presto",
+            "number": 15,
+            "listed_position": "D",
+            "gp": 17,
+            "gs": 12,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 8
+          },
+          {
+            "name": "Cianole Nguepissi",
+            "number": 20,
+            "listed_position": "D",
+            "gp": 18,
+            "gs": 16,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 10
+          },
+          {
+            "name": "Lorenzo Hernandez",
+            "number": 24,
+            "listed_position": "D",
+            "gp": 14,
+            "gs": 2,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 4
+          },
+          {
+            "name": "Israel Carrillo Pérez",
+            "number": 25,
+            "listed_position": "D",
+            "gp": 5,
+            "gs": 3,
+            "goals": 2,
+            "assists": 0,
+            "points": 4,
+            "shots": 4
+          },
+          {
+            "name": "Ikkei Yasuda",
+            "number": 28,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Riley Gray",
+            "number": 29,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Andrew Klott",
+            "number": 0,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Trevor Wilson",
+            "number": 0,
+            "listed_position": "GK",
+            "gp": 4,
+            "gs": 3,
+            "saves": 8,
+            "shutouts": 1,
+            "goals_against": 4
+          },
+          {
+            "name": "Vincent Fournier",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 3,
+            "gs": 2,
+            "saves": 6,
+            "shutouts": 1,
+            "goals_against": 1
+          },
+          {
+            "name": "Eddy Vargas",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 14,
+            "gs": 13,
+            "saves": 45,
+            "shutouts": 2,
+            "goals_against": 19
+          }
+        ]
+      }
+    },
+    {
+      "school": "Seattle U",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "Gavrilo Civric",
+            "number": 7,
+            "listed_position": "F",
+            "gp": 7,
+            "gs": 3,
+            "goals": 1,
+            "assists": 2,
+            "points": 4,
+            "shots": 6
+          },
+          {
+            "name": "River Stewart",
+            "number": 11,
+            "listed_position": "F",
+            "gp": 14,
+            "gs": 5,
+            "goals": 2,
+            "assists": 2,
+            "points": 6,
+            "shots": 17
+          },
+          {
+            "name": "Patrick Kearney",
+            "number": 14,
+            "listed_position": "F",
+            "gp": 14,
+            "gs": 5,
+            "goals": 2,
+            "assists": 1,
+            "points": 5,
+            "shots": 9
+          },
+          {
+            "name": "Brice Miller",
+            "number": 19,
+            "listed_position": "F",
+            "gp": 11,
+            "gs": 4,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 5
+          },
+          {
+            "name": "Bowen Teuber",
+            "number": 21,
+            "listed_position": "F",
+            "gp": 2,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Allen Blegay",
+            "number": 25,
+            "listed_position": "F",
+            "gp": 10,
+            "gs": 7,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 3
+          },
+          {
+            "name": "Alex Notzka",
+            "number": 27,
+            "listed_position": "F",
+            "gp": 10,
+            "gs": 4,
+            "goals": 1,
+            "assists": 2,
+            "points": 4,
+            "shots": 5
+          },
+          {
+            "name": "Issak Abraham",
+            "number": 33,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Cooper Brunell",
+            "number": 6,
+            "listed_position": "M",
+            "gp": 14,
+            "gs": 13,
+            "goals": 1,
+            "assists": 2,
+            "points": 4,
+            "shots": 12
+          },
+          {
+            "name": "Nico Wiskel",
+            "number": 10,
+            "listed_position": "M",
+            "gp": 11,
+            "gs": 1,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 5
+          },
+          {
+            "name": "Yuta Toya",
+            "number": 12,
+            "listed_position": "M",
+            "gp": 12,
+            "gs": 5,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 4
+          },
+          {
+            "name": "Tai Iida",
+            "number": 15,
+            "listed_position": "M",
+            "gp": 15,
+            "gs": 4,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 4
+          },
+          {
+            "name": "Yeider Zuluaga",
+            "number": 17,
+            "listed_position": "M",
+            "gp": 13,
+            "gs": 13,
+            "goals": 9,
+            "assists": 5,
+            "points": 23,
+            "shots": 30
+          },
+          {
+            "name": "Luke Hammond",
+            "number": 22,
+            "listed_position": "M",
+            "gp": 14,
+            "gs": 10,
+            "goals": 0,
+            "assists": 3,
+            "points": 3,
+            "shots": 7
+          },
+          {
+            "name": "Lars Thorne-Thomsen",
+            "number": 24,
+            "listed_position": "M",
+            "gp": 13,
+            "gs": 2,
+            "goals": 4,
+            "assists": 0,
+            "points": 8,
+            "shots": 6
+          },
+          {
+            "name": "Enrique Guerrero",
+            "number": 26,
+            "listed_position": "M",
+            "gp": 7,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Edgar Leon",
+            "number": 28,
+            "listed_position": "M",
+            "gp": 16,
+            "gs": 16,
+            "goals": 2,
+            "assists": 2,
+            "points": 6,
+            "shots": 20
+          },
+          {
+            "name": "Ismael Yeo",
+            "number": 29,
+            "listed_position": "M",
+            "gp": 13,
+            "gs": 9,
+            "goals": 1,
+            "assists": 2,
+            "points": 4,
+            "shots": 6
+          },
+          {
+            "name": "Andre Philibbosian",
+            "number": 30,
+            "listed_position": "M",
+            "gp": 16,
+            "gs": 16,
+            "goals": 2,
+            "assists": 1,
+            "points": 5,
+            "shots": 9
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Levente Almassy",
+            "number": 2,
+            "listed_position": "D",
+            "gp": 7,
+            "gs": 4,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 1
+          },
+          {
+            "name": "Dylan Wojdyla",
+            "number": 4,
+            "listed_position": "D",
+            "gp": 15,
+            "gs": 13,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 2
+          },
+          {
+            "name": "Davis Mungomba",
+            "number": 5,
+            "listed_position": "D",
+            "gp": 10,
+            "gs": 8,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 3
+          },
+          {
+            "name": "Aidan Fong",
+            "number": 8,
+            "listed_position": "D",
+            "gp": 15,
+            "gs": 12,
+            "goals": 1,
+            "assists": 3,
+            "points": 5,
+            "shots": 4
+          },
+          {
+            "name": "Eiji Hata",
+            "number": 16,
+            "listed_position": "D",
+            "gp": 17,
+            "gs": 16,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "shots": 5
+          },
+          {
+            "name": "Dane Rogers",
+            "number": 20,
+            "listed_position": "D",
+            "gp": 1,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Joep de Bruin",
+            "number": 23,
+            "listed_position": "D",
+            "gp": 3,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Owen Purvis",
+            "number": 0,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Charlie Lanphier",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 14,
+            "gs": 14,
+            "saves": 53,
+            "shutouts": 4,
+            "goals_against": 27
+          },
+          {
+            "name": "Aleksander Kapciak",
+            "number": 18,
+            "listed_position": "GK",
+            "gp": 3,
+            "gs": 3,
+            "saves": 10,
+            "shutouts": 0,
+            "goals_against": 10
+          }
+        ]
+      }
+    },
+    {
+      "school": "Penn State",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "Jeppe Runge",
+            "number": 7,
+            "listed_position": "F",
+            "gp": 3,
+            "gs": 2,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 2
+          },
+          {
+            "name": "Christian Dionne",
+            "number": 8,
+            "listed_position": "F",
+            "gp": 11,
+            "gs": 6,
+            "goals": 3,
+            "assists": 1,
+            "points": 7,
+            "shots": 24
+          },
+          {
+            "name": "Frederik Flaskager",
+            "number": 18,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Kai Phillip",
+            "number": 19,
+            "listed_position": "F",
+            "gp": 14,
+            "gs": 10,
+            "goals": 2,
+            "assists": 1,
+            "points": 5,
+            "shots": 24
+          },
+          {
+            "name": "Van Danielson",
+            "number": 22,
+            "listed_position": "F",
+            "gp": 17,
+            "gs": 5,
+            "goals": 4,
+            "assists": 2,
+            "points": 10,
+            "shots": 18
+          },
+          {
+            "name": "Riley Ferraro",
+            "number": 28,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Malick Daouda",
+            "number": 6,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 16,
+            "goals": 3,
+            "assists": 1,
+            "points": 7,
+            "shots": 16
+          },
+          {
+            "name": "Freddie Bell",
+            "number": 10,
+            "listed_position": "M",
+            "gp": 15,
+            "gs": 14,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 19
+          },
+          {
+            "name": "Caden Grabfelder",
+            "number": 11,
+            "listed_position": "M",
+            "gp": 16,
+            "gs": 14,
+            "goals": 2,
+            "assists": 5,
+            "points": 9,
+            "shots": 32
+          },
+          {
+            "name": "Davy Leavey",
+            "number": 16,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 10,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 12
+          },
+          {
+            "name": "Ben Liscum",
+            "number": 20,
+            "listed_position": "M",
+            "gp": 16,
+            "gs": 16,
+            "goals": 2,
+            "assists": 3,
+            "points": 7,
+            "shots": 10
+          },
+          {
+            "name": "Ben Madore",
+            "number": 21,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 9,
+            "goals": 5,
+            "assists": 1,
+            "points": 11,
+            "shots": 28
+          },
+          {
+            "name": "Conor Clair",
+            "number": 23,
+            "listed_position": "M",
+            "gp": 5,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Nziza Siibo",
+            "number": 33,
+            "listed_position": "M",
+            "gp": 1,
+            "gs": 0,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 1
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Ben Nash",
+            "number": 2,
+            "listed_position": "D",
+            "gp": 14,
+            "gs": 5,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 4
+          },
+          {
+            "name": "Matthew Henderson",
+            "number": 3,
+            "listed_position": "D",
+            "gp": 17,
+            "gs": 16,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "shots": 8
+          },
+          {
+            "name": "Samuel Ovesen",
+            "number": 4,
+            "listed_position": "D",
+            "gp": 11,
+            "gs": 7,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 6
+          },
+          {
+            "name": "Joe Sheridan",
+            "number": 5,
+            "listed_position": "D",
+            "gp": 14,
+            "gs": 13,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 5
+          },
+          {
+            "name": "Matiwos Rumley",
+            "number": 12,
+            "listed_position": "D",
+            "gp": 10,
+            "gs": 5,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 4
+          },
+          {
+            "name": "Morgan Marshall",
+            "number": 14,
+            "listed_position": "D",
+            "gp": 17,
+            "gs": 16,
+            "goals": 1,
+            "assists": 2,
+            "points": 4,
+            "shots": 15
+          },
+          {
+            "name": "Matt Eger",
+            "number": 15,
+            "listed_position": "D",
+            "gp": 10,
+            "gs": 3,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Sebastian Delacruz",
+            "number": 24,
+            "listed_position": "D",
+            "gp": 3,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 2
+          },
+          {
+            "name": "Conrad Brady",
+            "number": 26,
+            "listed_position": "D",
+            "gp": 2,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Jonathan Evans",
+            "number": 27,
+            "listed_position": "GK",
+            "gp": 14,
+            "gs": 14,
+            "saves": 49,
+            "shutouts": 4,
+            "goals_against": 18
+          },
+          {
+            "name": "Drew Mattingly",
+            "number": 29,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Fredrick Grundin",
+            "number": 31,
+            "listed_position": "GK",
+            "gp": 3,
+            "gs": 3,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 6
+          }
+        ]
+      }
+    },
+    {
+      "school": "South Carolina",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "Tyler Trimnal",
+            "number": 9,
+            "listed_position": "F",
+            "gp": 18,
+            "gs": 14,
+            "goals": 4,
+            "assists": 2,
+            "points": 10,
+            "shots": 30
+          },
+          {
+            "name": "Loïc Sany Kong",
+            "number": 11,
+            "listed_position": "F",
+            "gp": 17,
+            "gs": 6,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 20
+          },
+          {
+            "name": "Matthew DeJianne",
+            "number": 16,
+            "listed_position": "F",
+            "gp": 16,
+            "gs": 5,
+            "goals": 2,
+            "assists": 2,
+            "points": 6,
+            "shots": 7
+          },
+          {
+            "name": "Keanan Bader",
+            "number": 19,
+            "listed_position": "F",
+            "gp": 15,
+            "gs": 7,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 8
+          },
+          {
+            "name": "Gabriel Nickerson",
+            "number": 30,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Mika Habel",
+            "number": 6,
+            "listed_position": "M",
+            "gp": 18,
+            "gs": 12,
+            "goals": 3,
+            "assists": 2,
+            "points": 8,
+            "shots": 14
+          },
+          {
+            "name": "Isaiah Whittaker-Francis",
+            "number": 7,
+            "listed_position": "M",
+            "gp": 18,
+            "gs": 16,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 2
+          },
+          {
+            "name": "Alexander Stjernegaard",
+            "number": 8,
+            "listed_position": "M",
+            "gp": 18,
+            "gs": 18,
+            "goals": 2,
+            "assists": 1,
+            "points": 5,
+            "shots": 15
+          },
+          {
+            "name": "Ethan Ballek",
+            "number": 10,
+            "listed_position": "M",
+            "gp": 17,
+            "gs": 15,
+            "goals": 8,
+            "assists": 4,
+            "points": 20,
+            "shots": 58
+          },
+          {
+            "name": "Jonah Biggar",
+            "number": 13,
+            "listed_position": "M",
+            "gp": 15,
+            "gs": 13,
+            "goals": 0,
+            "assists": 3,
+            "points": 3,
+            "shots": 4
+          },
+          {
+            "name": "Alejandro Velazquez-Lopez",
+            "number": 15,
+            "listed_position": "M",
+            "gp": 18,
+            "gs": 12,
+            "goals": 3,
+            "assists": 2,
+            "points": 8,
+            "shots": 31
+          },
+          {
+            "name": "Samy Kolby",
+            "number": 17,
+            "listed_position": "M",
+            "gp": 10,
+            "gs": 2,
+            "goals": 0,
+            "assists": 3,
+            "points": 3,
+            "shots": 2
+          },
+          {
+            "name": "Kieran Karp",
+            "number": 21,
+            "listed_position": "M",
+            "gp": 5,
+            "gs": 0,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 0
+          },
+          {
+            "name": "Ted Cargill",
+            "number": 22,
+            "listed_position": "M",
+            "gp": 18,
+            "gs": 5,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 5
+          },
+          {
+            "name": "Micah Colodny",
+            "number": 29,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Andrew Goldsworthy",
+            "number": 2,
+            "listed_position": "D",
+            "gp": 15,
+            "gs": 15,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 5
+          },
+          {
+            "name": "Riccardo Oddi",
+            "number": 3,
+            "listed_position": "D",
+            "gp": 14,
+            "gs": 5,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Junior Saint Juste",
+            "number": 4,
+            "listed_position": "D",
+            "gp": 1,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "William Nilsson",
+            "number": 5,
+            "listed_position": "D",
+            "gp": 18,
+            "gs": 17,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 8
+          },
+          {
+            "name": "Camden Kowalski",
+            "number": 14,
+            "listed_position": "D",
+            "gp": 10,
+            "gs": 3,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Galen Flynn",
+            "number": 18,
+            "listed_position": "D",
+            "gp": 11,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 3
+          },
+          {
+            "name": "Yvan Malarte",
+            "number": 20,
+            "listed_position": "D",
+            "gp": 12,
+            "gs": 12,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 1
+          },
+          {
+            "name": "Shawn Lanza",
+            "number": 23,
+            "listed_position": "D",
+            "gp": 9,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Jordan Cheetham",
+            "number": 24,
+            "listed_position": "D",
+            "gp": 9,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Sonny Quintanilla",
+            "number": 27,
+            "listed_position": "D",
+            "gp": 2,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Filip Versterre",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 18,
+            "gs": 18,
+            "saves": 51,
+            "shutouts": 2,
+            "goals_against": 32
+          },
+          {
+            "name": "Nash Skoglund",
+            "number": 25,
+            "listed_position": "GK",
+            "gp": 2,
+            "gs": 0,
+            "saves": 1,
+            "shutouts": 0,
+            "goals_against": 2
+          },
+          {
+            "name": "Oliver Townend",
+            "number": 26,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "Bradley",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "Stephen Saladin",
+            "number": 7,
+            "listed_position": "F",
+            "gp": 17,
+            "gs": 10,
+            "goals": 1,
+            "assists": 0,
+            "points": 2,
+            "shots": 23
+          },
+          {
+            "name": "Amari Fowlkes",
+            "number": 10,
+            "listed_position": "F",
+            "gp": 16,
+            "gs": 14,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 10
+          },
+          {
+            "name": "DJ Koulai",
+            "number": 13,
+            "listed_position": "F",
+            "gp": 17,
+            "gs": 11,
+            "goals": 3,
+            "assists": 5,
+            "points": 11,
+            "shots": 33
+          },
+          {
+            "name": "Kevin Mejias",
+            "number": 23,
+            "listed_position": "F",
+            "gp": 17,
+            "gs": 9,
+            "goals": 1,
+            "assists": 1,
+            "points": 3,
+            "shots": 13
+          },
+          {
+            "name": "Mitch Coughlon",
+            "number": 33,
+            "listed_position": "F",
+            "gp": 17,
+            "gs": 13,
+            "goals": 7,
+            "assists": 2,
+            "points": 16,
+            "shots": 32
+          },
+          {
+            "name": "Andrew Sanchez",
+            "number": 35,
+            "listed_position": "F",
+            "gp": 1,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Franc Nmengah",
+            "number": 36,
+            "listed_position": "F",
+            "gp": 3,
+            "gs": 1,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 3
+          },
+          {
+            "name": "Ian Ferguson",
+            "number": 37,
+            "listed_position": "F",
+            "gp": 13,
+            "gs": 3,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 9
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Dominic Woolley",
+            "number": 5,
+            "listed_position": "MF",
+            "gp": 15,
+            "gs": 9,
+            "goals": 0,
+            "assists": 2,
+            "points": 2,
+            "shots": 12
+          },
+          {
+            "name": "Michael Switala",
+            "number": 6,
+            "listed_position": "MF",
+            "gp": 16,
+            "gs": 12,
+            "goals": 3,
+            "assists": 0,
+            "points": 6,
+            "shots": 10
+          },
+          {
+            "name": "Cohen Musschoot",
+            "number": 8,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Emilio Madrigal",
+            "number": 12,
+            "listed_position": "MF",
+            "gp": 13,
+            "gs": 3,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 3
+          },
+          {
+            "name": "Caden Frank",
+            "number": 16,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Ardit Abdullai",
+            "number": 17,
+            "listed_position": "MF",
+            "gp": 17,
+            "gs": 11,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 3
+          },
+          {
+            "name": "Olav Crovo",
+            "number": 19,
+            "listed_position": "MF",
+            "gp": 10,
+            "gs": 2,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 3
+          },
+          {
+            "name": "Connor Chester",
+            "number": 20,
+            "listed_position": "MF",
+            "gp": 14,
+            "gs": 7,
+            "goals": 3,
+            "assists": 0,
+            "points": 6,
+            "shots": 7
+          },
+          {
+            "name": "Nokkvi Hjorvarsson",
+            "number": 22,
+            "listed_position": "MF",
+            "gp": 17,
+            "gs": 15,
+            "goals": 2,
+            "assists": 3,
+            "points": 7,
+            "shots": 21
+          },
+          {
+            "name": "Luke Knotts",
+            "number": 26,
+            "listed_position": "MF",
+            "gp": 17,
+            "gs": 10,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 11
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Anel Kafedzic",
+            "number": 2,
+            "listed_position": "D",
+            "gp": 16,
+            "gs": 14,
+            "goals": 2,
+            "assists": 1,
+            "points": 5,
+            "shots": 8
+          },
+          {
+            "name": "Josh Reddy",
+            "number": 3,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Ethan Beauman-Ansah",
+            "number": 4,
+            "listed_position": "D",
+            "gp": 16,
+            "gs": 13,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 1
+          },
+          {
+            "name": "Jaime Ponce",
+            "number": 14,
+            "listed_position": "D",
+            "gp": 11,
+            "gs": 9,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Ivan Reyes",
+            "number": 30,
+            "listed_position": "D",
+            "gp": 2,
+            "gs": 1,
+            "goals": 0,
+            "assists": 1,
+            "points": 1,
+            "shots": 4
+          },
+          {
+            "name": "Tommy Graham",
+            "number": 32,
+            "listed_position": "D",
+            "gp": 7,
+            "gs": 2,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Drew Berry",
+            "number": 0,
+            "listed_position": "GK",
+            "gp": 17,
+            "gs": 17,
+            "saves": 84,
+            "shutouts": 3,
+            "goals_against": 37
+          },
+          {
+            "name": "Marçal Salom Chandre",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Mitchell Barrett",
+            "number": 27,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    }
+  ]
+}

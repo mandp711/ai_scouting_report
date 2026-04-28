@@ -1,158 +1,239 @@
+import os
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 import json
 import time
 import random
-import os
+import io
+import re
 
 # --- Configuration ---
-CSV_FILE = "AI scouting report urls - Sheet1.csv"
+CSV_FILE = "AI_soccer_urls.csv"
 OUTPUT_JSON = "d1_soccer_batch.json"
 SEASON = "2025"
 BATCH_NUMBER = 2
 
-# Headers to bypass basic rate-limiting / bot blockers
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
     "Accept-Language": "en-US,en;q=0.9",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
 }
 
 def fetch_page(url):
-    """Fetches a URL with a polite randomized delay to avoid rate limits."""
     try:
-        # Sleep for 2 to 5 seconds to act like a human
-        time.sleep(random.uniform(2.0, 5.0))
+        time.sleep(random.uniform(2.0, 4.0))
         response = requests.get(url, headers=HEADERS, timeout=15)
         response.raise_for_status()
         return response.text
-    except Exception as e:
-        print(f"Failed to fetch {url}: {e}")
+    except Exception:
         return None
 
+def safe_int(val):
+    try:
+        if pd.isna(val): return 0
+        return int(float(val))
+    except (ValueError, TypeError):
+        return 0
+
+def extract_gp_gs(row):
+    """Uses regex to split GP and GS regardless of hyphens, en-dashes, or slashes."""
+    gp_gs_col = next((c for c in row.index if 'gp' in c and 'gs' in c), None)
+    
+    if gp_gs_col and pd.notna(row[gp_gs_col]):
+        # \D+ splits by ANY non-digit character (hyphens, dashes, slashes)
+        parts = [p for p in re.split(r'\D+', str(row[gp_gs_col]).strip()) if p]
+        gp = safe_int(parts[0]) if len(parts) > 0 else 0
+        gs = safe_int(parts[1]) if len(parts) > 1 else 0
+        return gp, gs
+    
+    # Fallback to independent columns if they aren't combined
+    gp_col = next((c for c in row.index if c in ['gp', 'games played']), None)
+    gs_col = next((c for c in row.index if c in ['gs', 'games started']), None)
+    
+    gp = safe_int(row[gp_col]) if gp_col else 0
+    gs = safe_int(row[gs_col]) if gs_col else 0
+    return gp, gs
+
 def parse_roster(html):
-    """
-    Parses a standard Sidearm Sports roster page.
-    Note: HTML classes can vary slightly between grid and list views.
-    """
     soup = BeautifulSoup(html, "html.parser")
     players = []
-    
-    # Common Sidearm Sports roster row/card identifiers
     roster_cards = soup.find_all("li", class_="sidearm-roster-player")
     
     for card in roster_cards:
         try:
-            # Extract basic info (These classes are typical for Sidearm templates)
             name_tag = card.find("div", class_="sidearm-roster-player-name")
-            name = name_tag.get_text(strip=True) if name_tag else "Unknown"
+            name = "Unknown"
+            if name_tag:
+                a_tag = name_tag.find("a")
+                if a_tag:
+                    name = a_tag.get_text(strip=True)
+                else:
+                    num_span = name_tag.find("span", class_="sidearm-roster-player-jersey-number")
+                    if num_span: num_span.extract()
+                    name = name_tag.get_text(strip=True)
             
             number_tag = card.find("span", class_="sidearm-roster-player-jersey-number")
             number = number_tag.get_text(strip=True) if number_tag else "NA"
             
             position_tag = card.find("div", class_="sidearm-roster-player-position")
             position = position_tag.find("span", class_="text-bold").get_text(strip=True) if position_tag else "Field Player"
-            
-            # Formatting "Goalkeeper" vs "Field Player" mapping
             clean_position = "Goalkeeper" if "GK" in position or "Goalkeeper" in position else "Field Player"
             
             players.append({
                 "name": name,
-                "number": int(number) if number.isdigit() else number,
+                "number": safe_int(number) if str(number).isdigit() else number,
                 "position": clean_position
             })
         except Exception:
             continue
-            
     return players
 
+def parse_stats_tables(stats_html):
+    try:
+        tables = pd.read_html(io.StringIO(stats_html))
+        field_df, gk_df = None, None
+        
+        for df in tables:
+            if isinstance(df.columns, pd.MultiIndex):
+                df.columns = df.columns.get_level_values(-1)
+                
+            # Clean columns and remove any accidental duplicates
+            df.columns = df.columns.astype(str).str.lower().str.strip()
+            df = df.loc[:, ~df.columns.duplicated()]
+            cols = df.columns.tolist()
+            
+            # THE FIX: Only grab the table if we haven't found one yet
+            if field_df is None and ('player' in cols or 'name' in cols) and 'g' in cols and ('pts' in cols or 'points' in cols):
+                field_df = df
+            elif gk_df is None and ('player' in cols or 'name' in cols) and ('saves' in cols or 'sv' in cols):
+                gk_df = df
+            
+            # Stop searching the page once we have both the Overall Field and Overall GK tables
+            if field_df is not None and gk_df is not None:
+                break
+                
+        return field_df, gk_df
+    except Exception:
+        return None, None
+    
 def build_team_data(school, roster_url, stats_url):
-    """Handles the extraction pipeline for a single team."""
     print(f"\n--- Scraping {school} ---")
     
     team_data = {
         "school": school,
         "season": SEASON,
-        "record": "0-0-0", # Stats pages often require a separate record parser
-        "players": {
-            "field_players": [],
-            "goalkeepers": []
-        }
+        "record": "0-0-0", 
+        "players": {"field_players": [], "goalkeepers": []}
     }
     
-    # 1. Fetch & Parse Roster
-    print(f"Fetching roster: {roster_url}")
+    print(f"Fetching roster...")
     roster_html = fetch_page(roster_url)
-    if not roster_html:
-        return None, "Rate limited or blocked on roster fetch"
-        
+    if not roster_html: return None, "Roster fetch failed"
     roster = parse_roster(roster_html)
     
-    # 2. Fetch Stats (Skeleton logic for you to expand)
-    print(f"Fetching stats: {stats_url}")
+    print(f"Fetching stats...")
     stats_html = fetch_page(stats_url)
-    if not stats_html:
-        return None, "Rate limited or blocked on stats fetch"
+    field_df, gk_df = None, None
+    if stats_html:
+        field_df, gk_df = parse_stats_tables(stats_html)
     
-    # NOTE: Sidearm stats pages often embed stats in an iframe or use heavy JS tables.
-    # This matches the player names from the roster to dummy/default stats until the 
-    # exact table IDs are parsed.
     for p in roster:
-        # Example defaults matching your JSON structure
+        last_name = p["name"].split()[-1] if " " in p["name"] else p["name"]
+        
         if p["position"] == "Field Player":
-            p.update({"gp": 0, "gs": 0, "goals": 0, "assists": 0, "points": 0, "shots": 0, "shot_pct": 0.0, "yellow_cards": 0, "red_cards": 0})
+            p.update({"gp": 0, "gs": 0, "goals": 0, "assists": 0, "points": 0, "shots": 0})
+            
+            if field_df is not None:
+                match = field_df[field_df['player'].str.contains(last_name, case=False, na=False)] if 'player' in field_df.columns else pd.DataFrame()
+                if not match.empty:
+                    row = match.iloc[0]
+                    
+                    # Pass the row to the regex extractor
+                    p["gp"], p["gs"] = extract_gp_gs(row)
+                        
+                    p["goals"] = safe_int(row.get('g', 0))
+                    p["assists"] = safe_int(row.get('a', 0))
+                    p["points"] = safe_int(row.get('pts', row.get('points', 0)))
+                    p["shots"] = safe_int(row.get('sh', row.get('shots', 0)))
+            
             team_data["players"]["field_players"].append(p)
-        else:
-            p.update({"gp": 0, "gs": 0, "saves": 0, "save_pct": 0.0, "shutouts": 0, "goals_against": 0, "gaa": 0.0})
+            
+        else: # Goalkeeper
+            p.update({"gp": 0, "gs": 0, "saves": 0, "shutouts": 0, "goals_against": 0})
+            
+            if gk_df is not None:
+                match = gk_df[gk_df['player'].str.contains(last_name, case=False, na=False)] if 'player' in gk_df.columns else pd.DataFrame()
+                if not match.empty:
+                    row = match.iloc[0]
+                    
+                    p["gp"], p["gs"] = extract_gp_gs(row)
+                        
+                    p["saves"] = safe_int(row.get('saves', row.get('sv', 0)))
+                    p["goals_against"] = safe_int(row.get('ga', 0))
+                    p["shutouts"] = safe_int(row.get('sho', row.get('sho/cbo', 0)))
+                    
             team_data["players"]["goalkeepers"].append(p)
             
     return team_data, None
 
 def main():
-    # Load your CSV file
-    # utf-8-sig automatically strips hidden Excel/Sheets formatting characters
-    df = pd.read_csv(CSV_FILE, encoding='utf-8-sig', encoding_errors='replace')
-    
-    # This strips any accidental leading or trailing spaces from the headers
+    df = pd.read_csv(CSV_FILE, encoding='utf-8-sig')
     df.columns = df.columns.str.strip()
     
-    # Filter down to the 4 teams for this batch testing
-    test_teams = ["Vermont", "Virginia", "Bryant", "SMU"]
+    # Swap these out for the exact teams you want in your current batch
+    test_teams = ["UC Santa Barbara", "Saint Louis", "Hofstra", "Furman"]
     batch_df = df[df['School'].isin(test_teams)]
     
-    # Initialize the output JSON structure
-    output = {
-        "season": SEASON,
-        "batch": BATCH_NUMBER,
-        "teams": [],
-        "log": {
-            "fetched": [],
-            "pending": [],
-            "notes": {}
-        }
-    }
+    # Set your master file name
+    output_filename = "d1_soccer_COMPLETE.json"
     
-    # Iterate through the rows
-    for index, row in batch_df.iterrows():
+    # --- The "Append" Logic ---
+    # If the file exists, load the historical data first
+    if os.path.exists(output_filename):
+        with open(output_filename, "r", encoding="utf-8") as f:
+            output = json.load(f)
+            
+        # Automatically bump the batch number up by 1
+        if isinstance(output.get("batch"), int):
+            output["batch"] += 1
+    else:
+        # If it doesn't exist, start fresh
+        output = {
+            "season": SEASON, 
+            "batch": 1, 
+            "teams": [], 
+            "log": {"fetched": [], "pending": [], "notes": {}}
+        }
+    
+    # Iterate through your batch and add to the output dictionary
+    for _, row in batch_df.iterrows():
         school = row['School']
         roster_url = row['Mens Soccer Roster URL']
         stats_url = row['Mens Soccer Statistics URL']
         
+        # Skip teams we've already successfully scraped in a previous batch
+        if school in output["log"]["fetched"]:
+            print(f"Skipping {school} - already in database.")
+            continue
+            
         team_data, error_msg = build_team_data(school, roster_url, stats_url)
         
         if team_data:
             output["teams"].append(team_data)
             output["log"]["fetched"].append(school)
+            # Remove from pending if they successfully scraped this time
+            if school in output["log"]["pending"]:
+                output["log"]["pending"].remove(school)
         else:
-            output["log"]["pending"].append(school)
+            if school not in output["log"]["pending"]:
+                output["log"]["pending"].append(school)
             output["log"]["notes"][school] = error_msg
-            print(f"Error for {school}: {error_msg}")
             
-    # Save the output to a local JSON file
-    with open(OUTPUT_JSON, "w") as f:
-        json.dump(output, f, indent=2)
-    print(f"\nBatch complete! Saved data to {OUTPUT_JSON}")
+    # Write the combined data back to the file
+    with open(output_filename, "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
+        
+    print(f"\nBatch complete! Master database ({output_filename}) updated.")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,3582 @@
+{
+  "season": "2025",
+  "teams": [
+    {
+      "school": "Bryant",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "7 Muslim Umar",
+            "number": 7,
+            "listed_position": "F 5'11\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "10 Mamadi Jiana",
+            "number": 10,
+            "listed_position": "F 6'0\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "11 Augustine Boadi",
+            "number": 1,
+            "listed_position": "F 5'8\" 150 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "18 Jorge Rodriguez",
+            "number": 18,
+            "listed_position": "F 5'11\" 160 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "19 Fermin Rodriguez",
+            "number": 19,
+            "listed_position": "F 5'9\" 174 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "20 Tomas Sentieiro",
+            "number": 20,
+            "listed_position": "F 5'8\" 145 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "21 Nicolas Juliano",
+            "number": 21,
+            "listed_position": "F 5'9\" 152 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "22 Marc Pitarch Bayot",
+            "number": 2,
+            "listed_position": "F 6'3\" 188 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "23 Pablo Guerrero",
+            "number": 23,
+            "listed_position": "F 6'1\" 172 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "5 Fernando Delgado",
+            "number": 5,
+            "listed_position": "M 6'0\" 182 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "6 Santiago Blasco Gomez",
+            "number": 6,
+            "listed_position": "M 5'10\" 161 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "8 Jorge Veintimilla",
+            "number": 8,
+            "listed_position": "M 5'6\" 156 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "14 Jose Alves Faria",
+            "number": 14,
+            "listed_position": "M 5'9\" 168 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "16 Paco Fernandez",
+            "number": 16,
+            "listed_position": "M 5'6\" 134 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "25 Mydas Smalls",
+            "number": 25,
+            "listed_position": "M 6'0\" 175 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "26 Caoimhin McConnell",
+            "number": 26,
+            "listed_position": "M 5'8\" 155 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "27 Jaime Amaro",
+            "number": 27,
+            "listed_position": "M 5'7\" 160 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "32 Henry Kang",
+            "number": 32,
+            "listed_position": "M 5'8\" 150 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "33 Deji Akinboboye",
+            "number": 3,
+            "listed_position": "M 6'1\" 176 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "34 David Nuricumbo",
+            "number": 34,
+            "listed_position": "M 5'8\" 135 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "defenders": [
+          {
+            "name": "2 Abdel Talabi",
+            "number": 2,
+            "listed_position": "D 6'2\" 185 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "3 Sean Breuer",
+            "number": 3,
+            "listed_position": "D 5'11\" 155 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "4 Tiago Dias",
+            "number": 4,
+            "listed_position": "D 6'2\" 182 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "13 Tibo Jacobs",
+            "number": 13,
+            "listed_position": "D 5'10\" 168 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "15 Ilay Krespi",
+            "number": 15,
+            "listed_position": "D 5'10\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "17 Filipe Bastos",
+            "number": 17,
+            "listed_position": "D 5'7\" 145 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "28 Christien Merritt",
+            "number": 28,
+            "listed_position": "D 5'10\" 163 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "29 Joseph Perrotta",
+            "number": 29,
+            "listed_position": "D 5'6\" 145 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "35 Eric Causey",
+            "number": 35,
+            "listed_position": "D 6'1\" 175 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "1 Ramon Camejo",
+            "number": 1,
+            "listed_position": "GK 6'0\" 158 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "30 Will Levine",
+            "number": 30,
+            "listed_position": "GK 6'1\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "40 Colby Webber",
+            "number": 40,
+            "listed_position": "GK 6'2\" 185 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "99 Enzo Carvalho",
+            "number": 9,
+            "listed_position": "GK 6'5\" 225 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "Maryland",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "7 Sadam Masereka",
+            "number": 7,
+            "listed_position": "Forward F 5'9\" 150 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "9 Colin Griffith",
+            "number": 9,
+            "listed_position": "Forward F 5'10\" 160 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "11 Mateo Caride",
+            "number": 1,
+            "listed_position": "Forward F 6'0\" 176 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "12 Max Riley",
+            "number": 12,
+            "listed_position": "Forward F 6'0\" 190 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "15 Jameson Michel",
+            "number": 15,
+            "listed_position": "Forward F 5'10\" 145 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "23 Rocket Ritarita",
+            "number": 23,
+            "listed_position": "Forward F 5'9\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "44 Luke van Heukelum",
+            "number": 4,
+            "listed_position": "Forward F 6'1\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "49 Aidan Sheppela",
+            "number": 49,
+            "listed_position": "Forward F 5'11\" 160 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "77 Stephane Njike",
+            "number": 7,
+            "listed_position": "Forward F 5'11\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "2 Luke Burdett",
+            "number": 2,
+            "listed_position": "Midfielder MF 6'0\" 175 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "6 Leon Koehl",
+            "number": 6,
+            "listed_position": "Midfielder MF 6'2\" 190 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "8 Albi Ndrenika",
+            "number": 8,
+            "listed_position": "Midfielder MF 5'10\" 175 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "10 Joseph Umberto Picotto",
+            "number": 10,
+            "listed_position": "Midfielder MF 6'2\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "17 Kenny Quist-Therson",
+            "number": 17,
+            "listed_position": "Midfielder MF 6'2\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "22 Chris Steinleitner",
+            "number": 2,
+            "listed_position": "Midfielder/Defender MF/D 6'2\" 175 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "27 Henry Bernstein",
+            "number": 27,
+            "listed_position": "Midfielder MF 6'2\" 175 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "30 Matias De Jesus",
+            "number": 30,
+            "listed_position": "Midfielder MF 5'11\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "defenders": [
+          {
+            "name": "3 Luca Costabile",
+            "number": 3,
+            "listed_position": "Defender D 5'11\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "4 Mack DeVries",
+            "number": 4,
+            "listed_position": "Defender D 6'1\" 200 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "5 Lasse Kelp",
+            "number": 5,
+            "listed_position": "Defender D 6'3\" 185 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "13 Joel Brown",
+            "number": 13,
+            "listed_position": "Defender D 5'10\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "18 Jace Clark",
+            "number": 18,
+            "listed_position": "Defender D 6'2\" 175 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "20 Casey Price",
+            "number": 20,
+            "listed_position": "Defender/Midfielder D/M 6'2\" 175 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "28 Brian St. Martin",
+            "number": 28,
+            "listed_position": "Defender D 6'0\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "31 Tristen Rose",
+            "number": 31,
+            "listed_position": "Defender D 6'2\" 185 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "55 Emil Nymann Anderson",
+            "number": 5,
+            "listed_position": "Defender D 5'11\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "90 Farouk Cisse",
+            "number": 90,
+            "listed_position": "Defender D 6'1\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "0 Saxon Wolcott",
+            "number": 0,
+            "listed_position": "Goalkeeper GK 6'3\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "38 Laurin Mack",
+            "number": 38,
+            "listed_position": "Goalkeeper GK 6'1\" 190 lbs",
+            "gp": 5,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "50 Alexander Milosevic",
+            "number": 50,
+            "listed_position": "Goalkeeper GK 6'4\" 195 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "NC State",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "Donavan Phillip",
+            "number": 7,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Ibrahim Conde",
+            "number": 9,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Frankie DeFrancesco",
+            "number": 11,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Aidan Payne",
+            "number": 15,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Mohamed Kallon",
+            "number": 16,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Austin Bush",
+            "number": 23,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Ervin Cruz",
+            "number": 2,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Carlos Santamaria",
+            "number": 4,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Thomas Lamaille",
+            "number": 5,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Justin McLean",
+            "number": 8,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Taig Healy",
+            "number": 10,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Tyler Caton",
+            "number": 12,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Caden Tolentino",
+            "number": 17,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Max Ogawa",
+            "number": 21,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Drew Lovelace",
+            "number": 22,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Isaac Busenze",
+            "number": 24,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Brendan Peeples",
+            "number": 28,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "John Pottle",
+            "number": 31,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Title",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Head Coach",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Assistant Coach",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Director of Operations for Men's Soccer",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Sport Supervisor - Associate AD/Compliance (Football, Wrestling, NIL)",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Athletic Trainer",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Assistant Strength & Conditioning Coach",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Director of Olympic Sports Nutrition",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Sport Psychologist",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Assistant Athletics Communications Director <br> (m. soccer / wrestling / m. tennis) <br>",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Weisiger Brown Equipment Room",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Director for Compliance (Men's Soccer, Gymnastics, Women's Tennis, Men's Tennis)",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Academic Coordinator <br>(m. soccer, m. golf, w. golf)",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Assistant Director of Creative Video",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Director of Creative Services",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Riley Moloney",
+            "number": 3,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Nikola Markovic",
+            "number": 6,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Calem Tommy",
+            "number": 13,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Moritz Weber",
+            "number": 14,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Isaac Heffess",
+            "number": 18,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Pedro Caeiro",
+            "number": 19,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Adam Abdouh",
+            "number": 25,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Nakai Antoine",
+            "number": 27,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Gianni Rosario",
+            "number": 32,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Christian Herluf",
+            "number": 0,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Logan Erb",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Samuel Terranova",
+            "number": 26,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Maddux Francis",
+            "number": 30,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "Portland",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "2 Wylie Trujillo",
+            "number": 2,
+            "listed_position": "F 5'9\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "7 Joe Highfield",
+            "number": 7,
+            "listed_position": "F 6'4\" 185 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "9 Alex Waggoner",
+            "number": 9,
+            "listed_position": "F 6'2\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "10 Diego Rosas",
+            "number": 10,
+            "listed_position": "F 5'6\" 140 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "11 Anton Hjalmarsson",
+            "number": 1,
+            "listed_position": "F 6'1\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "13 Nicholas Dunbar",
+            "number": 13,
+            "listed_position": "F 5'10\" 140 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "15 Dominic Edwards",
+            "number": 15,
+            "listed_position": "F 5'6\" 140 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "17 Maddox Findlay",
+            "number": 17,
+            "listed_position": "F 6'0\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "19 David Ajagbe",
+            "number": 19,
+            "listed_position": "F 6'1\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "6 Christian Mendoza",
+            "number": 6,
+            "listed_position": "MF 5'8\" 152 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "8 Efetobo Aror",
+            "number": 8,
+            "listed_position": "MF 5'8\" 145 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "14 Micaah Garnette",
+            "number": 14,
+            "listed_position": "MF 5'10\" 160 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "18 Parker Jackson",
+            "number": 18,
+            "listed_position": "MF 5'5\" 135 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "25 Tristan Flores",
+            "number": 25,
+            "listed_position": "MF 5'7\"",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "27 Ritvik Karra",
+            "number": 27,
+            "listed_position": "MF 5'7\" 120 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "30 Julian Bretous",
+            "number": 30,
+            "listed_position": "MF 5'9\" 147 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "defenders": [
+          {
+            "name": "3 Nikos Clarke-Tosczak",
+            "number": 3,
+            "listed_position": "D 5'10\" 158 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "4 Michael Dunne",
+            "number": 4,
+            "listed_position": "D 6'0\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "5 Ethan Zamora",
+            "number": 5,
+            "listed_position": "D 5'10\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "12 Oliver Jeppe",
+            "number": 12,
+            "listed_position": "D/MF 6'2\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "16 Sebastian Hernandez",
+            "number": 16,
+            "listed_position": "D 5'10\" 175 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "20 Isaac Homer",
+            "number": 20,
+            "listed_position": "D 6'0\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "21 Angel Martinez",
+            "number": 21,
+            "listed_position": "D 5'11\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "22 Ayo Akintobi",
+            "number": 2,
+            "listed_position": "D 6'0\" 155 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "24 Andrew Portis",
+            "number": 24,
+            "listed_position": "D 6'4\" 195 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "26 Jordan Barclay",
+            "number": 26,
+            "listed_position": "D 6'0\" 182 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "28 Andrew Bromert",
+            "number": 28,
+            "listed_position": "D 6'1\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "29 Mason Bradley",
+            "number": 29,
+            "listed_position": "D 6'0\" 175 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "0 Mark Hyan",
+            "number": 0,
+            "listed_position": "GK 6'3\" 198 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "1 Keenan VanPelt",
+            "number": 1,
+            "listed_position": "GK 6'2\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "23/23 Massimo Oedekoven Pomponi",
+            "number": "23/23",
+            "listed_position": "GK 6'1\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "34 Miguel-Angel Hernandez",
+            "number": 34,
+            "listed_position": "GK 6'0\" 178 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "Princeton",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "Kevin Kelley",
+            "number": 7,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Ian Nuñez",
+            "number": 9,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Daniel Ittycheria",
+            "number": 11,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Will Francis",
+            "number": 13,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Jackson Martin",
+            "number": 16,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Jack Hunt",
+            "number": 4,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Liam Beckwith",
+            "number": 5,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Kristian Kelley",
+            "number": 6,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Gabriel Duchovny",
+            "number": 8,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Cyrus Klinenberg",
+            "number": 12,
+            "listed_position": "M/F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Bardia Hormozi",
+            "number": 14,
+            "listed_position": "M/F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Ryker Joutz",
+            "number": 15,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Sam Vigilante",
+            "number": 18,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Will Travis",
+            "number": 19,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Benjamin Manfroy",
+            "number": 21,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Dash Papez",
+            "number": 23,
+            "listed_position": "M/D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Edric Zhang",
+            "number": 29,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Garry Zhang",
+            "number": 30,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Giacomo Gabrielli",
+            "number": 31,
+            "listed_position": "M/F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Tyler Vilet",
+            "number": 33,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Title",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Head Coach",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Associate Head Coach",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Assistant Coach",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Athletic Trainer",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Princeton Athletics Fellow",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Roka Tsunehara",
+            "number": 2,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Tyler Austin",
+            "number": 3,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Jack Jasinski",
+            "number": 10,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Ian MacIver",
+            "number": 22,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Sebastian Swary",
+            "number": 24,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Stephen Duncan",
+            "number": 25,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Frederik Sadjak",
+            "number": 26,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Giuliano Fravolini Whitchurch",
+            "number": 34,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Andrew Samuels",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Sully Atkin",
+            "number": 28,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Nathan Salerno",
+            "number": 35,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "SMU",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "11 Fredrik Skilberg",
+            "number": 1,
+            "listed_position": "F 5'10\" 159 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "19 Milton Lopez",
+            "number": 19,
+            "listed_position": "F 5'11\" 167 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "20 Mukisa Emmanuel",
+            "number": 20,
+            "listed_position": "F 5'10\"",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "24 Chris Deamon",
+            "number": 24,
+            "listed_position": "F 5'10\" 156 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "25 Luis Flores",
+            "number": 25,
+            "listed_position": "F 5'10\"",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "30 Stephan Soghomonian",
+            "number": 30,
+            "listed_position": "F 5'10\"",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "32 Oliver Knotek",
+            "number": 32,
+            "listed_position": "F 5'11\" 173 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "33 Spencer Zachgo",
+            "number": 3,
+            "listed_position": "F 6'4\" 185 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "34 Trey Clements",
+            "number": 34,
+            "listed_position": "F 5'10\"",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "6 Alex Salvo",
+            "number": 6,
+            "listed_position": "M 6'1\" 155 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "7 Jaylinn Mitchell",
+            "number": 7,
+            "listed_position": "M 5'8\" 150 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "8 Charles-Emile Brunet",
+            "number": 8,
+            "listed_position": "M 5'8\" 145 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "10 Daniel Escorcia",
+            "number": 10,
+            "listed_position": "M 5'6\" 141 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "13 Richard Garcia",
+            "number": 13,
+            "listed_position": "M 5'9\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "16 Landon Hickam",
+            "number": 16,
+            "listed_position": "M 5'11\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "17 Noah Ervin",
+            "number": 17,
+            "listed_position": "M 5'10\" 160 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "22 Brendan Baird",
+            "number": 2,
+            "listed_position": "M 6'2\" 186 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "26 Caleb Bronold",
+            "number": 26,
+            "listed_position": "M 5'9\" 155 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "defenders": [
+          {
+            "name": "2 Villads Landsperg",
+            "number": 2,
+            "listed_position": "D 6'2\" 182 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "3 Owen Zarnick",
+            "number": 3,
+            "listed_position": "D 6'4\" 202 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "4 Mason Grimm",
+            "number": 4,
+            "listed_position": "D 6'0\" 183 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "5 Slade Starnes",
+            "number": 5,
+            "listed_position": "D 6'3\" 185 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "14 Enzo Panozzo",
+            "number": 14,
+            "listed_position": "D 6'1\" 190 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "23 Matthias Dick",
+            "number": 23,
+            "listed_position": "D 5'10\"",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "27 Ryan Clanton-Pimentel",
+            "number": 27,
+            "listed_position": "D 5'6\" 153 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "28 Anden Ellis",
+            "number": 28,
+            "listed_position": "D 5'9\" 160 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "1 Martin Dominguez",
+            "number": 1,
+            "listed_position": "GK 5'11\" 185 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "18 Soren Russell",
+            "number": 18,
+            "listed_position": "GK 6'4\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "29 Nathan Kinser",
+            "number": 29,
+            "listed_position": "GK 6'2\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "37 Chance Johnson",
+            "number": 37,
+            "listed_position": "GK 6'4\" 177 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "San Diego",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "9 Steven Ramirez",
+            "number": 9,
+            "listed_position": "Forward F 5'11\" 155 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "10 Samy Kanaan",
+            "number": 10,
+            "listed_position": "Forward F 5'11\" 155 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "16 Jaxson Findlay",
+            "number": 16,
+            "listed_position": "Forward F 6'1\" 160 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "30 Godwin Antwi",
+            "number": 30,
+            "listed_position": "Forward F 5'8\" 145 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "32 Gus Velez",
+            "number": 32,
+            "listed_position": "Forward F 6'5\" 195 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "33 Devin Zachry",
+            "number": 3,
+            "listed_position": "Forward F 6'1\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "5 Sami Tsipena",
+            "number": 5,
+            "listed_position": "Midfield M 5'10\" 160 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "7 Oliver Rhoades",
+            "number": 7,
+            "listed_position": "Midfield M 5'10\" 155 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "8 Josh Martinez",
+            "number": 8,
+            "listed_position": "Midfield M 6'3\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "11 Cesar Bahena",
+            "number": 1,
+            "listed_position": "Midfield M 5'9\" 150 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "13 Iain Wagner",
+            "number": 13,
+            "listed_position": "Midfield M 5'9\" 160 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "14 Volodymyr Kubrakov",
+            "number": 14,
+            "listed_position": "Midfield M 5'10\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "15 Owen Riecke",
+            "number": 15,
+            "listed_position": "Midfield M 5'9\" 160 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "17 Vicente Ayala",
+            "number": 17,
+            "listed_position": "Midfield M 6'2\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "18 Ethan McNaughton",
+            "number": 18,
+            "listed_position": "Midfield M 6'1\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "19 Ricky Moreno",
+            "number": 19,
+            "listed_position": "Midfield M 5'10\" 155 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "20 Diego Valles",
+            "number": 20,
+            "listed_position": "Midfield M 5'9\" 158 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "21 Kevin Pena",
+            "number": 21,
+            "listed_position": "Midfield M 5'5\" 125 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "22 Christian Vigil",
+            "number": 2,
+            "listed_position": "Midfield M 5'10\" 160 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "23 Noah James",
+            "number": 23,
+            "listed_position": "Midfield M 6'4\" 185 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "24 Luca Fava",
+            "number": 24,
+            "listed_position": "Midfield M 5'9\" 160 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "26 Conner Gardenhour",
+            "number": 26,
+            "listed_position": "Midfield M 6'1\" 160 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "27 Taj Eagleston",
+            "number": 27,
+            "listed_position": "Midfield M 5'10\" 150 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "defenders": [
+          {
+            "name": "2 Michael Roman",
+            "number": 2,
+            "listed_position": "Defense D 6'2\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "3 Simon Duus Muller",
+            "number": 3,
+            "listed_position": "Defense D 6'5\" 205 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "4 Owen Walz",
+            "number": 4,
+            "listed_position": "Defense D 6'1\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "6 Ethan Warne",
+            "number": 6,
+            "listed_position": "Defense D 6'2\" 190 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "12 Elijah Zelkind",
+            "number": 12,
+            "listed_position": "Defense D 5'7\" 140 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "25 Finley O'Mahony",
+            "number": 25,
+            "listed_position": "Defense D 6'0\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "28 Tyler Severs",
+            "number": 28,
+            "listed_position": "Defense D 6'1\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "29 Devin Dillon",
+            "number": 29,
+            "listed_position": "Defense D 6'2\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "34 Nick Axelson",
+            "number": 34,
+            "listed_position": "Defense D 6'2\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "35 Mathias Bauer",
+            "number": 35,
+            "listed_position": "Defense D 6'1\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "0 Kayden Kropf",
+            "number": 0,
+            "listed_position": "Goalkeeper GK 6'2\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "00 Nick Webster",
+            "number": 0,
+            "listed_position": "Goalkeeper GK 6'2\" 175 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "1 Adam Salama",
+            "number": 1,
+            "listed_position": "Goalkeeper GK 6'1\" 190 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "36 Lucca Adams",
+            "number": 36,
+            "listed_position": "Goalkeeper GK 6'1\" 190 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "Vermont",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "5 Gianluca Armellino",
+            "number": 5,
+            "listed_position": "Forward F 5'9\" 160 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "9 Maximilian Kissel",
+            "number": 9,
+            "listed_position": "Forward F 6'0\" 150 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "11 TJ Liquori",
+            "number": 1,
+            "listed_position": "Forward F 6'0\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "13 David Ismail",
+            "number": 13,
+            "listed_position": "Forward F 6'4\" 200 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "18 Marcell Papp",
+            "number": 18,
+            "listed_position": "Forward F 5'8\" 163 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "26 Bruno Imarenakhue",
+            "number": 26,
+            "listed_position": "Forward F 6'2\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "28 Philipp Kühn",
+            "number": 28,
+            "listed_position": "Forward F 6'3\" 196 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "2 Gabriel Chavez",
+            "number": 2,
+            "listed_position": "Midfielder M 5'7\" 154 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "6 Connor Thompson",
+            "number": 6,
+            "listed_position": "Midfielder M 6'0\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "7 Andrew Millar",
+            "number": 7,
+            "listed_position": "Midfielder M 6'2\" 165 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "8 Niels Hartman",
+            "number": 8,
+            "listed_position": "Midfielder M 6'2\" 175 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "12 Nash Barlow",
+            "number": 12,
+            "listed_position": "Midfielder M 5'10\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "14 Marcos Blasco",
+            "number": 14,
+            "listed_position": "Midfielder M 5'11\" 174 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "16 Nico Loebus",
+            "number": 16,
+            "listed_position": "Midfielder M 6'2\" 176 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "20 Shalom Adja",
+            "number": 20,
+            "listed_position": "Midfielder M 5'9\" 159 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "22 Gavin Stevenson",
+            "number": 2,
+            "listed_position": "Midfielder/Forward M/F 6'1\" 163 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "27 Ryan Zellefrow",
+            "number": 27,
+            "listed_position": "Midfielder M 5'10\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "31 Jeremy Tsang",
+            "number": 31,
+            "listed_position": "Midfielder M 5'11\" 155 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "defenders": [
+          {
+            "name": "3 Omar Robbana",
+            "number": 3,
+            "listed_position": "Defender D 6'2\" 170 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "10 Nick Lockermann",
+            "number": 10,
+            "listed_position": "Defender D 5'11\" 175 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "15 Brady Costin",
+            "number": 15,
+            "listed_position": "Defender D 6'2\" 172 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "17 Ioannis Vassiliou",
+            "number": 17,
+            "listed_position": "Defender D 5'11\" 171 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "19 Toby Grant",
+            "number": 19,
+            "listed_position": "Defender D 6'0\" 155 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "21 Karl Daly",
+            "number": 21,
+            "listed_position": "Defender D 6'3\" 190 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "24 Pieter Bultman",
+            "number": 24,
+            "listed_position": "Defender D 6'3\" 180 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "25 Ludvig af Ugglas",
+            "number": 25,
+            "listed_position": "Defender D 6'3\" 187 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "35 Rui Aoki",
+            "number": 35,
+            "listed_position": "Defender D 6'1\" 169 lbs",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "0 Jake Jacobi",
+            "number": 0,
+            "listed_position": "Goalkeeper GK 6'3\" 206 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "1 Niklas Herceg",
+            "number": 1,
+            "listed_position": "Goalkeeper GK 6'6\" 213 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "99 Shane Williams",
+            "number": 9,
+            "listed_position": "Goalkeeper GK 6'2\" 188 lbs",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    },
+    {
+      "school": "Washington",
+      "season": "2025",
+      "record": "0-0-0",
+      "players": {
+        "forwards": [
+          {
+            "name": "Charlie Kosakoff",
+            "number": 9,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Nick O'Brien",
+            "number": 11,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Nani Deperro",
+            "number": 18,
+            "listed_position": "F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "midfielders": [
+          {
+            "name": "Zach Ramsey",
+            "number": 6,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Alex Hall",
+            "number": 7,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Clarens Dollin",
+            "number": 8,
+            "listed_position": "MF/F",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Richie Aman",
+            "number": 10,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Kevin Hernandez",
+            "number": 13,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Joe Dale",
+            "number": 14,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Mani Diop",
+            "number": 15,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Cameron Cruz",
+            "number": 17,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Mikey Sherlock",
+            "number": 19,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Osato Enabulele",
+            "number": 21,
+            "listed_position": "MF",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Sheehan Ganguly",
+            "number": 23,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Connor Lofy",
+            "number": 26,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Brecken Bowers",
+            "number": 31,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Chad Sovde",
+            "number": 33,
+            "listed_position": "M",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Title",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Head Coach",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Associate Head Coach",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Assistant Coach",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Director of Operations",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Assistant Athletic Trainer <br><em>Men's Soccer, Beach Volleyball<em>",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Assistant Strength & Conditioning Coach",
+            "number": "NA",
+            "listed_position": "Midfielder",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "defenders": [
+          {
+            "name": "Philip Kleemann",
+            "number": 2,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Harrison Bertos",
+            "number": 3,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Egor Akulov",
+            "number": 4,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Asher Hestad",
+            "number": 5,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Carter Gay",
+            "number": 12,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Zack Meier",
+            "number": 16,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Conner Leber",
+            "number": 22,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          },
+          {
+            "name": "Gabe Fernandez",
+            "number": 44,
+            "listed_position": "D",
+            "gp": 0,
+            "gs": 0,
+            "goals": 0,
+            "assists": 0,
+            "points": 0,
+            "shots": 0
+          }
+        ],
+        "goalkeepers": [
+          {
+            "name": "Levi Bieber",
+            "number": 0,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Kenny Pierpoint",
+            "number": 0,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Jadon Bowton",
+            "number": 1,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          },
+          {
+            "name": "Jaeger Felton",
+            "number": 30,
+            "listed_position": "GK",
+            "gp": 0,
+            "gs": 0,
+            "saves": 0,
+            "shutouts": 0,
+            "goals_against": 0
+          }
+        ]
+      }
+    }
+  ],
+  "log": {
+    "success": [
+      "Washington",
+      "Princeton",
+      "NC State",
+      "Vermont",
+      "Bryant",
+      "SMU",
+      "Maryland",
+      "San Diego",
+      "Portland"
+    ],
+    "missing_stats": [],
+    "failed": [
+      "Virginia"
+    ],
+    "notes": {
+      "Virginia": "Failed: Only found 0 players. (Template mismatch)"
+    },
+    "warnings": {
+      "Washington": [
+        "No goalkeeper stats matched any rostered goalkeeper.",
+        "Goalkeeper table was found, but no goalkeeper names matched."
+      ],
+      "Princeton": [
+        "No goalkeeper stats matched any rostered goalkeeper.",
+        "Goalkeeper table was found, but no goalkeeper names matched."
+      ],
+      "NC State": [
+        "No goalkeeper stats matched any rostered goalkeeper.",
+        "Goalkeeper table was found, but no goalkeeper names matched."
+      ],
+      "Vermont": [
+        "No goalkeeper stats matched any rostered goalkeeper.",
+        "Goalkeeper table was found, but no goalkeeper names matched."
+      ],
+      "Bryant": [
+        "No goalkeeper stats matched any rostered goalkeeper.",
+        "Goalkeeper table was found, but no goalkeeper names matched."
+      ],
+      "SMU": [
+        "No goalkeeper stats matched any rostered goalkeeper.",
+        "Goalkeeper table was found, but no goalkeeper names matched."
+      ],
+      "San Diego": [
+        "No goalkeeper stats matched any rostered goalkeeper.",
+        "Goalkeeper table was found, but no goalkeeper names matched."
+      ],
+      "Portland": [
+        "No goalkeeper stats matched any rostered goalkeeper.",
+        "Goalkeeper table was found, but no goalkeeper names matched."
+      ]
+    }
+  }
+}
